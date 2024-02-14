@@ -1006,7 +1006,7 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
     	    		<li><a data-toggle="modal" data-target="#modal-register">Register</a></li>
     	    </ul>
         
-        	<a href="https://sejourne.ae/become-a-host/" class="btn btn-add-new-listing">Become a Host</a>
+        	<a  class="btn btn-add-new-listing">Become a Host</a>
 	</div>                    </div>
                                     </div>
             </div>
@@ -1050,44 +1050,58 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
 	<li id="menu-item-1863" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1863"><a href="https://sejourne.ae/half-search/">Half Search</a></li>
 </ul>
 </li>
+
+
 <script>
-	document.getElementById('languageSelect').addEventListener('change', function() {
-    var lang = this.value;
-    changeLanguage(lang);
-});
+    document.getElementById('languageSelect').addEventListener('change', function() {
+        var lang = this.value;
+        changeLanguage(lang);
+    });
 
-function changeLanguage(lang) {
-    var translations = {
-        'en': {
-            'heading': 'Hello',
-            'paragraph': 'This is a paragraph.',
-			'home': 'Home'
-        },
-        'fr': {
-            'heading': 'Bonjour',
-            'paragraph': 'Ceci est un paragraphe.',
-			'home': 'lacasa'
-        },
-        'ar': {
-            'heading': 'مرحبا',
-            'paragraph': 'هذه فقرة.',
-			'home': 'المنزل'
-        }
-    };
+    function changeLanguage(lang) {
+        var translations = {
+            'en': {
+                'heading': 'Hello',
+                'paragraph': 'This is a paragraph.',
+                'home': 'Home',
+				'bok':'Book & Experience Amazing Places Around Dubai',
+				'let':'Lets find the perfect place',
+				'hand':'Hand-picked selection of quality places',
+				'feature':'Our Featured Homes',
+				'explore':'Explore our selection of the best places around Dubai',
+				'blk':'Book best apartments with modern furniture immediately on our website starting from !!',
+				'book':'book now',
+				'Bed & Breakfast':'Bed & Breakfast',
+				'condo':'condo',
+				'apartment':'apartment',
+				'loft':'loft'
+				'house':'house'
+            },
+            'fr': {
+                'heading': 'Bonjour',
+                'paragraph': 'Ceci est un paragraphe.',
+                'home': 'lacasa'
+            },
+            'ar': {
+                'heading': 'مرحبا',
+                'paragraph': 'هذه فقرة.',
+                'home': 'المنزل'
+            }
+        };
 
-    document.getElementById('heading').textContent = translations[lang]['heading'];
-    document.getElementById('paragraph').textContent = translations[lang]['paragraph'];
-	document.getElementById('home').textContent = translations[lang]['home'];
-}
-
+        document.getElementById('heading').textContent = translations[lang]['heading'];
+        document.getElementById('paragraph').textContent = translations[lang]['paragraph'];
+        document.getElementById('home').textContent = translations[lang]['home'];
+    }
 </script>
+
 <li id="menu-item-4611" style="margin-top: 20px;" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4611">
     <select id="languageSelect">
-        <option value="ar">English</option>
-        <option value="en">Arabic</option>
+        <option value="en">English</option>
         <option value="fr">French</option>
+        <option value="ar">Arabic</option>
     </select>
-  <a></a>
+ 
 </li>
 <li id="menu-item-4611" style="margin-top: 20px;" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4611">
     <select id="currencySelect">
@@ -1205,38 +1219,33 @@ function changeLanguage(lang) {
                 <li><a href="https://sejourne.ae/become-a-host/">Become a Host</a></li>
         
         </ul>
-</nav><!-- nav-collapse -->
+</nav>
  </div>
  </div>
     </div>
 </header>
     </div>
 <style>
-	.banner-title,
+.banner-title,
 .banner-subtitle {
-    opacity: 0; /* Hide the elements initially */
+    opacity: 0; 
 }
-
-/* Define the animation */
 @keyframes fadeInUp {
     from {
         opacity: 0;
-        transform: translateY(20px); /* Move element 20px down */
+        transform: translateY(20px); 
     }
     to {
         opacity: 1;
-        transform: translateY(0); /* Move element to its original position */
+        transform: translateY(0); 
     }
 }
-
-/* Apply animation to the elements */
 .animated {
     animation-duration: 1s;
     animation-fill-mode: both;
 }
-
 .fadeInUp {
-    animation-name: fadeInUp; /* Apply fadeInUp animation */
+    animation-name: fadeInUp; 
 }
 
 </style>
@@ -1244,14 +1253,13 @@ function changeLanguage(lang) {
 
 <div id="section-body">
 	<section class="top-banner-wrap" style="background-image: url('marrina.jpg'); background-repeat: no-repeat;background-size: cover;">
-	<div class="banner-inner p llax" data-p llax-bg-image="Marina.jpg"></div>
-	<div class="banner-caption ">
-		<h2 class="banner-title animated fadeInUp">Book & Experience Amazing Places Around Dubai</h2>
-             <p class="banner-subtitle animated fadeInUp">Let's find the perfect place</p>
-
-		  <div class="search-wrap search-banner search-banner-desktop hidden-xs">
-	         <form class="clearfix" action="https://sejourne.ae/search-results/" method="GET">
-                  <div class="search-destination with-select search-destination-js ">
+	   <div class="banner-inner p llax" data-p llax-bg-image="Marina.jpg"></div>
+	      <div class="banner-caption ">
+	     	<h2 class="banner-title animated fadeInUp">Book & Experience Amazing Places Around Dubai</h2>
+               <p class="banner-subtitle animated fadeInUp">Let's find the perfect place</p>
+		         <div class="search-wrap search-banner search-banner-desktop hidden-xs">
+	               <form class="clearfix" action="https://sejourne.ae/search-results/" method="GET">
+                      <div class="search-destination with-select search-destination-js ">
                             <select name="city" class="selectpicker" data-live-search="true">
                             <option value="">Where to go?</option>
 							<option data-tokens=" 200  200  200" value="200"> Down Town</option>
@@ -1266,7 +1274,7 @@ function changeLanguage(lang) {
 							<option data-tokens=" 200  200  200" value="200">old towen</option>
 							<option data-tokens=" 22221  22221  22221" value="22221"> The torch tower</option>
 							<option data-tokens=" 23 august  23 AUGUST  23 August" value="23-august"> Dubai Marina </option>
-		</select>
+		                    </select>
 						</div>
                     <div class="search-date-range main-search-date-range-js">
 							<div class="search-date-range-arrive">
@@ -2134,8 +2142,7 @@ function changeLanguage(lang) {
                     <img fetchpriority="high" decoding="async" width="450" height="300" src="https://sejourne.ae/wp-content/uploads/2018/10/28-450x300.jpg" class="img-responsive wp-post-image" alt="" srcset="https://sejourne.ae/wp-content/uploads/2018/10/28-450x300.jpg 450w, https://sejourne.ae/wp-content/uploads/2018/10/28-300x200.jpg 300w, https://sejourne.ae/wp-content/uploads/2018/10/28-1024x683.jpg 1024w, https://sejourne.ae/wp-content/uploads/2018/10/28-768x512.jpg 768w, https://sejourne.ae/wp-content/uploads/2018/10/28-1140x760.jpg 1140w, https://sejourne.ae/wp-content/uploads/2018/10/28-120x80.jpg 120w, https://sejourne.ae/wp-content/uploads/2018/10/28-750x500.jpg 750w, https://sejourne.ae/wp-content/uploads/2018/10/28.jpg 1440w" sizes="(max-width: 450px) 100vw, 450px" />                </a>
 
                                     <div class="item-media-price">
-                    <span class="item-price">
-                        525.00<sup>AED</sup><sub>/night</sub>
+                    <span class="item-price">525.00<sup>AED</sup><sub>/night</sub>
                     </span>
                     </div>
                 
@@ -2889,16 +2896,16 @@ function changeLanguage(lang) {
 			
 		<div class="module-wrap taxonomy-grid taxonomy-grid-1">
 			<div class="row">
-				
-					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 						<div class="taxonomy-item taxonomy-card">
 							<a class="taxonomy-link hover-effect" >
 								<div class="taxonomy-title">DownTown</div>
 								<img loading="lazy" decoding="async" class="img-responsive" src="Downtown.jpg" width="555" height="360" alt="listing_city">
 							</a>
 						</div>
-					</div>
-		        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+				</div>
+		   
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 						<div class="taxonomy-item taxonomy-card">
 							<a class="taxonomy-link hover-effect" >
 								<div class="taxonomy-title">Jvc</div>
@@ -2968,7 +2975,8 @@ function changeLanguage(lang) {
 				<div class="elementor-element elementor-element-37d066d6 elementor-widget elementor-widget-text-editor" data-id="37d066d6" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
 			<style>/*! elementor - v3.19.0 - 29-01-2024 */
-.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#69727d;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#69727d;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}</style>				<p>I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>						</div>
+.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#69727d;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#69727d;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}</style>			
+	<p>Book best apartments with modern furniture immediately on our website starting from !!</p>						</div>
 				</div>
 				<div class="elementor-element elementor-element-2cefc05f elementor-widget elementor-widget-button" data-id="2cefc05f" data-element_type="widget" data-widget_type="button.default">
 				<div class="elementor-widget-container">
@@ -3302,7 +3310,6 @@ function changeLanguage(lang) {
                 <p>Sejourne is a premier luxury short term rentals in Dubai. Choose from variety of furnished apartments available on short-term.</p>
                                 <p class="read"><a  >Read More <i class="homey-icon homey-icon-arrow-right-1"></i></a></p>
                             </div>
-
 	    </div></div><div class="col-xs-12 col-sm-12 col-md-3 col-lg-3"><div id="homey_taxonomies-1" class="widget footer-widget widget-categories"><div class="widget-top"><h3 class="widget-title">Explore</h3></div><div class="widget-body"><ul class="list-unstyled"><li>
             <a>Apartment</a></li><li>
             <a>Bed &amp; Breakfast</a></li><li>
@@ -5303,9 +5310,9 @@ var HOMEY_ajax_vars = {"admin_url":"https:\/\/sejourne.ae\/wp-admin\/","homey_is
 <script type="text/javascript" src="https://sejourne.ae/wp-includes/js/dist/hooks.min.js?ver=c6aec9a8d4e5a5d543a1" id="wp-hooks-js"></script>
 <script type="text/javascript" src="https://sejourne.ae/wp-includes/js/dist/i18n.min.js?ver=7701b0c3857f914212ef" id="wp-i18n-js"></script>
 <script type="text/javascript" id="wp-i18n-js-after">
-/* <![CDATA[ */
+
 wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
-/* ]]> */
+
 </script>
 <script type="text/javascript" src="https://sejourne.ae/wp-includes/js/dist/a11y.min.js?ver=7032343a947cfccf5608" id="wp-a11y-js"></script>
 <script type="text/javascript" id="jquery-ui-autocomplete-js-extra">
