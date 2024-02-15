@@ -25,7 +25,6 @@
 			{"@context":"https:\/\/schema.org","@graph":[{"@type":"BreadcrumbList","@id":"https:\/\/sejourne.ae\/#breadcrumblist","itemListElement":[{"@type":"ListItem","@id":"https:\/\/sejourne.ae\/#listItem","position":1,"name":"Home"}]},{"@type":"Organization","@id":"https:\/\/sejourne.ae\/#organization","name":"Sejourne - Luxury Holiday Homes | Luxury short term rentals in Dubai","url":"https:\/\/sejourne.ae\/"},{"@type":"WebPage","@id":"https:\/\/sejourne.ae\/#webpage","url":"https:\/\/sejourne.ae\/","name":"Sejourne \u2013 Luxury Holiday Homes - Sejourne - Luxury Holiday Homes | Luxury short term rentals in Dubai","description":"Our Featured Homes Hand-picked selection of quality places Featured $525\/night BOTANICA TOWER, DUBAI MARINA PARTIAL MARINA VIEW Apartment Hosted by Jerry Coleman Compare Remove from Favorite Average Featured $455\/night Spacious Family Home House Hosted by Crystal Elliott Compare Remove from Favorite Excellent Featured $129\/night Confy Designer Room Bed & Breakfast Hosted by Rose Burke Compare Add to Favorite","inLanguage":"en-US","isPartOf":{"@id":"https:\/\/sejourne.ae\/#website"},"breadcrumb":{"@id":"https:\/\/sejourne.ae\/#breadcrumblist"},"datePublished":"2020-10-14T18:00:43+00:00","dateModified":"2024-02-02T13:58:18+00:00"},{"@type":"WebSite","@id":"https:\/\/sejourne.ae\/#website","url":"https:\/\/sejourne.ae\/","name":"Sejourne - Luxury Holiday Homes | Luxury short term rentals in Dubai","description":"Sejourne is a premier luxury short term rentals in Dubai. Choose from variety of furnished apartments available on short-term.","inLanguage":"en-US","publisher":{"@id":"https:\/\/sejourne.ae\/#organization"},"potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/sejourne.ae\/?s={search_term_string}"},"query-input":"required name=search_term_string"}}]}
 		</script>
 		<!-- All in One SEO -->
-
 <link rel='dns-prefetch' href='//js.stripe.com' />
 <link rel='dns-prefetch' href='//fonts.googleapis.com' />
 <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin />
@@ -5303,7 +5302,35 @@ var wpformsElementorVars = {"captcha_provider":"recaptcha","recaptcha_type":"v2"
 <script type="text/javascript" src="https://sejourne.ae/wp-content/plugins/wpforms-lite/assets/js/integrations/elementor/frontend.min.js?ver=1.8.6.4" id="wpforms-elementor-js"></script>
 
     <input type="hidden" id="reservation_login_required" name="reservation_login_required" value="0">
-
+	<script>
+		// Function to update the currency and price
+		function updateCurrency(currency) {
+			var priceAmount = document.getElementById('priceAmount');
+			var currencySymbol = document.getElementById('currencySymbol');
+	
+			// Update price amount
+			if (currency === 'aed') {
+				priceAmount.textContent = '129.00';
+				currencySymbol.textContent = 'AED';
+			} else if (currency === 'usd') {
+				priceAmount.textContent = '35.00'; // Example conversion rate
+				currencySymbol.textContent = 'USD';
+			} else if (currency === 'eur') {
+				priceAmount.textContent = '29.00'; // Example conversion rate
+				currencySymbol.textContent = 'EUR';
+			}
+		}
+	
+		// Event listener to detect changes in the selected currency
+		document.getElementById('currencySelect').addEventListener('change', function() {
+			var selectedCurrency = this.value;
+			updateCurrency(selectedCurrency);
+		});
+	
+		// Initialize currency based on the default selected currency
+		var defaultCurrency = document.getElementById('currencySelect').value;
+		updateCurrency(defaultCurrency);
+	</script>
 <script>
    
    document.getElementById('languageSelect').addEventListener('change', function() {
@@ -5341,7 +5368,6 @@ function changeLanguage(lang) {
 		'ourpartners':'Nos Partenaires',
 		"thebiggest":'La plus grande récompense est de satisfaire nos clients et de partager leur expérience avec nous',
 		'bookbest': 'Réservez les meilleurs appartements avec des meubles modernes immédiatement sur notre site à partir de !!',
-     
 		'sejourne': 'Sejourne est un premier service de location de courte durée de luxe à Dubai. Choisissez parmi une variété d\'appartements meublés disponibles à court terme.'
 	},
     'ar': {
@@ -5358,7 +5384,6 @@ function changeLanguage(lang) {
 		"thebiggest":'أكبر مكافأة هي إرضاء عملائنا ومشاركة تجربتهم معنا',
 		'bookbest': 'احجز أفضل الشقق مع الأثاث الحديث على موقعنا الإلكتروني ابتداءً من !!',
         'sejourne': 'سيجورن هو خدمة تأجير فاخرة للإقامة القصيرة في دبي. اختر من بين مجموعة متنوعة من الشقق المفروشة المتاحة للإيجار القصير المدى.'
-   
     }
 };
 
