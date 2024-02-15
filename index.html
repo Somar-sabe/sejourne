@@ -974,6 +974,9 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
 
 </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+
 <body class="home page-template page-template-elementor_header_footer page page-id-3935 compare-property-active wpb-js-composer js-comp-ver-6.13.0 vc_responsive elementor-default elementor-template-full-width elementor-kit-414 elementor-page elementor-page-3935">
 
 	<div class="fixed-icons">
@@ -1052,48 +1055,6 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
 </li>
 
 
-<script>
-    document.getElementById('languageSelect').addEventListener('change', function() {
-        var lang = this.value;
-        changeLanguage(lang);
-    });
-
-    function changeLanguage(lang) {
-        var translations = {
-            'en': {
-                'heading': 'Hello',
-                'paragraph': 'This is a paragraph.',
-                'home': 'Home',
-				'bok':'Book & Experience Amazing Places Around Dubai',
-				'let':'Lets find the perfect place',
-				'hand':'Hand-picked selection of quality places',
-				'feature':'Our Featured Homes',
-				'explore':'Explore our selection of the best places around Dubai',
-				'blk':'Book best apartments with modern furniture immediately on our website starting from !!',
-				'book':'book now',
-				'Bed & Breakfast':'Bed & Breakfast',
-				'condo':'condo',
-				'apartment':'apartment',
-				'loft':'loft',
-				'house':'house'
-            },
-            'fr': {
-                'heading': 'Bonjour',
-                'paragraph': 'Ceci est un paragraphe.',
-                'home': 'lacasa'
-            },
-            'ar': {
-                'heading': 'مرحبا',
-                'paragraph': 'هذه فقرة.',
-                'home': 'المنزل'
-            }
-        };
-
-        document.getElementById('heading').textContent = translations[lang]['heading'];
-        document.getElementById('paragraph').textContent = translations[lang]['paragraph'];
-        document.getElementById('home').textContent = translations[lang]['home'];
-    }
-</script>
 
 <li id="menu-item-4611" style="margin-top: 20px;" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4611">
     <select id="languageSelect">
@@ -1153,7 +1114,8 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
         <div class="row">
             <div class="mobile-nav-wrap">
                 <nav id="mobile-nav" class="nav-dropdown main-nav-dropdown collapse navbar-collapse">
-    <ul id="mobile-menu" class="mobile-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4603"><a id="home" >Home</a></li>
+    <ul id="mobile-menu" class="mobile-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4603">
+		<a  data-translate="home" >Home</a></li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-193"><a  >Listing</a>
 <ul class="sub-menu">
 	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4612">
@@ -1175,11 +1137,11 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
 </ul>
 </li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4609">
-    <a  >Property</a></li>
+    <a data-translate="property" >Property</a></li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4611">
-    <a  >Pages</a></li>
+    <a data-translate="pages" >Pages</a></li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4610">
-    <a  >Elementor</a></li>
+    <a  data-translate="elementor">Elementor</a></li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1774"><a  >Searches</a>
 
 <ul class="sub-menu">
@@ -1207,16 +1169,16 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
 
                 <li>
             <a   data-toggle="modal" data-target="#modal-login">
-                <span data-toggle="collapse" data-target="#user-nav">Login</span>
+                <span data-toggle="collapse" data-target="#user-nav" data-translate="login">Login</span>
             </a>
         </li>
          <li>
             <a   data-toggle="modal" data-target="#modal-register">
-                <span data-toggle="collapse" data-target="#user-nav">Register</span>
+                <span data-toggle="collapse" data-target="#user-nav" data-translate="register">Register</span>
             </a>
         </li>
         
-                <li><a href="https://sejourne.ae/become-a-host/">Become a Host</a></li>
+                <li><a href="https://sejourne.ae/become-a-host/" data-translate="becomeahost">Become a Host</a></li>
         
         </ul>
 </nav>
@@ -1255,14 +1217,14 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
 	<section class="top-banner-wrap" style="background-image: url('marrina.jpg'); background-repeat: no-repeat;background-size: cover;">
 	   <div class="banner-inner p llax" data-p llax-bg-image="Marina.jpg"></div>
 	      <div class="banner-caption ">
-	     	<h2 class="banner-title animated fadeInUp">Book & Experience Amazing Places Around Dubai</h2>
+	     	<h2 class="banner-title animated fadeInUp" data-translate="book">Book & Experience Amazing Places Around Dubai</h2>
                <p class="banner-subtitle animated fadeInUp">Let's find the perfect place</p>
 		         <div class="search-wrap search-banner search-banner-desktop hidden-xs">
 	               <form class="clearfix" action="https://sejourne.ae/search-results/" method="GET">
                       <div class="search-destination with-select search-destination-js ">
                             <select name="city" class="selectpicker" data-live-search="true">
                             <option value="">Where to go?</option>
-							<option data-tokens=" 200  200  200" value="200"> Down Town</option>
+							<option data-tokens=" 200  200  200" value="200" data-translate="downtown"> Down Town</option>
 							<option data-tokens=" 22221  22221  22221" value="22221"> Jvc</option>
 							<option data-tokens=" 23 august  23 AUGUST  23 August" value="23-august"> palm jummira </option>
 							<option data-tokens=" 200  200  200" value="200">spring</option>
@@ -2402,7 +2364,7 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
                     <h2 class="title"><a >
                             Confy Designer Room</a></h2>
 
-                    <address class="item-address">369 Sumner Ave Brooklyn, NY 11221</address>        
+                    <address class="item-address">syria, Homs,</address>        
                 </div>
             </div>
 
@@ -2410,17 +2372,20 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
 
                                 <li>
                     <i class="homey-icon homey-icon-hotel-double-bed"></i> 
-                    <span class="total-beds">1</span> <span class="item-label">Bedrooms</span>
+                    <span class="total-beds">1</span> 
+					<span class="item-label" data-translate="bedrooms">Bedrooms</span>
                 </li>
                 
                                 <li>
                     <i class="homey-icon homey-icon-bathroom-shower-1"></i> 
-                    <span class="total-baths">2</span> <span class="item-label">Baths</span>
+                    <span class="total-baths">2</span> 
+					<span class="item-label" data-translate:'Baths</span>
                 </li>
                 
                                 <li>
                     <i class="homey-icon homey-icon-multiple-man-woman-2"></i> 
-                    <span class="total-guests">2</span> <span class="item-label">Guests</span>
+                    <span class="total-guests">2</span> 
+					<span class="item-label">Guests</span>
                 </li>
                 
                                 <li class="item-type">Bed &amp; Breakfast</li>
@@ -2489,35 +2454,31 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
                     <i class="homey-icon homey-icon-hotel-double-bed"></i> 
                     <span class="total-beds">1</span> <span class="item-label">Bedrooms</span>
                 </li>
-                
                                 <li>
                     <i class="homey-icon homey-icon-bathroom-shower-1"></i> 
                     <span class="total-baths">1.5</span> <span class="item-label">Baths</span>
                 </li>
-                
                                 <li>
                     <i class="homey-icon homey-icon-multiple-man-woman-2"></i> 
                     <span class="total-guests">2</span> <span class="item-label">Guests</span>
                 </li>
-                
                                 <li class="item-type">Condo</li>
                             </ul>
-            
                             <div class="item-user-image list-item-hidden">
                     <img decoding="async" width="36" height="9" src="https://sejourne.ae/wp-content/uploads/2024/02/logo-1.png" class="img-responsive img-circle" alt="" data-image-id="1" srcset="https://sejourne.ae/wp-content/uploads/2024/02/logo-1.png 133w, https://sejourne.ae/wp-content/uploads/2024/02/logo-1-120x34.png 120w" sizes="(max-width: 36px) 100vw, 36px" />                    <span class="item-user-info">Hosted by<br>
                     admin</span>
                 </div>           
             <div class="item-footer">
-                                    <div class="footer-right">
+               <div class="footer-right">
                         <div class="item-tools">
                             <div class="btn-group dropup">
                                 <button class="btn-item-tools dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="homey-icon homey-icon-navigation-menu-vertical" aria-hidden="true"></i></button>
-<ul class="dropdown-menu">
-    <li>
-    	<a class="homey_compare compare-292"     data-listing_id="292">Compare</a>
-    </li>
-    <li>
-    	<a     class="add_fav" data-listid="292">Add to Favorites</a>
+                                   <ul class="dropdown-menu">
+                                       <li>
+                           	<a class="homey_compare compare-292" data-listing_id="292">Compare</a>
+                                      </li>
+                                     <li>
+                                          	<a class="add_fav" data-listid="292">Add to Favorites</a>
     </li>
 </ul>                            </div>
                         </div>
@@ -2551,16 +2512,13 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
                             </div>
         </div>
         <div class="media-body item-body clearfix">
-
             <div class="item-title-head">
                 <div class="title-head-left">
                     <h2 class="title"><a >Confortable And Modern Family Home</a></h2>
                     <address class="item-address"> UAE , Dubai</address>        
                 </div>
             </div>
-
                         <ul class="item-amenities">
-
                                 <li>
                     <i class="homey-icon homey-icon-hotel-double-bed"></i> 
                     <span class="total-beds">4</span> <span class="item-label">Bedrooms</span>
@@ -2568,22 +2526,18 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
                     <i class="homey-icon homey-icon-bathroom-shower-1"></i> 
                     <span class="total-baths">2</span> <span class="item-label">Baths</span>
                 </li>
-                
                                 <li>
                     <i class="homey-icon homey-icon-multiple-man-woman-2"></i> 
                     <span class="total-guests">8</span> <span class="item-label">Guests</span>
                 </li>
-                
                                 <li class="item-type">House</li>
                             </ul>
-            
-                            <div class="item-user-image list-item-hidden">
+                   <div class="item-user-image list-item-hidden">
                     <img decoding="async" width="36" height="9" src="https://sejourne.ae/wp-content/uploads/2024/02/logo-1.png" class="img-responsive img-circle" alt="" data-image-id="1" srcset="https://sejourne.ae/wp-content/uploads/2024/02/logo-1.png 133w, https://sejourne.ae/wp-content/uploads/2024/02/logo-1-120x34.png 120w" sizes="(max-width: 36px) 100vw, 36px" />                    <span class="item-user-info">Hosted by<br>
                     admin</span>
                 </div>
             
             <div class="item-footer">
-
                                     <div class="footer-right">
                         <div class="item-tools">
                             <div class="btn-group dropup">
@@ -2599,8 +2553,7 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
 </ul>               </div>
                         </div>
                     </div>
-                
-                                    <div class="footer-left">
+                    <div class="footer-left">
                         <div class="stars">
                             <div class="rating">
                                 <i class="homey-icon homey-icon-rating-star"></i><span class="star-text-right">5 - <a href="https://sejourne.ae/listing/confortable-and-modern-family-home/#reviews-section">0 Reviews</a></span>                            </div>
@@ -2619,42 +2572,38 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
                 </span>
                 <a class="hover-effect" href="https://sejourne.ae/listing/designer-loft-with-pool/">
                                     </a>
-
                                     <div class="item-media-price">
                     <span class="item-price">
                         78.00<sup>AED</sup><sub>/night</sub>
                     </span>
                     </div>
-                
                                     <div class="item-user-image">
                         <img decoding="async" width="36" height="9" src="https://sejourne.ae/wp-content/uploads/2024/02/logo-1.png" class="img-responsive img-circle" alt="" data-image-id="1" srcset="https://sejourne.ae/wp-content/uploads/2024/02/logo-1.png 133w, https://sejourne.ae/wp-content/uploads/2024/02/logo-1-120x34.png 120w" sizes="(max-width: 36px) 100vw, 36px" />                    </div>
                             </div>
         </div>
         <div class="media-body item-body clearfix">
 			   <div class="item-title-head">
-                <div class="title-head-left">
-                    <h2 class="title"><a href="https://sejourne.ae/listing/designer-loft-with-pool/">
+                 <div class="title-head-left">
+                    <h2 class="title">
+						<a href="https://sejourne.ae/listing/designer-loft-with-pool/">
                             Designer Loft With Pool</a></h2>
 
                     <address class="item-address">300 S Grand Ave, Los Angeles, CA 90071</address>        
                 </div>
             </div>
-
                         <ul class="item-amenities">
-
                                 <li>
                     <i class="homey-icon homey-icon-hotel-double-bed"></i> 
                     <span class="total-beds">2</span> <span class="item-label">Bedrooms</span>
                 </li>
-                
                                 <li>
                     <i class="homey-icon homey-icon-bathroom-shower-1"></i> 
                     <span class="total-baths">1.5</span> <span class="item-label">Baths</span>
                 </li>
-                
-                                <li>
+                           <li>
                     <i class="homey-icon homey-icon-multiple-man-woman-2"></i> 
-                    <span class="total-guests">4</span> <span class="item-label">Guests</span>
+                    <span class="total-guests">4</span>
+					 <span class="item-label">Guests</span>
                 </li>
                 
                                 <li class="item-type">Loft</li>
@@ -2682,7 +2631,6 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
 </ul>                            </div>
                         </div>
                     </div>
-                
                                     <div class="footer-left">
                         <div class="stars">
                             <div class="rating">
@@ -2709,13 +2657,11 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
                         299.00<sup>AED</sup><sub>/night</sub>
                     </span>
                     </div>
-                
                                     <div class="item-user-image">
                         <img decoding="async" width="36" height="9" src="https://sejourne.ae/wp-content/uploads/2024/02/logo-1.png" class="img-responsive img-circle" alt="" data-image-id="1" srcset="https://sejourne.ae/wp-content/uploads/2024/02/logo-1.png 133w, https://sejourne.ae/wp-content/uploads/2024/02/logo-1-120x34.png 120w" sizes="(max-width: 36px) 100vw, 36px" />                    </div>
                             </div>
         </div>
         <div class="media-body item-body clearfix">
-
             <div class="item-title-head">
                 <div class="title-head-left">
                     <h2 class="title">
@@ -2761,7 +2707,7 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
                         </div>
                     </div>
                 
-                                    <div class="footer-left">
+                    <div class="footer-left">
                         <div class="stars">
                             <div class="rating">
                                 <i class="homey-icon homey-icon-rating-star"></i>
@@ -2890,8 +2836,7 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
 			<div style="clear:both; width:100%; height:30px"></div>		</div>
 				</div>
 				<div class="elementor-element elementor-element-4477fd06 elementor-widget elementor-widget-homey_elementor_grids" data-id="4477fd06" data-element_type="widget" data-widget_type="homey_elementor_grids.default">
-				<div class="elementor-widget-container">
-			
+				<div class="elementor-widget-container">	
 		<div class="module-wrap taxonomy-grid taxonomy-grid-1">
 			<div class="row">
                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
@@ -2919,7 +2864,6 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
 							</a>
 						</div>
 					</div>
-
 					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 						<div class="taxonomy-item taxonomy-card">
 							<a class="taxonomy-link hover-effect" >
@@ -2928,7 +2872,6 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
 							</a>
 						</div>
 					</div>	
-
 					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 						<div class="taxonomy-item taxonomy-card">
 							<a class="taxonomy-link hover-effect" >
@@ -3081,7 +3024,7 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
 					<div class="elementor-button-wrapper">
 			<a class="elementor-button elementor-button-link elementor-size-sm"  >
 						<span class="elementor-button-content-wrapper">
-						<span class="elementor-button-text">Find More Places To Rent</span>
+						<span class="elementor-button-text" data-translate="find">Find More Places To Rent</span>
 		</span>
 					</a>
 		</div>
@@ -3128,10 +3071,11 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
 					<p class="description">Fantastic company to deal with , nice employers communicationa</p><div class="testimonial-thumb">
 						<img loading="lazy" decoding="async" width="120" height="120" src="https://sejourne.ae/wp-content/uploads/2018/10/HomeyHost21-150x150.jpg" class="img-circle img-responsive" alt="" srcset="https://sejourne.ae/wp-content/uploads/2018/10/HomeyHost21-150x150.jpg 150w, https://sejourne.ae/wp-content/uploads/2018/10/HomeyHost21-300x300.jpg 300w, https://sejourne.ae/wp-content/uploads/2018/10/HomeyHost21-285x285.jpg 285w, https://sejourne.ae/wp-content/uploads/2018/10/HomeyHost21-250x250.jpg 250w, https://sejourne.ae/wp-content/uploads/2018/10/HomeyHost21-360x360.jpg 360w, https://sejourne.ae/wp-content/uploads/2018/10/HomeyHost21.jpg 400w" sizes="(max-width: 120px) 100vw, 120px" /></div><p class="auther-info"><strong>Anna Andrews</strong><br><em>Homey Host</em></p></div></div><div class="col-xs-12 col-sm-6 col-md-3"><div class="testimonial-item text-center">
 							<p class="description">The best holiday ever it to contact with sejourny company was one of the best choices that i made it to make this holiday preety cool</p><div class="testimonial-thumb"><img loading="lazy" decoding="async" width="120" height="120" src="https://sejourne.ae/wp-content/uploads/2018/10/HomeyHost23-1-150x150.jpg" class="img-circle img-responsive" alt="" srcset="https://sejourne.ae/wp-content/uploads/2018/10/HomeyHost23-1-150x150.jpg 150w, https://sejourne.ae/wp-content/uploads/2018/10/HomeyHost23-1-300x300.jpg 300w, https://sejourne.ae/wp-content/uploads/2018/10/HomeyHost23-1-285x285.jpg 285w, https://sejourne.ae/wp-content/uploads/2018/10/HomeyHost23-1-250x250.jpg 250w, https://sejourne.ae/wp-content/uploads/2018/10/HomeyHost23-1-360x360.jpg 360w, https://sejourne.ae/wp-content/uploads/2018/10/HomeyHost23-1.jpg 400w" sizes="(max-width: 120px) 100vw, 120px" /></div><p class="auther-info"><strong>Harold Warren</strong><br><em>Homey Host</em></p></div></div><div class="col-xs-12 col-sm-6 col-md-3"><div class="testimonial-item text-center">
-						<p class="description">Fantastic company to deal with , nice employers communicationa </p>
+						<p class="description">Fantastic company to deal with , they will help you to have good holliday step by step </p>
 						<div class="testimonial-thumb">
 							<img loading="lazy" decoding="async" width="120" height="120" src="https://sejourne.ae/wp-content/uploads/2018/10/HomeyHost07-150x150.jpg" class="img-circle img-responsive" alt="" srcset="https://sejourne.ae/wp-content/uploads/2018/10/HomeyHost07-150x150.jpg 150w, https://sejourne.ae/wp-content/uploads/2018/10/HomeyHost07-300x300.jpg 300w, https://sejourne.ae/wp-content/uploads/2018/10/HomeyHost07-285x285.jpg 285w, https://sejourne.ae/wp-content/uploads/2018/10/HomeyHost07-250x250.jpg 250w, https://sejourne.ae/wp-content/uploads/2018/10/HomeyHost07-360x360.jpg 360w, https://sejourne.ae/wp-content/uploads/2018/10/HomeyHost07.jpg 400w" sizes="(max-width: 120px) 100vw, 120px" /></div><p class="auther-info"><strong>Michelle Wright</strong><br><em>Homey Host</em></p></div></div><div class="col-xs-12 col-sm-6 col-md-3"><div class="testimonial-item text-center">
-								<p class="description">Fantastic company to deal with , nice employers communicationa </p><div class="testimonial-thumb"><img loading="lazy" decoding="async" width="120" height="120" src="https://sejourne.ae/wp-content/uploads/2018/10/02-1-1-150x150.jpg" class="img-circle img-responsive" alt="" /></div>
+								<p class="description">Fantastic company to deal with , nice employers communicationa
+									honsetly and loyallit to ther costomers  </p><div class="testimonial-thumb"><img loading="lazy" decoding="async" width="120" height="120" src="https://sejourne.ae/wp-content/uploads/2018/10/02-1-1-150x150.jpg" class="img-circle img-responsive" alt="" /></div>
 							<p class="auther-info"><strong>Mike Forward</strong><br><em>Homey Host</em></p></div></div>                    
                 </div>
             </div>
@@ -3199,7 +3143,7 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
 			            <div class="homey_section_title_wrap_elementor homey-module module-title section-title-module">
                                     <h2 class="homey_section_title">Our Partners</h2>
                 
-                                    <p class="homey_section_subtitle sub-heading">We only work with the best companies around the globe</p>
+                                    <p class="homey_section_subtitle sub-heading" >We only work with the best companies around the globe</p>
                             </div>
             		</div>
 				</div>
@@ -5197,6 +5141,12 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
         </div>
     </div>
 </div><!-- /.modal -->
+
+
+
+
+
+
 <div class="modal fade custom-modal-login" id="modal-login-forgot-password" tabindex="-1" role="dialog">
     <div class="modal-dialog clearfix" role="document">
         <div class="modal-content">
@@ -5362,6 +5312,44 @@ var wpformsElementorVars = {"captcha_provider":"recaptcha","recaptcha_type":"v2"
 
     <input type="hidden" id="reservation_login_required" name="reservation_login_required" value="0">
 
+<script>
+   
+   document.getElementById('languageSelect').addEventListener('change', function() {
+   var lang = this.value;
+   changeLanguage(lang);
+});
+
+function changeLanguage(lang) {
+   var translations = {
+	   'en': {
+		   'home': 'Home',
+		   'book':'Book & Experience Amazing Places Around Dubai',
+		   'let' :'Let s find the perfect place',
+		   
+	   },
+	   'fr': {
+
+		   'home': 'lacasa',
+		   'book':'Bonjor madam Places Around Dubai',
+		   'let':''
+	   },
+	   'ar': {
+		   'home': 'المنزل',
+		   'book':'نمسابمسبانتييمبتينمبتيمبتخسبت',
+		   'let'
+	   }
+   };
+
+   // Loop through elements with data-translate attribute and update their text content
+   var elements = document.querySelectorAll('[data-translate]');
+   elements.forEach(function(element) {
+	   var key = element.getAttribute('data-translate');
+	   if (translations[lang][key]) {
+		   element.textContent = translations[lang][key];
+	   }
+   });
+}
+
+</script>
 </body>
 </html>
-<!--Generated by Endurance Page Cache-->
