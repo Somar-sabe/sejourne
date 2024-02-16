@@ -1059,8 +1059,9 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
         <option value="en">English</option>
         <option value="fr">French</option>
         <option value="ar">Arabic</option>
-		<option value="ar">RU</option>
-		<option value="ar">IND</option>
+		<option value="ru">RU</option>
+		<option value="in">IND</option>
+		<option value="zh">chi</option>
     </select>
 </li>
 <li id="menu-item-4611" style="margin-top: 20px;" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4611">
@@ -1141,30 +1142,7 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
 </header>
 
     </div>
-<style>
-.banner-title,
-.banner-subtitle {
-    opacity: 0; 
-}
-@keyframes fadeInUp {
-    from {
-        opacity: 0;
-        transform: translateY(20px); 
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0); 
-    }
-}
-.animated {
-    animation-duration: 1s;
-    animation-fill-mode: both;
-}
-.fadeInUp {
-    animation-name: fadeInUp; 
-}
 
-</style>
 
 
 <div id="section-body">
@@ -1953,7 +1931,7 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
 <!-- On mobile: display this button below when  the user selected arrival and depart dates -->
 <button style="display: none;" class="btn btn-primary search-calendar-btn">Done</button>						</div>
                     	                    	<div class="search-guests search-guests-js">
-							<label class="animated-label">Guests</label>
+							<label class="animated-label" data-translate="guests">Guests</label>
 							<input type="text" name="guest" autocomplete="off" value="" class="form-control" placeholder="Guests">
 							<div class="search-guests-wrap search-guests-wrap-js clearfix">
 	<input type="hidden" name="adult_guest" class="search_adult_guest" value="0">
@@ -2177,7 +2155,7 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
 				</li>
 				<li>
 					<i class="fas fa-users"></i> 
-					<span class="total-guests">2</span> <span class="item-label">Guests</span>
+					<span class="total-guests">2</span> <span class="item-label" data-translate="guests">Guests</span>
 				</li>
 				
 				<li class="item-type">Bed &amp; Breakfast</li>
@@ -2252,7 +2230,7 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
 				</li>
 				<li>
 					<i class="fas fa-users"></i> 
-					<span class="total-guests">6</span> <span class="item-label">Guests</span>
+					<span class="total-guests">6</span> <span class="item-label" data-translate="guests">Guests</span>
 				</li>
 				
 				
@@ -2329,7 +2307,7 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
 							<li>
 								<i class="fas fa-users"></i> 
 								<span class="total-guests">2</span> 
-								<span class="item-label">Guests</span>
+								<span class="item-label" data-translate="guests">Guests</span>
 							</li>
 							
                 
@@ -2410,7 +2388,7 @@ admin</span>
                 </li>
                 <li>
                     <i class="homey-icon homey-icon-multiple-man-woman-2"></i>
-                    <span class="total-guests">8</span> <span class="item-label">Guests</span>
+                    <span class="total-guests">8</span> <span class="item-label" data-translate="guests">Guests</span>
                 </li>
                 <li class="item-type">House</li>
             </ul>
@@ -2485,7 +2463,7 @@ admin</span>
                            <li>
                     <i class="homey-icon homey-icon-multiple-man-woman-2"></i> 
                     <span class="total-guests">4</span>
-					 <span class="item-label" data-translate='guests'>Guests</span>
+					 <span class="item-label" data-translate='guests' data-translate="guests">Guests</span>
                 </li>
                                 <li class="item-type">Loft</li>
                             </ul>
@@ -4960,7 +4938,7 @@ admin</span>
 
 		<div class="adults-calculator">
 		<span class="quantity-calculator search_homey_adult">0</span>
-		<span class="calculator-label">Guests</span>
+		<span class="calculator-label" data-translate="guests">Guests</span>
 		<button class="search_adult_plus btn btn-secondary-outlined" type="button"><i class="homey-icon homey-icon-add" aria-hidden="true"></i></button>
 		<button class="search_adult_minus btn btn-secondary-outlined" type="button"><i class="homey-icon homey-icon-subtract" aria-hidden="true"></i></button>
 	</div>
@@ -5420,7 +5398,90 @@ function changeLanguage(lang) {
 		"apply": "Применить",
 		"findplace": "Найдите место, которое подходит для вашего комфорта",
 		"booknow":''
-	}
+	},
+	'zh': {
+    'home': '首页',
+    'book': '预订并体验迪拜周边的惊人之地',
+    'let': '让我们找到完美的地方',
+    'arrive': '抵达',
+    'depart': '离开',
+    'guests': '客人',
+    'weonly': '我们只与全球最佳公司合作',
+    'handpicked': '精选优质地点',
+    'ourfeatured': '我们的特色住宅',
+    'ourpartners': '我们的合作伙伴',
+    'thebiggest': '最大的回报是满足我们的客户并与我们分享他们的经验',
+    'bookbest': '立即在我们的网站上预订最佳公寓，从 !! 开始',
+    'sejourne': 'Sejourne是迪拜的一家顶级豪华短期租赁公司。在短期内选择各种配有家具的公寓。',
+    'property': '属性',
+    'pages': '页面',
+    'elemenator': 'Elementor',
+    'becomehost': '成为主人',
+    'Downtown': '市中心',
+    'bedrooms': '卧室',
+    'baths': '浴室',
+    'ourfeatured': '我们的特色住宅',
+    'apartment': '公寓',
+    'Addtofavorites': '添加到收藏夹',
+    'featured': '特色',
+    'explore': '探索我们在迪拜周围的最佳地点的部分',
+    'trending': '趋势',
+    'hearfrom': '听听我们的主人',
+    'thebiggest': '最大的回报是满足我们的客户并与我们分享他们的经验',
+    'partners': '我们的合作伙伴',
+    'find': '查找更多出租地点',
+    'holidayever': '与Sejourne公司联系是我做出的最佳选择之一，使这个假期非常酷',
+    'fantastic': '与之打交道的梦幻般的公司，雇主之间的良好沟通',
+    'children': '儿童',
+    'adults': '成人',
+    'pets': '宠物',
+    'more': '更多',
+    'apply': '申请',
+    'findplace': '找到符合您舒适度的地方',
+    'booknow': '立即预订'
+},
+'in': {
+    'home': 'होम',
+    'book': 'बुक करें और दुबई के चारों ओर शानदार जगहों का अनुभव करें',
+    'let': 'आइए सही जगह ढूंढें',
+    'arrive': 'आगमन',
+    'depart': 'प्रस्थान',
+    'guests': 'मेहमान',
+    'weonly': 'हम केवल दुनिया भर में सर्वश्रेष्ठ कंपनियों के साथ काम करते हैं',
+    'handpicked': 'गुणवत्ता वाली जगहों का हाथ से चुना हुआ चयन',
+    'ourfeatured': 'हमारे विशेष घर',
+    'ourpartners': 'हमारे साथी',
+    'thebiggest': 'सबसे बड़ा इनाम हमारे ग्राहकों को संतुष्ट करना है और हमारे साथ उनके अनुभव को साझा करना है',
+    'bookbest': '!! से हमारी वेबसाइट पर तुरंत मॉडर्न फर्नीचर के साथ सर्वश्रेष्ठ अपार्टमेंट बुक करें',
+    'sejourne': 'Sejourne दुबई में प्रीमियर लक्जरी शॉर्ट टर्म रेंटल है। लघु अवधि पर उपलब्ध सेट किए गए समृद्ध अपार्टमेंट में से चुनें।',
+    'property': 'संपत्ति',
+    'pages': 'पेज',
+    'elemenator': 'एलेमेंटर',
+    'becomehost': 'मेज़बान बनें',
+    'Downtown': 'शहर का केंद्र',
+    'bedrooms': 'बेडरूम',
+    'baths': 'स्नानघर',
+    'ourfeatured': 'हमारे विशेष घर',
+    'apartment': 'अपार्टमेंट',
+    'Addtofavorites': 'पसंद में जोड़ें',
+    'featured': 'विशेष रुप से प्रकाशित',
+    'explore': 'दुबई के चारों ओर सर्वोत्तम स्थानों में हमारे खंड का अन्वेषण करें',
+    'trending': 'प्रसारित हो रहा है',
+    'hearfrom': 'हमारे मेज़बानों से सुनें',
+    'thebiggest': 'सबसे बड़ा इनाम हमारे ग्राहकों को संतुष्ट करना है और हमारे साथ उनके अनुभव को साझा करना है',
+    'partners': 'हमारे साथी',
+    'find': 'और अधिक जगहों को किराए पर लेने के लिए खोजें',
+    'holidayever': 'सर्वोत्तम छुट्टी कभी सीजोर्ने कंपनी से संपर्क करना था, यह एक बेहतरीन विकल्प था जिसे मैंने यह छुट्टी बनाने के लिए लिया',
+    'fantastic': 'डील करने के लिए शानदार कंपनी, अच्छे नियोक्ता संचार',
+    'children': 'बच्चे',
+    'adults': 'वयस्क',
+    'pets': 'पालतू जानवर',
+    'more': 'अधिक',
+    'apply': 'लागू करें',
+    'findplace': 'अपनी सुविधा के अनुसार एक जगह ढूंढें',
+    'booknow': 'अभी बुक करें'
+}
+
 	
 	
 };
