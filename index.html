@@ -1016,23 +1016,26 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
                                                     <nav class="navi">
     <ul id="main-menu" class="main-menu">
 		<li id="menu-item-4603" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4603"><a  >Home</a></li>
+<!--
 <li id="menu-item-193" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-193"><a  >Listing</a>
 <ul class="sub-menu">
-	<li id="menu-item-4612" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4612"><a  >List View</a></li>
-	<li id="menu-item-4613" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4613"><a  >Grid View</a></li>
-	<li id="menu-item-4614" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4614"><a  >Card View</a></li>
-	<li id="menu-item-4615" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4615"><a  >Maps</a></li>
+	<li id="menu-item-4612" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4612"><a>List View</a></li>
+	<li id="menu-item-4613" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4613"><a>Grid View</a></li>
+	<li id="menu-item-4614" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4614"><a>Card View</a></li>
+	<li id="menu-item-4615" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4615"><a >Maps</a></li>
 	<li id="menu-item-1834" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1834"><a  >Map Header</a>
 	<ul class="sub-menu">
 		<li id="menu-item-1240" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1240"><a href="https://sejourne.ae/listing-map-standard/">Map Standard</a></li>
 		<li id="menu-item-1239" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1239"><a href="https://sejourne.ae/listing-map-fullscreen/">Map Fullscreen</a></li>
 	</ul>
 </li>
+
 	<li id="menu-item-4616" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4616">
         <a  >Pllax Header</a></li>
 	<li id="menu-item-4617" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4617">
         <a  >Video Header</a></li>
 	<li id="menu-item-4618" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4618"><a  >Slider Header</a></li></ul></li>
+	-->
 <li id="menu-item-4609" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4609"><a  >Property</a></li>
 <li id="menu-item-4611" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4611"><a  >About us</a></li>
 <li id="menu-item-4610" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4610"><a  >Team</a></li>
@@ -1225,9 +1228,9 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
                             <select name="city" class="selectpicker" data-live-search="true">
                             <option value="">Where to go?</option>
 							<option data-tokens=" 200  200  200" value="200" data-translate="downtown"> Down Town</option>
-							<option data-tokens=" 22221  22221  22221" value="22221"> Jvc</option>
-							<option data-tokens=" 23 august  23 AUGUST  23 August" value="23-august"> palm jummira </option>
-							<option data-tokens=" 200  200  200" value="200">spring</option>
+							<option data-tokens=" 22221  22221  22221" value="22221" data-translate='jvc'> Jvc</option>
+							<option data-tokens=" 23 august  23 AUGUST  23 August" value="23-august" data-translate='palmjummira'> palm jummira </option>
+							<option data-tokens=" 200  200  200" value="200" data-translate='springs'>springs</option>
 							<option data-tokens=" 22221  22221  22221" value="22221"> Jlt</option>
 							<option data-tokens=" 23 august  23 AUGUST  23 August" value="23-august"> IMPZ </option>
 							<option data-tokens=" 200  200  200" value="200">Dubai Hills</option>
@@ -2166,7 +2169,8 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
 						<div class="footer-left">
 							<div class="stars">
 								<div class="rating">
-									<i class="homey-icon homey-icon-rating-star"></i>
+									<i class="fas fa-star"></i>
+
 									<span class="star-text-right">3 - <a href="https://sejourne.ae/listing/modern-apartment-with-pool/#reviews-section">0 Reviews</a></span>
 								</div>
 							</div>
@@ -2248,11 +2252,12 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
                           </div>
                         </div>
                     </div>
-                
-                                    <div class="footer-left">
+
+					<div class="footer-left">
                         <div class="stars">
                             <div class="rating">
-                                <i class="homey-icon homey-icon-rating-star"></i><span class="star-text-right">5 - <a href="https://sejourne.ae/listing/affordable-urban-room/#reviews-section">0 Reviews</a></span>                            </div>
+                                <i class="fas fa-star"></i>
+								<span class="star-text-right">5 - <a href="https://sejourne.ae/listing/affordable-urban-room/#reviews-section">0 Reviews</a></span>                            </div>
                         </div>
                     </div>
       </div>
@@ -2268,13 +2273,13 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
                     <span class="label label-featured">Featured</span>
                 </span>
                 <a class="hover-effect" >
-                    <img loading="lazy" decoding="async" width="450" height="300" src="A-26.jpg" class="img-responsive wp-post-image" alt="" srcset="A-26.jpg 450w, A-26.jpg 300w, A-26.jpg 1024w, A-26.jpg 768w, A-26.jpg 1140w, A-26.jpg 120w, A-26.jpg 750w, A-26.jpg 1440w" sizes="(max-width: 450px) 100vw, 450px" />
+                    <img loading="lazy" decoding="async" width="450" height="300" src="https://res.cloudinary.com/dqiuzftgy/image/upload/v1708069363/mhcvyopdldsotnewsfyn.jpg" class="img-responsive wp-post-image" alt="" srcset="https://res.cloudinary.com/dqiuzftgy/image/upload/v1708069363/mhcvyopdldsotnewsfyn.jpg 450w, https://res.cloudinary.com/dqiuzftgy/image/upload/v1708069363/mhcvyopdldsotnewsfyn.jpg 300w, https://res.cloudinary.com/dqiuzftgy/image/upload/v1708069363/mhcvyopdldsotnewsfyn.jpg 1024w, https://res.cloudinary.com/dqiuzftgy/image/upload/v1708069363/mhcvyopdldsotnewsfyn.jpg 768w, https://res.cloudinary.com/dqiuzftgy/image/upload/v1708069363/mhcvyopdldsotnewsfyn.jpg 1140w, https://res.cloudinary.com/dqiuzftgy/image/upload/v1708069363/mhcvyopdldsotnewsfyn.jpg 120w, https://res.cloudinary.com/dqiuzftgy/image/upload/v1708069363/mhcvyopdldsotnewsfyn.jpg 750w, https://res.cloudinary.com/dqiuzftgy/image/upload/v1708069363/mhcvyopdldsotnewsfyn.jpg 1440w" sizes="(max-width: 450px) 100vw, 450px" />
                 </a>
                 <div class="item-media-price">
                     <span class="item-price" >455.00<sup class="currencySymbol">AED</sup><sub>/night</sub></span>
                 </div>
                 <div class="item-user-image">
-                    <img decoding="async" width="36" height="9" src="A-26.jpg" class="img-responsive img-circle" alt="" data-image-id="1" srcset="A-26.jpg 133w, A-26.jpg 120w" sizes="(max-width: 36px) 100vw, 36px" />
+                    <img decoding="async" width="36" height="9" src="https://res.cloudinary.com/dqiuzftgy/image/upload/v1708069363/mhcvyopdldsotnewsfyn.jpg" class="img-responsive img-circle" alt="" data-image-id="1" srcset="https://res.cloudinary.com/dqiuzftgy/image/upload/v1708069363/mhcvyopdldsotnewsfyn.jpg 133w, https://res.cloudinary.com/dqiuzftgy/image/upload/v1708069363/mhcvyopdldsotnewsfyn.jpg 120w" sizes="(max-width: 36px) 100vw, 36px" />
                 </div>
             </div>
         </div>
@@ -2303,7 +2308,7 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
 				<li class="item-type">House</li>
             </ul>
             <div class="item-user-image list-item-hidden">
-                <img decoding="async" width="36" height="9" src="A-26.jpg" class="img-responsive img-circle" alt="" data-image-id="1" srcset="A-26.jpg 133w, A-26.jpg 120w" sizes="(max-width: 36px) 100vw, 36px" />
+                <img decoding="async" width="36" height="9" src="https://res.cloudinary.com/dqiuzftgy/image/upload/v1708069363/mhcvyopdldsotnewsfyn.jpg" class="img-responsive img-circle" alt="" data-image-id="1" srcset="https://res.cloudinary.com/dqiuzftgy/image/upload/v1708069363/mhcvyopdldsotnewsfyn.jpg 133w, https://res.cloudinary.com/dqiuzftgy/image/upload/v1708069363/mhcvyopdldsotnewsfyn.jpg 120w" sizes="(max-width: 36px) 100vw, 36px" />
                 <span class="item-user-info">Hosted by<br>admin</span>
             </div>
             <div class="item-footer">
@@ -2321,7 +2326,9 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
                 <div class="footer-left">
                     <div class="stars">
                         <div class="rating">
-                            <i class="homey-icon homey-icon-rating-star"></i><span class="star-text-right">5 - <a href="https://sejourne.ae/listing/spacious-family-home/#reviews-section">0 Reviews</a></span>
+                            <i class="fas fa-star"></i>
+
+							<span class="star-text-right">5 - <a href="https://sejourne.ae/listing/spacious-family-home/#reviews-section">0 Reviews</a></span>
                         </div>
                     </div>
                 </div>
@@ -2339,12 +2346,12 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
                     <span class="label label-featured">Featured</span>
                 </span>
                 <a class="hover-effect" >
-                    <img loading="lazy" decoding="async" width="450" height="300" src="Lakeside-Tower-A.jpg" class="img-responsive wp-post-image" alt="" srcset="Lakeside-Tower-A.jpg 450w, Lakeside-Tower-A.jpg 300w, Lakeside-Tower-A.jpg 1024w, Lakeside-Tower-A.jpg 768w, Lakeside-Tower-A.jpg 1140w, Lakeside-Tower-A.jpg 120w, Lakeside-Tower-A.jpg 750w, Lakeside-Tower-A.jpg 1440w" sizes="(max-width: 450px) 100vw, 450px" /></a>
+                    <img loading="lazy" decoding="async" width="450" height="300" src="https://res.cloudinary.com/dqiuzftgy/image/upload/v1708069952/Lakeside-Tower-A_i04czy.jpg" class="img-responsive wp-post-image" alt="" srcset="https://res.cloudinary.com/dqiuzftgy/image/upload/v1708069952/Lakeside-Tower-A_i04czy.jpg 450w, https://res.cloudinary.com/dqiuzftgy/image/upload/v1708069952/Lakeside-Tower-A_i04czy.jpg 300w, https://res.cloudinary.com/dqiuzftgy/image/upload/v1708069952/Lakeside-Tower-A_i04czy.jpg 1024w, https://res.cloudinary.com/dqiuzftgy/image/upload/v1708069952/Lakeside-Tower-A_i04czy.jpg 768w, https://res.cloudinary.com/dqiuzftgy/image/upload/v1708069952/Lakeside-Tower-A_i04czy.jpg 1140w, https://res.cloudinary.com/dqiuzftgy/image/upload/v1708069952/Lakeside-Tower-A_i04czy.jpg 120w, https://res.cloudinary.com/dqiuzftgy/image/upload/v1708069952/Lakeside-Tower-A_i04czy.jpg 750w, https://res.cloudinary.com/dqiuzftgy/image/upload/v1708069952/Lakeside-Tower-A_i04czy.jpg 1440w" sizes="(max-width: 450px) 100vw, 450px" /></a>
                                     <div class="item-media-price">
                     <span class="item-price" >129.00<sup class="currencySymbol">AED</sup><sub>/night</sub></span>
                     </div>
 		           <div class="item-user-image">
-                        <img decoding="async" width="36" height="9" src="Lakeside-Tower-A.jpg" class="img-responsive img-circle" alt="" data-image-id="1" srcset="Lakeside-Tower-A.jpg 133w, Lakeside-Tower-A.jpg 120w" sizes="(max-width: 36px) 100vw, 36px" />                    </div>
+                        <img decoding="async" width="36" height="9" src="https://res.cloudinary.com/dqiuzftgy/image/upload/v1708069952/Lakeside-Tower-A_i04czy.jpg" class="img-responsive img-circle" alt="" data-image-id="1" srcset="https://res.cloudinary.com/dqiuzftgy/image/upload/v1708069952/Lakeside-Tower-A_i04czy.jpg 133w, https://res.cloudinary.com/dqiuzftgy/image/upload/v1708069952/Lakeside-Tower-A_i04czy.jpg 120w" sizes="(max-width: 36px) 100vw, 36px" />                    </div>
                             </div>
         </div>
         <div class="media-body item-body clearfix">
@@ -2379,7 +2386,7 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
                   </ul>
             
                             <div class="item-user-image list-item-hidden">
-                    <img decoding="async" width="36" height="9" src="Lakeside-Tower-A.jpg" class="img-responsive img-circle" alt="" data-image-id="1" srcset="Lakeside-Tower-A.jpg 133w, Lakeside-Tower-A.jpg 120w" sizes="(max-width: 36px) 100vw, 36px" />                    <span class="item-user-info">Hosted by<br>
+                    <img decoding="async" width="36" height="9" src="https://res.cloudinary.com/dqiuzftgy/image/upload/v1708069952/Lakeside-Tower-A_i04czy.jpg" class="img-responsive img-circle" alt="" data-image-id="1" srcset="https://res.cloudinary.com/dqiuzftgy/image/upload/v1708069952/Lakeside-Tower-A_i04czy.jpg 133w, https://res.cloudinary.com/dqiuzftgy/image/upload/v1708069952/Lakeside-Tower-A_i04czy.jpg 120w" sizes="(max-width: 36px) 100vw, 36px" />                    <span class="item-user-info">Hosted by<br>
 admin</span>
                 </div>
             
@@ -2403,7 +2410,8 @@ admin</span>
                    <div class="footer-left">
                         <div class="stars">
                             <div class="rating">
-                                <i class="homey-icon homey-icon-rating-star"></i><span class="star-text-right">5 - <a href="https://sejourne.ae/listing/confy-designer-room/#reviews-section">0 Reviews</a></span>                            </div>
+                                <i class="fas fa-star"></i>
+<span class="star-text-right">5 - <a href="https://sejourne.ae/listing/confy-designer-room/#reviews-section">0 Reviews</a></span>                            </div>
                         </div>
                     </div>
             </div>
@@ -2477,7 +2485,7 @@ admin</span>
                 <div class="footer-left">
                     <div class="stars">
                         <div class="rating">
-                            <i class="homey-icon homey-icon-rating-star"></i><span class="star-text-right">5 - <a href="https://sejourne.ae/listing/confortable-and-modern-family-home/#reviews-section">0 Reviews</a></span>
+                            <i class="fas fa-star"></i><span class="star-text-right">5 - <a href="https://sejourne.ae/listing/confortable-and-modern-family-home/#reviews-section">0 Reviews</a></span>
                         </div>
                     </div>
                 </div>
@@ -2643,7 +2651,7 @@ admin</span>
                 <div class="footer-left">
                     <div class="stars">
                         <div class="rating">
-                            <i class="homey-icon homey-icon-rating-star"></i>
+                            <i class="fas fa-star"></i>
                             <span class="star-text-right">2 - <a href="https://sejourne.ae/listing/moder-lake-view-family-home/#reviews-section">0 Reviews</a></span>
                         </div>
                     </div>
@@ -2727,7 +2735,8 @@ admin</span>
                                     <div class="footer-left">
                         <div class="stars">
                             <div class="rating">
-                                <i class="homey-icon homey-icon-rating-star"></i><span class="star-text-right">4.5 - <a href="https://sejourne.ae/listing/romantic/#reviews-section">0 Reviews</a></span>                            </div>
+                                <i class="fas fa-star"></i>
+                                <span class="star-text-right">4.5 - <a href="https://sejourne.ae/listing/romantic/#reviews-section">0 Reviews</a></span>                            </div>
                         </div>
                     </div>
                             </div>
@@ -2780,7 +2789,7 @@ admin</span>
 						<div class="taxonomy-item taxonomy-card">
 							<a class="taxonomy-link hover-effect" >
 								<div class="taxonomy-title">DownTown</div>
-								<img loading="lazy" decoding="async" class="img-responsive" src="Downtown.jpg" width="555" height="360" alt="listing_city">
+								<img loading="lazy" decoding="async" class="img-responsive" src="https://res.cloudinary.com/dqiuzftgy/image/upload/v1708069327/rjmv3bxvhfe2flkhzg79.jpg" width="555" height="360" alt="listing_city">
 							</a>
 						</div>
 				</div>
@@ -2789,7 +2798,7 @@ admin</span>
 						<div class="taxonomy-item taxonomy-card">
 							<a class="taxonomy-link hover-effect" >
 								<div class="taxonomy-title">Jvc</div>
-								<img loading="lazy" decoding="async" class="img-responsive" src="jvcc.jpg" width="555" height="360" alt="listing_city">
+								<img loading="lazy" decoding="async" class="img-responsive" src="https://res.cloudinary.com/dqiuzftgy/image/upload/v1708026447/jvcc_pxq2m4.jpg" width="555" height="360" alt="listing_city">
 							</a>
 						</div>
 					</div>
@@ -2843,9 +2852,9 @@ admin</span>
 						<div class="elementor-element elementor-element-10be37dc elementor-widget elementor-widget-homey_elementor_section_title" data-id="10be37dc" data-element_type="widget" data-widget_type="homey_elementor_section_title.default">
 				<div class="elementor-widget-container">
 			            <div class="homey_section_title_wrap_elementor homey-module module-title section-title-module">
-                                    <h2 class="homey_section_title">Modern Apartment</h2>
+                                    <h2 class="homey_section_title" data-translate="modernapartment">Modern Apartment</h2>
                 
-                                    <p class="homey_section_subtitle sub-heading">$79 at night</p>
+                                    <p class="homey_section_subtitle sub-heading" data-translate="atnight">79 AED at night</p>
                             </div>
             		</div>
 				</div>
@@ -3184,31 +3193,40 @@ admin</span>
             <a>Condo</a></li><li>
             <a>House</a></li><li>
             <a>Loft</a></li><li>
-            <a>Studio</a></li></ul></div></div></div><div class="col-xs-12 col-sm-12 col-md-3 col-lg-3"><div id="nav_menu-3" class="widget footer-widget widget_nav_menu"><div class="widget-top"><h3 class="widget-title">Company</h3></div><div class="menu-footer-nav-container"><ul id="menu-footer-nav" class="menu"><li id="menu-item-1364" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1364"><a href="https://sejourne.ae/blog/">Blog and Press</a></li>
-<li id="menu-item-1830" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1830"><a href="https://sejourne.ae/half-map/">Listings</a></li>
-</ul></div></div></div><div class="col-xs-12 col-sm-12 col-md-3 col-lg-3"><div id="homey_contact-1" class="widget footer-widget widget-contact"><div class="widget-top"><h3 class="widget-title">Contact Us</h3></div>           
+            <a>Studio</a></li></ul></div></div></div>
+			<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+				<div id="nav_menu-3" class="widget footer-widget widget_nav_menu">
+					<div class="widget-top"><h3 class="widget-title">Company</h3></div>
+					<div class="menu-footer-nav-container">
+						<ul id="menu-footer-nav" class="menu">
+							<li id="menu-item-1364" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1364">
+								<a href="https://sejourne.ae/blog/">Blog and Press</a></li>
+            <!--<li id="menu-item-1830" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1830">
+	<a href="https://sejourne.ae/half-map/">Listings</a></li>-->
+</ul></div></div></div>
+<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+	<div id="homey_contact-1" class="widget footer-widget widget-contact"><div class="widget-top"><h3 class="widget-title">Contact Us</h3></div>           
             <div class="widget-body">
                 <div class="contact_text"></div>
-                <ul class="list-unstyled">
-                                        <li><i class="homey-icon homey-icon-style-two-pin-marker"></i>  Damac Executive heights, Jebel Ali Race Course Rd- Barsha Heights - Dubai</li>
-                    
-                                        <li><i class="homey-icon homey-icon-phone-circle"></i> +971 4585 0475</li>
-                    
-					
-                                        <li><i class="homey-icon homey-icon-unread-emails"></i> <a href="mailto:info@sejourne.ae">info@sejourne.ae</a></li>
-                                                        	<li><i class="homey-icon homey-icon-arrow-right-1"></i> <a  >Contact us</a></li>
-                	                </ul>
-            </div>
+                   <ul class="list-unstyled">
+    <li><i class="fas fa-map-marker-alt"></i> Damac Executive heights, Jebel Ali Race Course Rd- Barsha Heights - Dubai</li>
 
+    <li><i class="fas fa-phone"></i> +971 4585 0475</li>
+
+    <li><i class="fas fa-envelope"></i> <a href="mailto:info@sejourne.ae">info@sejourne.ae</a></li>
+
+    <li><i class="fas fa-arrow-right"></i> <a href="#">Contact us</a></li>
+</ul>
+
+            </div>
 	    </div></div>			</div><!-- row -->
 		</div><!-- container -->
-	</div><!-- footer-top-wrap -->
-	
+	</div><!-- footer-top-wrap -->	
         <div class="footer-bottom-wrap">
 		<div class="container">
 			<div class="row">
-				                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                					<div class="footer-copyright">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                	<div class="footer-copyright">
 						Sejourne - All rights reserved 2024 
 					</div>
 				</div><!-- col-xs-12 col-sm-6 col-md-6 col-lg-6 -->
@@ -3220,24 +3238,19 @@ admin</span>
 							<a class="btn-bg-google" target="_blank"  ><i class="fab fa-google-plus-g"></i></a>
 							<a class="btn-bg-instagram" target="_blank" href="https://www.instagram.com/fmphomes/"><i class="fab fa-instagram"></i></a>
 							<a class="btn-bg-tiktok" target="_blank" href="https://www.tiktok.com/"><i class="fab fa-tiktok"></i></a>
-						</div>
-						
+						</div>		
                     </div>
-                </div><!-- col-xs-12 col-sm-6 col-md-6 col-lg-6 -->
-                			</div><!-- row -->
-		</div><!-- container -->
-	</div><!-- footer-bottom-wrap -->
-    </footer><!-- footer-wrap -->
-
+                </div>
+            </div>
+		</div>
+	</div>
+    </footer>
 <div id="overlay-search-advanced-module" class="overlay-search-module mobile-search-js-overlay overlay-search-advanced-module overlay-search-contentscale">
     <div class="overlay-search-title">Search</div>
     <button type="button" class="overlay-search-module-close btn-blank"><i class="homey-icon homey-icon-close" aria-hidden="true"></i></button>
-    
     <div class="search-wrap search-banner">
         <form class="clearfix" action="https://sejourne.ae/search-results/" method="GET">
                                         <div class="search-destination with-select search-destination-js">
-
-                                
                                <select name="city" class="selectpicker" data-live-search="true">
                                <option value="">Where to go?</option>
 							   <option data-tokens=" 200  200  200" value="200"> 200</option>
@@ -3881,7 +3894,9 @@ admin</span>
 	            	<span class="day-number">29</span>
 	            </li><li data-timestamp="1732924800" data-formatted-date="2024-11-30" class="current-month future-day">
 	            	<span class="day-number">30</span>
-	            </li></ul></div><div class="main-search-calendar-wrap left-calendar" data-month = "11" style="display:none;"><div class="month clearfix"><h4>December <span>2024</span></h4></div><ul class="weekdays clearfix"><li data-dayName = "Monday">M</li><li data-dayName = "Tuesday">T</li><li data-dayName = "Wednesday">W</li><li data-dayName = "Thursday">T</li><li data-dayName = "Friday">F</li><li data-dayName = "Saturday">S</li><li data-dayName = "Sunday">S</li></ul><ul class="days clearfix"><li class="prev-month"></li><li class="prev-month"></li><li class="prev-month"></li><li class="prev-month"></li><li class="prev-month"></li><li class="prev-month"></li><li data-timestamp="1733011200" data-formatted-date="2024-12-01" class="current-month future-day">
+	            </li></ul></div><div class="main-search-calendar-wrap left-calendar" data-month = "11" style="display:none;">
+					<div class="month clearfix"><h4>December <span>2024</span></h4></div>
+					<ul class="weekdays clearfix"><li data-dayName = "Monday">M</li><li data-dayName = "Tuesday">T</li><li data-dayName = "Wednesday">W</li><li data-dayName = "Thursday">T</li><li data-dayName = "Friday">F</li><li data-dayName = "Saturday">S</li><li data-dayName = "Sunday">S</li></ul><ul class="days clearfix"><li class="prev-month"></li><li class="prev-month"></li><li class="prev-month"></li><li class="prev-month"></li><li class="prev-month"></li><li class="prev-month"></li><li data-timestamp="1733011200" data-formatted-date="2024-12-01" class="current-month future-day">
 	            	<span class="day-number">1</span>
 	            </li><li data-timestamp="1733097600" data-formatted-date="2024-12-02" class="current-month future-day">
 	            	<span class="day-number">2</span>
@@ -5340,7 +5355,32 @@ function changeLanguage(lang) {
 		'ourpartners':'Nos Partenaires',
 		'thebiggest':'La plus grande récompense est de satisfaire nos clients et de partager leur expérience avec nous',
 		'bookbest': 'Réservez les meilleurs appartements avec des meubles modernes immédiatement sur notre site à partir de !!',
-		'sejourne': 'Sejourne est un premier service de location de courte durée de luxe à Dubai. Choisissez parmi une variété d\'appartements meublés disponibles à court terme.'
+		'sejourne': 'Sejourne est un premier service de location de courte durée de luxe à Dubai. Choisissez parmi une variété d\'appartements meublés disponibles à court terme. ',
+		"property": "Propriété",
+    "pages": "Pages",
+    "elemenator": "Elémentor",
+    "becomehost": "Devenir un hôte",
+    "Downtown": "Centre-ville",
+    "bedrooms": "Chambres",
+    "baths": "Salles de bain",
+    "ourfeatured": "Nos maisons en vedette",
+    "apartment": "Appartement",
+    "Addtofavorites": "Ajouter aux favoris",
+    "featured": "En vedette",
+    "explore": "Explorez notre section dans les meilleurs endroits autour de Dubaï",
+    "trending": "Tendance",
+    "hearfrom": "Entendre de nos hôtes",
+    "thebiggest": "La plus grande récompense est de satisfaire nos clients et de partager leur expérience avec nous",
+    "partners": "Nos partenaires",
+    "find": "Trouver plus d'endroits à louer",
+    "holidayever": "La meilleure vacance jamais c'est de contacter la compagnie Sejourne était l'un des meilleurs choix que j'ai faits pour rendre ces vacances très cool",
+    "fantastic": "Entreprise fantastique pour traiter, belle communication des employeurs",
+    "children": "Enfants",
+    "adults": "Adultes",
+    "pets": "Animaux de compagnie",
+    "more": "Plus",
+    "apply": "Appliquer"
+	
 	},
     'ar': {
         'home': 'الصفحة الرئيسية',
@@ -5355,8 +5395,36 @@ function changeLanguage(lang) {
 		'ourpartners':'شركاؤنا',
 		'thebiggest':'أكبر مكافأة هي إرضاء عملائنا ومشاركة تجربتهم معنا',
 		'bookbest': 'احجز أفضل الشقق مع الأثاث الحديث على موقعنا الإلكتروني ابتداءً من !!',
-        'sejourne': 'سيجورن هو خدمة تأجير فاخرة للإقامة القصيرة في دبي. اختر من بين مجموعة متنوعة من الشقق المفروشة المتاحة للإيجار القصير المدى.'
-    }
+        'sejourne': 'سيجورن هو خدمة تأجير فاخرة للإقامة القصيرة في دبي. اختر من بين مجموعة متنوعة من الشقق المفروشة المتاحة للإيجار القصير المدى.',
+		"property": "ملكية",
+    "pages": "الصفحات",
+    "elemenator": "عنصر",
+    "becomehost": "كن مضيفًا",
+    "Downtown": "وسط المدينة",
+    "bedrooms": "غرف النوم",
+    "baths": "الحمامات",
+    "ourfeatured": "منازلنا المميزة",
+    "apartment": "شقة",
+    "Addtofavorites": "أضف إلى المفضلة",
+    "featured": "مميز",
+    "explore": "استكشف قسمنا في أفضل الأماكن حول دبي",
+    "trending": "الاتجاهات",
+    "hearfrom": "استمع من مضيفينا",
+    "thebiggest": "أكبر مكافأة هي إرضاء عملائنا ومشاركة تجربتهم معنا",
+    "partners": "شركاؤنا",
+    "find": "العثور على المزيد من الأماكن للإيجار",
+    "holidayever": "أفضل عطلة على الإطلاق هي الاتصال بشركة سيجورني كانت واحدة من أفضل الخيارات التي اتخذتها لجعل هذه العطلة ممتعة تمامًا",
+    "fantastic": "شركة رائعة للتعامل معها، وتواصل جيد مع أصحاب العمل",
+    "children": "الأطفال",
+    "adults": "الكبار",
+    "pets": "الحيوانات الأليفة",
+    "more": "المزيد",
+    "apply": "تطبيق"
+	
+	
+	
+	},
+	
 };
 
    var elements = document.querySelectorAll('[data-translate]');
