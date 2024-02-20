@@ -200,14 +200,23 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
 }
 
 .fixed-icons i {
-    font-size: 40px; /* Set the size of the icon */
+    font-size: 30px; /* Reduce the size of the icon for mobile */
     color: #f15e75; /* Set the color of the icon */
     border-radius: 50%; /* Apply border-radius if needed */
-
 }
 
-
+/* Media query for mobile devices */
+@media only screen and (max-width: 768px) {
+    .fixed-icons {
+        bottom: 10px; /* Adjust the bottom position for smaller screens */
+        right: 10px; /* Adjust the right position for smaller screens */
+    }
+    .fixed-icons i {
+        font-size: 25px; /* Further reduce the size of the icon for smaller screens */
+    }
+}
 </style>
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
 
@@ -2202,6 +2211,7 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
 		</section>
 				</div>
 		</div> <!-- End #section-body -->
+		
 <footer class="footer-wrap footer">
 	
 	<div class="footer-top-wrap">
