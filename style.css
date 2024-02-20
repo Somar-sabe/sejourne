@@ -465,19 +465,19 @@ line-height: 47px;
   }
   
   .header-nav {
-    background-color: #ffffff;
-    border-bottom: 1px solid #d8dce1;
+    background-color: transparent;
+  
   }
 
   .navi > .main-menu > li > a {
-    background-color: #ffffff;
+    background-color: transparent;
   }
   .navi > .main-menu > li > a,
   .header-mobile .btn-mobile-nav {
     color: #4f5962;
   }
   .navi > .main-menu > li > a:hover, .navi > .main-menu > li > a:active {
-    background-color: #ffffff;
+    background-color: transparent;
   }
   .navi > .main-menu > li > a:hover, .navi > .main-menu > li > a:active,
   .navi .homey-megamenu-wrap > .sub-menu a:hover,
@@ -516,17 +516,17 @@ line-height: 47px;
 
 .header-type-2 .top-inner-header,
 .header-type-3 .top-inner-header {
-background-color: #ffffff;
+  background-color: transparent;
 border-bottom: 1px solid #d8dce1;
 }
 
 .header-type-2 .bottom-inner-header {
-background-color: #ffffff;
+  background-color: transparent;
 border-bottom: 1px solid #d8dce1;
 }
 
 .header-type-3 .bottom-inner-header {
-background-color: #ffffff;
+  background-color: transparent;
 border-bottom: 1px solid #d8dce1;
 }
 .login-register a,
@@ -578,13 +578,13 @@ color: #4f5962;
   .header-nav .menu-dropdown a,
   .header-nav .sub-menu a {
     color: #4f5962;
-    background-color: #ffffff;
+    background-color: transparent;
     border-bottom: 1px solid #f7f7f7;
   }
   .header-nav .menu-dropdown a:hover,
   .header-nav .sub-menu a:hover {
     color: #f15e75;
-    background-color: #ffffff;
+    background-color: transparent;
   }
   .header-nav .menu-dropdown li.active > a,
   .header-nav .sub-menu li.active > a {
