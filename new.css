@@ -462,7 +462,7 @@
     }
     .navi > .main-menu > li > a,
     .header-mobile .btn-mobile-nav {
-      color: #4f5962;
+      color: #000000;
     }
     .navi > .main-menu > li > a:hover, .navi > .main-menu > li > a:active {
       background-color: transparent;
@@ -710,14 +710,14 @@ span.side-nav-trigger {
     }
     
     .footer-top-wrap {
-      background-color: #ffffff;
-      color: #000000;
+      background-color: #323231;
+      color: #ffffff;
     }
 
     .footer-bottom-wrap,
     .footer-small {
-      background-color: #ffffff;
-      color: #000000;
+      background-color: #323231;
+      color: #ffffff;
     }
 
     .footer .social-icons a,
@@ -725,7 +725,7 @@ span.side-nav-trigger {
     .footer .title a,
     .widget-latest-posts .post-author, 
     .widget-latest-posts .post-author a {
-      color: #000000;
+      color: #ffffff;
     }
 
     .footer .social-icons a:hover,
@@ -735,7 +735,7 @@ span.side-nav-trigger {
     }
 
     .footer-copyright {
-      color: #000000;
+      color: #ffffff;
     }
     
     .label-featured {
