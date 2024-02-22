@@ -6,6 +6,19 @@
     	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="https://sejourne.ae/xmlrpc.php">
+    <!-- Slick Carousel CSS -->
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css"/>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Slick Carousel CSS -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
 
     	<title>Sejourne – Luxury Holiday Homes - Sejourne - Luxury Holiday Homes | Luxury short term rentals in Dubai</title>
 		<meta name="description" content="Our Featured Homes Hand-picked selection of quality places Featured $525/night BOTANICA TOWER, DUBAI MARINA PARTIAL MARINA VIEW Apartment Hosted by Jerry Coleman Compare Remove from Favorite Average Featured $455/night Spacious Family Home House Hosted by Crystal Elliott Compare Remove from Favorite Excellent Featured $129/night Confy Designer Room Bed &amp; Breakfast Hosted by Rose Burke Compare Add to Favorite" />
@@ -1386,7 +1399,7 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
                                                     <span class="label-wrap top-left">
                                                         <span class="label label-featured">Featured</span>
                                                     </span>
-                                                    <a class="hover-effect" href="#">
+                                                    <a class="hover-effect" >
                                                         <img loading="lazy" decoding="async" width="450" height="300" src="${apartment.image}" class="img-responsive wp-post-image" alt="" />
                                                     </a>
                                                     <div class="item-media-price">
@@ -1403,7 +1416,7 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
                                             <div class="media-body item-body clearfix">
                                                 <div class="item-title-head">
                                                     <div class="title-head-left">
-                                                        <h2 class="title"><a href="#">${apartment.name}</a></h2>
+                                                        <h2 class="title"><a>${apartment.name}</a></h2>
                                                         <address class="item-address">${apartment.location}</address>
                                                     </div>
                                                 </div>
@@ -1443,7 +1456,7 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
                                                     <div class="footer-left">
                                                         <div class="stars">
                                                             <div class="rating">
-                                                                ${Array.from({ length: apartment.rating }, () => '<i class="fas fa-star"></i>').join('')}<span class="star-text-right">${apartment.rating} - <a href="#">${apartment.reviews} Reviews</a></span>
+                                                                ${Array.from({ length: apartment.rating }, () => '<i class="fas fa-star"></i>').join('')}<span class="star-text-right">${apartment.rating} - <a >${apartment.reviews} Reviews</a></span>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1480,49 +1493,12 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
 				</div>
 				<div class="elementor-element elementor-element-6ec5effe elementor-widget elementor-widget-homey_elementor_section_title" data-id="6ec5effe" data-element_type="widget" data-widget_type="homey_elementor_section_title.default">
 				<div class="elementor-widget-container">
-					<div class="homey_section_title_wrap_elementor homey-module module-title section-title-module">
-						<h2 class="homey_section_title animated slideInFromLeft" data-translate="trending" style="color:#f15e75;">Trending Destinations</h2>
-						<p class="homey_section_subtitle sub-heading animated slideInFromLeft" data-translate="explore">Explore our selection of the best places around Dubai</p>
-					</div>
-                     <style>
-                      @keyframes slideInFromLeft {
-    0% {
-        transform: translateX(-100%);
-        opacity: 0;
-    }
-    100% {
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
-
-.slide-in {
-    animation: slideInFromLeft 0.5s ease-out forwards;
-}
-		 </style>	
-		 <script>
-			document.addEventListener("DOMContentLoaded", function() {
-            window.addEventListener("scroll", function() {
-            var elementsToShow = document.querySelectorAll(".slide-in");
-            for (var i = 0; i < elementsToShow.length; i++) {
-            if (isElementInViewport(elementsToShow[i])) {
-                elementsToShow[i].classList.add("visible");
-            }
-        }
-    });
-
-    function isElementInViewport(el) {
-        var rect = el.getBoundingClientRect();
-        return (
-            rect.top >= 0 &&
-            rect.left >= 0 &&
-            rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-            rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-        );
-    }
-});
-
-					 </script>				
+                    <div class="homey_section_title_wrap_elementor homey-module module-title section-title-module">
+                        <h2 class="homey_section_title slide-in" data-translate="trending" style="color:#f15e75;">Trending Destinations</h2>
+                        <p class="homey_section_subtitle sub-heading slide-in" data-translate="explore">Explore our selection of the best places around Dubai</p>
+                    </div>
+                    
+                      
             		</div>
 				</div>
 				<div class="elementor-element elementor-element-65c1c82b elementor-widget elementor-widget-homey_elementor_space" data-id="65c1c82b" data-element_type="widget" data-widget_type="homey_elementor_space.default">
@@ -1631,6 +1607,24 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
 		</div>
 					</div>
 		</section>
+        <style>
+            /* Custom CSS for Animation */
+            @keyframes slideInFromLeft {
+                0% {
+                    transform: translateX(-100%);
+                    opacity: 0;
+                }
+                100% {
+                    transform: translateX(0);
+                    opacity: 1;
+                }
+            }
+        
+            .elementor-section {
+                animation: slideInFromLeft 1s ease-in-out forwards;
+            }
+        </style>
+        
 				<section class="elementor-section elementor-top-section elementor-element elementor-element-f20c963 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-invisible" data-id="f20c963" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeIn&quot;}">
 						<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2d6a83d" data-id="2d6a83d" data-element_type="column">
@@ -1735,89 +1729,261 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
 		</div>
 					</div>
 		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-7b70de15 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-invisible" data-id="7b70de15" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeIn&quot;}">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-868961b" data-id="868961b" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-						<div class="elementor-element elementor-element-75d6f985 elementor-widget elementor-widget-spacer" data-id="75d6f985" data-element_type="widget" data-widget_type="spacer.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-spacer">
-			<div class="elementor-spacer-inner"></div>
-		</div>
-				</div>
-				</div>
-				<div class="elementor-element elementor-element-38cf98ce elementor-widget elementor-widget-homey_elementor_section_title" data-id="38cf98ce" data-element_type="widget" data-widget_type="homey_elementor_section_title.default">
-				<div class="elementor-widget-container">
-			            <div class="homey_section_title_wrap_elementor homey-module module-title section-title-module">
-                                    <h2 class="homey_section_title" data-translate="hearfrom" style="color:#f15e75;">Hear From Our Hosts</h2>
-                                    <p class="homey_section_subtitle sub-heading" data-translate="thebiggest">The biggest reward is to satisfy our clients and share their experience with us</p>
+				
+        
+
+
+        <div class="testimonial_wrap">
+            <div class="container">
+                <div class="heading">
+                    <h2 >Testimonials</h2>
+                </div>
+                <div class="testimonial_slider">
+                    <!-- Testimonial slides here -->
+                    <div class="details white-bg">
+                        <div class="testimonials_img_and_title">
+                            <img src="https://famliving.com/images/1624449178.jpeg" class="img-fluid testimonials_people">
+                            <h3 class="color_black">Dina Tsvetkova</h3>
+                            <div class="quotes_img">
+                                <img src="https://famliving.com/assets/images/quote.png" class="quote">
                             </div>
-            		</div>
-				</div>
-				<div class="elementor-element elementor-element-135c8c53 elementor-widget elementor-widget-homey_elementor_testimonials" data-id="135c8c53" data-element_type="widget" data-widget_type="homey_elementor_testimonials.default">
-				<div class="elementor-widget-container">
-        <!--start testimonials module-->
-            <div class="module-wrap testimonials-module">
-                <div class="row ">
-                      <div class="col-xs-12 col-sm-6 col-md-3">
-						<div class="testimonial-item text-center">
-					<p class="description" data-translate="fantastic">the manger is very cool , nice employers communication with very helpful environment</p><div class="testimonial-thumb">
-						<img loading="lazy" decoding="async" width="120" height="120" src="https://sejourne.ae/wp-content/uploads/2018/10/HomeyHost21-150x150.jpg" class="img-circle img-responsive" alt="" srcset="https://sejourne.ae/wp-content/uploads/2018/10/HomeyHost21-150x150.jpg 150w, https://sejourne.ae/wp-content/uploads/2018/10/HomeyHost21-300x300.jpg 300w, https://sejourne.ae/wp-content/uploads/2018/10/HomeyHost21-285x285.jpg 285w, https://sejourne.ae/wp-content/uploads/2018/10/HomeyHost21-250x250.jpg 250w, https://sejourne.ae/wp-content/uploads/2018/10/HomeyHost21-360x360.jpg 360w, https://sejourne.ae/wp-content/uploads/2018/10/HomeyHost21.jpg 400w" sizes="(max-width: 120px) 100vw, 120px" /></div><p class="auther-info"><strong>Anna Andrews</strong><br><em>Homey Host</em></p></div></div><div class="col-xs-12 col-sm-6 col-md-3"><div class="testimonial-item text-center">
-							<p class="description" data-translate="holidayever">The best holiday ever it to contact with sejourny company was one of the best choices that i made it to make this holiday preety cool</p><div class="testimonial-thumb">
-								<img loading="lazy" decoding="async" width="120" height="120" src="https://sejourne.ae/wp-content/uploads/2018/10/HomeyHost23-1-150x150.jpg" class="img-circle img-responsive" alt="" srcset="https://sejourne.ae/wp-content/uploads/2018/10/HomeyHost23-1-150x150.jpg 150w, https://sejourne.ae/wp-content/uploads/2018/10/HomeyHost23-1-300x300.jpg 300w, https://sejourne.ae/wp-content/uploads/2018/10/HomeyHost23-1-285x285.jpg 285w, https://sejourne.ae/wp-content/uploads/2018/10/HomeyHost23-1-250x250.jpg 250w, https://sejourne.ae/wp-content/uploads/2018/10/HomeyHost23-1-360x360.jpg 360w, https://sejourne.ae/wp-content/uploads/2018/10/HomeyHost23-1.jpg 400w" sizes="(max-width: 120px) 100vw, 120px" /></div><p class="auther-info"><strong>Harold Warren</strong><br><em>Homey Host</em></p></div></div><div class="col-xs-12 col-sm-6 col-md-3"><div class="testimonial-item text-center">
-						<p class="description" data-translate="fantastic">perfect situation of be company that want to be honest with you , they will help you to have good holliday step by step with you  </p>
-						<div class="testimonial-thumb">
-							<img loading="lazy" decoding="async" width="120" height="120" src="https://sejourne.ae/wp-content/uploads/2018/10/HomeyHost07-150x150.jpg" class="img-circle img-responsive" alt="" srcset="https://sejourne.ae/wp-content/uploads/2018/10/HomeyHost07-150x150.jpg 150w, https://sejourne.ae/wp-content/uploads/2018/10/HomeyHost07-300x300.jpg 300w, https://sejourne.ae/wp-content/uploads/2018/10/HomeyHost07-285x285.jpg 285w, https://sejourne.ae/wp-content/uploads/2018/10/HomeyHost07-250x250.jpg 250w, https://sejourne.ae/wp-content/uploads/2018/10/HomeyHost07-360x360.jpg 360w, https://sejourne.ae/wp-content/uploads/2018/10/HomeyHost07.jpg 400w" sizes="(max-width: 120px) 100vw, 120px" /></div><p class="auther-info"><strong>Michelle Wright</strong><br><em>Homey Host</em></p></div></div><div class="col-xs-12 col-sm-6 col-md-3"><div class="testimonial-item text-center">
-								<p class="description" data-translate="fantastic">Fantastic company to deal with , nice employers communication honsetly and loyallit to ther costomers they make more interisting  </p>
-									<div class="testimonial-thumb">
-							<img loading="lazy" decoding="async" width="120" height="120" src="https://sejourne.ae/wp-content/uploads/2018/10/02-1-1-150x150.jpg" class="img-circle img-responsive" alt="" /></div>
-							<p class="auther-info"><strong>Mike Forward</strong><br><em>Homey Host</em></p></div></div>                    
-           
-						</div>
+                        </div>
+                        <p class="color_black">My family & me had a wonderful experience in Sarai apartments during UK lockdown for two months. I would definitely recommend this place for those who visit Dubai specially for a long term with family.</p>
+                    </div>
+                    <div class="details white-bg">
+                        <div class="testimonials_img_and_title">
+                            <img src="https://famliving.com/images/1625581154.jpeg" class="img-fluid testimonials_people">
+                            <h3 class="color_black">marry bugota</h3>
+                            <div class="quotes_img">
+                                <img src="https://famliving.com/assets/images/quote.png" class="quote">
+                            </div>
+                        </div>
+                        <p class="color_black">My family & me had a wonderful experience in Sarai apartments during UK lockdown for two months. I would definitely recommend this place for those who visit Dubai specially for a long term with family.</p>
+                    </div>
+                    <div class="details white-bg">
+                        <div class="testimonials_img_and_title">
+                            <img src="https://famliving.com/images/1624189274.jpeg" class="img-fluid testimonials_people">
+                            <h3 class="color_black">oliva mashkova</h3>
+                            <div class="quotes_img">
+                                <img src="https://famliving.com/assets/images/quote.png" class="quote">
+                            </div>
+                        </div>
+                        <p class="color_black">My family & me had a wonderful experience in Sarai apartments during UK lockdown for two months. I would definitely recommend this place for those who visit Dubai specially for a long term with family.</p>
+                    </div>
+                    <div class="details white-bg">
+                        <div class="testimonials_img_and_title">
+                            <img src="https://famliving.com/images/1625581962.jpeg" class="img-fluid testimonials_people">
+                            <h3 class="color_black">Eisa marjan</h3>
+                            <div class="quotes_img">
+                                <img src="https://famliving.com/assets/images/quote.png" class="quote">
+                            </div>
+                        </div>
+                        <p class="color_black">My family & me had a wonderful experience in Sarai apartments during UK lockdown for two months. I would definitely recommend this place for those who visit Dubai specially for a long term with family.</p>
+                    </div>
+                    <div class="details white-bg">
+                        <div class="testimonials_img_and_title">
+                            <img src="https://famliving.com/images/1624449178.jpeg" class="img-fluid testimonials_people">
+                            <h3 class="color_black">lana khatrine</h3>
+                            <div class="quotes_img">
+                                <img src="https://famliving.com/assets/images/quote.png" class="quote">
+                            </div>
+                        </div>
+                        <p class="color_black">My family & me had a wonderful experience in Sarai apartments during UK lockdown for two months. I would definitely recommend this place for those who visit Dubai specially for a long term with family.</p>
+                    </div>
+
+                </div>
             </div>
-                <!--end post testimonials module-->
-        		</div>
-				</div>
-			<style>
-				.testimonial-container {
-    white-space: nowrap;
-    overflow: hidden;
-}
+        </div>
+        
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('.testimonial_slider').slick({
+                    autoplay: true,
+                    autoplaySpeed: 4000,
+                    prevArrow: '<button type="button" class="slick-prev slick-arrow" aria-label="Previous">Previous</button>',
+                    nextArrow: '<button type="button" class="slick-next slick-arrow" aria-label="Next">Next</button>'
+                });
+            });
+        </script>
+<style>
+    /* Custom CSS for Testimonials */
+    .testimonial_wrap {
+        text-align: center;
+        background-color: #f5f5f5;
+        padding: 50px 0;
+    }
+    .testimonial_wrap .container {
+        max-width: 800px;
+        margin: 0 auto;
+        position: relative; /* Add position relative to the container */
+    }
+    .testimonial_wrap .heading h2 {
+        font-size: 28px;
+        font-weight: bold;
+        color: #333;
+    }
+    .testimonial_wrap .testimonial_slider {
+        margin-top: 30px;
+    }
+    .testimonial_wrap .testimonial_slider img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 50%;
+    }
+    .testimonial_wrap .slick-prev,
+    .testimonial_wrap .slick-next {
+        background-color: #333;
+        color: #fff;
+        border: none;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        font-size: 24px;
+        line-height: 40px;
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 1;
+    }
+    .testimonial_wrap .slick-prev {
+        left: 20px; /* Adjust the left distance */
+    }
+    .testimonial_wrap .slick-next {
+        right: 20px; /* Adjust the right distance */
+    }
+</style>
 
-.testimonial-item {
-    display: inline-block;
-    margin-right: 20px; /* Adjust spacing between testimonial items as needed */
-}
-			</style>
-			<script>
-				document.addEventListener("DOMContentLoaded", function() {
-    const testimonialItems = document.querySelectorAll('.testimonial-item');
-    const containerWidth = document.querySelector('.testimonial-container').offsetWidth;
-    const itemWidth = testimonialItems[0].offsetWidth;
-    const totalWidth = Array.from(testimonialItems).reduce((acc, item) => acc + item.offsetWidth, 0);
 
-    const animationDuration = totalWidth * 10; // Adjust animation duration as needed
+<section class="container-fluid service-offered">
+    <div class="container">
+        <div class="row ">
+           <div class="col-md-12 ">
+               <div class="heading">
+                    <h2 style="margin-top: 30px; color: pink;">Services</h2>
+                </div>
+            </div>
+        </div>
 
-    testimonialItems.forEach(item => {
-        item.style.animation = `moveLeftToRight ${animationDuration}ms linear infinite`;
-        item.addEventListener('animationiteration', function() {
-            item.style.transform = `translateX(${containerWidth}px)`;
-        });
-    });
-});
+        <div class="row border_bottom">
+            <div class="col-md-3 icon_middel_box col-12">
+                <div class="service-process">
+                    <div class="process-icon">
+                        <i class="fas fa-broom"></i> <!-- Housekeeping icon -->
+                    </div>
+                    <h4>Housekeeping</h4>
+                </div>
+            </div>
+            <div class="col-md-3 icon_middel_box col-12">
+                <div class="service-process">
+                    <div class="process-icon">
+                        <i class="fas fa-tshirt"></i> <!-- Laundry icon -->
+                    </div>
+                    <h4>Laundry</h4>
+                </div>
+            </div>
+            <div class="col-md-3 icon_middel_box col-12">
+                <div class="service-process">
+                    <div class="process-icon">
+                        <i class="fas fa-store"></i> <!-- Commercial Services icon -->
+                    </div>
+                    <h4>Commercial Services</h4>
+                </div>
+            </div>
+            <div class="col-md-3 icon_middel_box col-12">
+                <div class="service-process">
+                    <div class="process-icon">
+                        <i class="fas fa-car"></i> <!-- Car Rental icon -->
+                    </div>
+                    <h4>Car Rental</h4>
+                </div>
+            </div>
+        </div>
 
-			</script>
-				<div class="elementor-element elementor-element-5ee43980 elementor-widget elementor-widget-spacer" data-id="5ee43980" data-element_type="widget" data-widget_type="spacer.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-spacer">
-			<div class="elementor-spacer-inner"></div>
-		</div>
-				</div>
-				</div>
-					</div>
-		</div>
-					</div>
-		</section>
+        <div class="row border_bottom out-goin">
+            <div class="row border_bottom">
+                <!-- Butler -->
+                <div class="col-md-3 icon_middel_box col-12">
+                    <div class="service-process">
+                        <div class="process-icon">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                        <h4>Butler</h4>
+                    </div>
+                </div>
+            
+                <!-- Furniture Storage (Hidden) -->
+                <div class="col-md-3 icon_middel_box col-12 d-none">
+                    <div class="service-process">
+                        <div class="process-icon">
+                            <i class="fas fa-couch"></i>
+                        </div>
+                        <h4>Furniture Storage</h4>
+                    </div>
+                </div>
+            
+                <!-- City Concierge -->
+                <div class="col-md-3 icon_middel_box col-12">
+                    <div class="service-process">
+                        <div class="process-icon">
+                            <i class="fas fa-city"></i>
+                        </div>
+                        <h4>City Concierge</h4>
+                    </div>
+                </div>
+            
+                <!-- Baby Sitter -->
+                <div class="col-md-3 icon_middel_box col-12">
+                    <div class="service-process">
+                        <div class="process-icon">
+                            <i class="fas fa-baby"></i>
+                        </div>
+                        <h4>Baby Sitter</h4>
+                    </div>
+                </div>
+            
+                <!-- Airport Shuttle -->
+                <div class="col-md-3 icon_middel_box col-12">
+                    <div class="service-process">
+                        <div class="process-icon">
+                            <i class="fas fa-shuttle-van"></i>
+                        </div>
+                        <h4>Airport Shuttle</h4>
+                    </div>
+                </div>
+            </div>
+            
+        <div class="row out-goin">
+        </div>
+    </div>
+
+</section>
+<style>
+    .service-process {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .process-icon {
+        font-size: 40px;
+        color: #f15e75; /* Customize the icon color */
+        margin-bottom: 10px;
+    }
+    
+    .service-process h4 {
+        font-size: 18px;
+    }
+    
+    @media (max-width: 767.98px) {
+        .icon_middel_box {
+            flex: 0 0 100%;
+            max-width: 100%;
+            text-align: center;
+        }
+    }
+</style>
 				<section class="elementor-section elementor-top-section elementor-element elementor-element-3010b471 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-invisible" data-id="3010b471" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeIn&quot;}">
 						<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4a076ca1" data-id="4a076ca1" data-element_type="column">
@@ -1843,23 +2009,7 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
 		</div>
 					</div>
 		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-9bc47ae elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-invisible" data-id="9bc47ae" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeIn&quot;}">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-de89d7a" data-id="de89d7a" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-						<div class="elementor-element elementor-element-94199d0 elementor-widget elementor-widget-spacer" data-id="94199d0" data-element_type="widget" data-widget_type="spacer.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-spacer">
-			<div class="elementor-spacer-inner"></div>
-		</div>
-				</div>
-				</div>
 
-
-	</div>
-</div>
-</div>
-		</section>
 	
 		<style>
 			.partner-thumb img {
@@ -2017,6 +2167,7 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
 		</div>
 	</div>
     </footer>
+
 <div id="overlay-search-advanced-module" class="overlay-search-module mobile-search-js-overlay overlay-search-advanced-module overlay-search-contentscale">
     <div class="overlay-search-title" data-translate='search'>Search</div>
     <button type="button" class="overlay-search-module-close btn-blank"><i class="fas fa-times" aria-hidden="true"></i></button>
@@ -2360,7 +2511,12 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
 	            	<span class="day-number">29</span>
 	            </li><li data-timestamp="1719705600" data-formatted-date="2024-06-30" class="current-month future-day">
 	            	<span class="day-number">30</span>
-	            </li></ul></div><div class="main-search-calendar-wrap right-calendar" data-month = "6" style="display:none;"><div class="month clearfix"><h4>July <span>2024</span></h4></div><ul class="weekdays clearfix"><li data-dayName = "Monday">M</li><li data-dayName = "Tuesday">T</li><li data-dayName = "Wednesday">W</li><li data-dayName = "Thursday">T</li><li data-dayName = "Friday">F</li><li data-dayName = "Saturday">S</li><li data-dayName = "Sunday">S</li></ul><ul class="days clearfix"><li data-timestamp="1719792000" data-formatted-date="2024-07-01" class="current-month future-day">
+	            </li></ul></div><div class="main-search-calendar-wrap right-calendar" data-month = "6" style="display:none;">
+                    <div class="month clearfix"><h4>July <span>2024</span></h4></div><ul class="weekdays clearfix">
+                        <li data-dayName = "Monday">M</li><li data-dayName = "Tuesday">T</li><li data-dayName = "Wednesday">W</li>
+                        <li data-dayName = "Thursday">T</li><li data-dayName = "Friday">F</li><li data-dayName = "Saturday">S</li>
+                        <li data-dayName = "Sunday">S</li></ul><ul class="days clearfix">
+                            <li data-timestamp="1719792000" data-formatted-date="2024-07-01" class="current-month future-day">
 	            	<span class="day-number">1</span>
 	            </li><li data-timestamp="1719878400" data-formatted-date="2024-07-02" class="current-month future-day">
 	            	<span class="day-number">2</span>
@@ -2422,7 +2578,19 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
 	            	<span class="day-number">30</span>
 	            </li><li data-timestamp="1722384000" data-formatted-date="2024-07-31" class="current-month future-day">
 	            	<span class="day-number">31</span>
-	            </li></ul></div><div class="main-search-calendar-wrap left-calendar" data-month = "7" style="display:none;"><div class="month clearfix"><h4>August <span>2024</span></h4></div><ul class="weekdays clearfix"><li data-dayName = "Monday">M</li><li data-dayName = "Tuesday">T</li><li data-dayName = "Wednesday">W</li><li data-dayName = "Thursday">T</li><li data-dayName = "Friday">F</li><li data-dayName = "Saturday">S</li><li data-dayName = "Sunday">S</li></ul><ul class="days clearfix"><li class="prev-month"></li><li class="prev-month"></li><li class="prev-month"></li><li data-timestamp="1722470400" data-formatted-date="2024-08-01" class="current-month future-day">
+	            </li></ul></div><div class="main-search-calendar-wrap left-calendar" data-month = "7" style="display:none;">
+                    <div class="month clearfix"><h4>August <span>2024</span></h4></div>
+                    <ul class="weekdays clearfix">
+                        <li data-dayName = "Monday">M</li>
+                        <li data-dayName = "Tuesday">T</li>
+                        <li data-dayName = "Wednesday">W</li>
+                        <li data-dayName = "Thursday">T</li>
+                        <li data-dayName = "Friday">F</li>
+                        <li data-dayName = "Saturday">S</li>
+                        <li data-dayName = "Sunday">S</li></ul>
+                        <ul class="days clearfix">
+                        <li class="prev-month"></li><li class="prev-month"></li><li class="prev-month"></li>
+                        <li data-timestamp="1722470400" data-formatted-date="2024-08-01" class="current-month future-day">
 	            	<span class="day-number">1</span>
 	            </li><li data-timestamp="1722556800" data-formatted-date="2024-08-02" class="current-month future-day">
 	            	<span class="day-number">2</span>
