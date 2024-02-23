@@ -203,6 +203,67 @@ ul {
     list-style-type: none;
     padding-left: 0; /* Optional: Remove default left padding */
 }
+.container {
+    display: flex;
+    align-items: flex-start; /* Adjust alignment as needed */
+}
+
+.image-container, .form-container {
+    flex: 1;
+    padding: 20px; /* Adjust padding as needed */
+}
+
+/* Additional styling for form fields if required */
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.image-container {
+    flex: 1;
+}
+
+.form-container {
+    flex: 1;
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+a {
+    text-decoration: none;
+}
 </style>
 
 
@@ -302,23 +363,33 @@ ul {
                                                                             <div class="css-1gzxeik" style="animation-delay: 0ms;"><div class=""><p class="hs-4">Count <strong> how much</strong> you<br> <strong> can earn </strong> daily on average</p>
 </div></div></div></div></div></div></div></div>
 
-
-<div class="EstimateRevenueCalculator_imageAsideContainer__vUNAt">
-    <span style="box-sizing: border-box; display: inline-block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"><span style="box-sizing: border-box; display: block; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;">
-        <img alt="" aria-hidden="true" src="estimate.jpeg"  style="display: block; max-width: 50%; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"></span>
-        <img alt="IMG_6058-HDR" src="estimate.jpeg" decoding="async" data-nimg="intrinsic" srcset="estimate.jpeg" style="position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"></span></div>
-<div class="EstimateRevenueCalculator_contactContainer__JI_cT">
-    <div class="Contact_formContainer__ltyv5 "><h2 class="hs-4">Sign up today and start making money</h2>
-    <form novalidate="" form-id="contact-form-1">
-        <div class="Contact_estimateRevenueForm__j1urp">
-            <div class="Contact_estimateRevenueFormColumn__ymymj">
-                <div class="mantine-InputWrapper-root mantine-TextInput-root mantine-1vc5g8">
-        <div class="mantine-Input-wrapper mantine-TextInput-wrapper mantine-157xou4">
-            <input class="mantine-Input-input mantine-TextInput-input mantine-1s8gum3" id="mantine-r7" type="text" placeholder=" Name" name="name" data-cy="estimateRevName" aria-invalid="false" value=""></div></div><div class="mantine-InputWrapper-root mantine-TextInput-root mantine-1vc5g8"><div class="mantine-Input-wrapper mantine-TextInput-wrapper mantine-157xou4"><input class="mantine-Input-input mantine-TextInput-input mantine-1s8gum3" id="mantine-r8" type="email" placeholder="E-mail" name="email" data-cy="estimateRevEmail" aria-invalid="false" value=""></div></div><div class="mantine-InputWrapper-root mantine-TextInput-root mantine-1vc5g8"><div class="mantine-Input-wrapper mantine-TextInput-wrapper mantine-157xou4"><input class="mantine-Input-input mantine-TextInput-input mantine-1s8gum3" id="mantine-r9" type="text" placeholder="Phone Number" name="phone" data-cy="estimateRevPhone" aria-invalid="false" value=""></div></div></div>
-    <div class="Contact_estimateRevenueFormColumn__ymymj">
-        <div class="mantine-InputWrapper-root mantine-Textarea-root mantine-1vc5g8">
-            <div class="mantine-Input-wrapper mantine-Textarea-wrapper mantine-157xou4">
-                <textarea class="mantine-Input-input mantine-Textarea-input mantine-175lpx8" id="mantine-ra" placeholder="Tell us more about your property" name="message" type="text" data-cy="estimateRevMessage" rows="3" aria-invalid="false"></textarea></div></div><div class="Contact_buttonContainer__29__Q"><button class="mantine-UnstyledButton-root mantine-Button-root mantine-15e5s63" type="submit" data-button="true" data-cy="estimateRevButton" css="[object Object]"><div class="mantine-3xbgk5 mantine-Button-inner"><span class="mantine-qo1k2 mantine-Button-label"><div style="color: white;">Call me back</div></span></div></button><div></div></div></div></div></form></div></div>
+<div class="container">
+    <div class="image-container">
+        <img alt="" aria-hidden="true" src="estimate.jpeg" style="display: inline-block; max-width: 50%; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;">
+    </div>
+    <div class="form-container">
+        <h2 class="hs-4">Sign up today and start making money</h2>
+        <form novalidate="" form-id="contact-form-1" style="display: inline-block;">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Name">
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="E-mail">
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="text" id="phone" name="phone" placeholder="Phone Number">
+            </div>
+            <div class="form-group">
+                <label for="message">Tell us more about your property</label>
+                <textarea id="message" name="message" placeholder="Tell us more about your property"></textarea>
+            </div>
+            <button type="submit">Call me back</button>
+        </form>
+    </div>
+</div>
 <footer class="footer-wrap footer" style="background-color: black !important; color: #ffffff !important;">
 	
 	<div class="footer-top-wrap">
