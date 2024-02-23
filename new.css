@@ -462,7 +462,7 @@ body, address, li, dt, dd, .pac-container, .control  {
     }
     .navi > .main-menu > li > a,
     .header-mobile .btn-mobile-nav {
-      color: #000000;
+      color: #ffffff;
     }
     .navi > .main-menu > li > a:hover, .navi > .main-menu > li > a:active {
       background-color: transparent;
