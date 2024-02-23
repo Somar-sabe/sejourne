@@ -311,7 +311,7 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
 
 <li id="menu-item-4610" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4610"><a href="monthly.html">Monthly stay</a></li>
 <li id="menu-item-4610" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4610"><a href="yearly.html">Yearly rental</a></li>
-<li id="menu-item-4610" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4610"><a>Properity owners</a></li>
+<li id="menu-item-4610" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4610"><a href="propowners.html">Properity owners</a></li>
 <li id="menu-item-4610" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4610"><a href="estimate.html">Estimate-revenue</a></li>
 
 <li id="menu-item-4611" style="margin-top: 20px;" class="mobile-menu menu-item menu-item-type-custom menu-item-object-custom menu-item-4611">
@@ -391,15 +391,15 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
                             <a data-translate="monthlysalary" href="monthly.html" >Monthly stay</a>	
                         </li>
 						<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4609">
-                            <a data-translate="yearlyrental" >yearly rental</a>
+                            <a data-translate="yearlyrental" href="yearly.html" >yearly rental</a>
 							
                         </li>
 						<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4609">
-                            <a data-translate="propertyowners" >Properity owners</a>
+                            <a data-translate="propertyowners" href="propowners.html" >Properity owners</a>
 							
                         </li>
 						<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4609">
-                            <a data-translate="estimaterevenue" >Estimate revenue</a>
+                            <a data-translate="estimaterevenue" href="estimate.html">Estimate revenue</a>
 							
                         </li>
                         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4611 mobile-menu">
@@ -1328,7 +1328,16 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
 		</div>
 		</div>
 					</div>
-                    
+                    <style>
+                        #homey-listing-carousel-DzmdNhKBe0 .item-wrap {
+                            transform: scale(0.8); /* Reduce the size of all apartments */
+                            transition: transform 0.3s ease;
+                        }
+                        #homey-listing-carousel-DzmdNhKBe0 .item-wrap.center {
+                            transform: scale(1); /* Enlarge the middle apartment */
+                            z-index: 1; /* Ensure it's on top of others */
+                        }
+                    </style>
                     <script>
                         document.addEventListener("DOMContentLoaded", function() {
                             const data = [
@@ -1658,7 +1667,7 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
 				<div class="elementor-element elementor-element-6b10cdaa elementor-widget elementor-widget-homey_elementor_section_title" data-id="6b10cdaa" data-element_type="widget" data-widget_type="homey_elementor_section_title.default">
 				<div class="elementor-widget-container">
 			            <div class="homey_section_title_wrap_elementor homey-module module-title section-title-module">
-                                    <h2 class="homey_section_title" data-translate="findplace">Find a Place That Fits Your Comfort</h2>
+                                    <h2 class="homey_section_title" data-translate="findplace" style="color: #f15e75">Find a Place That Fits Your Comfort</h2>
                 
                             </div>
             		</div>
@@ -1883,7 +1892,7 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
         <div class="row ">
            <div class="col-md-12 ">
                <div class="heading">
-                    <h2 style="margin-top: 30px; color: #f15e75;">Services</h2>
+                    <h2 style="margin-top: 30px; color: #f15e75;text-align: center;">Services</h2>
                 </div>
             </div>
         </div>
@@ -2005,31 +2014,7 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
         }
     }
 </style>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-3010b471 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-invisible" data-id="3010b471" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeIn&quot;}">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4a076ca1" data-id="4a076ca1" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-						<div class="elementor-element elementor-element-05a0916 elementor-widget elementor-widget-spacer" data-id="05a0916" data-element_type="widget" data-widget_type="spacer.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-spacer">
-			<div class="elementor-spacer-inner"></div>
-		</div>
-				</div>
-				</div>
-			
-				<div class="elementor-element elementor-element-4a3cbeeb elementor-widget elementor-widget-homey_elementor_blog_posts" data-id="4a3cbeeb" data-element_type="widget" data-widget_type="homey_elementor_blog_posts.default">
-				<div class="elementor-widget-container">
-			
-        <div class="module-wrap blog-module">
-            <div class="row">
-             </div>
-        </div>
-        		</div>
-				</div>
-					</div>
-		</div>
-					</div>
-		</section>
+
 
 	
 		<style>
