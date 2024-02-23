@@ -46,11 +46,11 @@
 
 ::-webkit-scrollbar {
     width: 10px;
-    background-color: #58c3ba;
+    background-color: #c3589f;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #58c3ba;
+    background: #c3589f;
     border-radius: 10px;
 }
 
@@ -162,7 +162,7 @@ button {
 }
 
 a {
-    color: #58c3ba;
+    color: #c3589f;
 }
 
 a:hover {
@@ -295,7 +295,7 @@ i {
 
 .primary-button {
     display: inline-block;
-    background: #58c3ba;
+    background: #c358be;
     width: auto;
     padding: 12px 27px 11px;
     font-size: 1.125rem;
@@ -519,6 +519,12 @@ body .dropdown.show .dropdown-menu {
 #header > div {
     z-index: 15;
 }
+.fa-whatsapp {
+    color:#c3589f ;
+}
+.fa-phone {
+    color:#c3589f ;
+}
 
 #header.fixed-header {
     position: fixed;
@@ -592,8 +598,8 @@ body .dropdown.show .dropdown-menu {
 }
 
 .white-button {
-    background-color: #58c3ba;
-    border-color: #58c3ba;
+    background-color: #c3589f;
+    border-color: #c3589f;
     color: white;
     cursor: pointer;
     text-transform: capitalize;
@@ -660,7 +666,7 @@ body .white-button:hover {
 
 #header .main-menu a:hover .dropdown-item {
     background: none;
-    color: #58c3ba !important;
+    color: #c3589f !important;
     transition: all .5s;
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
@@ -936,7 +942,7 @@ h3.section-type:before{
 
 h3.section-type:after{
     width: 40px;
-    background-color: #58c3ba;
+    background-color: #c3589f;
     content: "";
     position: absolute;
     height: 2px;
@@ -1105,7 +1111,7 @@ body .featured-location .lorn_mord_btn:hover{
 }
 
 .footer-widgets .footer-menu li a:hover {
-    color: #58c3ba !important;
+    color: #c3589f !important;
     transition: all .5s;
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
@@ -1420,8 +1426,8 @@ body .featured-location .lorn_mord_btn:hover{
 }
 
 .featured-location:hover .hover-overlay a {
-    background: #58c3ba !important;
-    border-color: #58c3ba !important;
+    background: #c3589f !important;
+    border-color: #c3589f !important;
     transition: all .5s;
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
@@ -1467,7 +1473,7 @@ body .featured-location .lorn_mord_btn:hover{
 }
 
 .items-grid .item .data a:hover {
-    color: #58c3ba !important;
+    color: #c3589f !important;
 }
 
 .items-grid .item .main-image {
@@ -2030,8 +2036,8 @@ summary {
 .btn-transparent {
     border-radius: 50px;
     color: #fff;
-    border-color: #58c3ba;
-    background-color: #58c3ba00;
+    border-color: #c3589f;
+    background-color: #c3589f00;
     transition: all .5s;
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
@@ -2040,8 +2046,8 @@ summary {
 }
 
 .btn-transparent:hover {
-    background-color: #58c3ba;
-    border-color: #58c3ba;
+    background-color: #c3589f;
+    border-color: #c3589f;
     color: #fff;    
     transition: all .5s;
     -webkit-transition: all .5s;
@@ -2177,7 +2183,7 @@ input[type=submit] {
 }
 
 .table-blue {
-    background: #58c3ba;
+    background: #c3589f;
     color: #fff;
 }
 
@@ -2430,7 +2436,7 @@ body .famliiving_block {
     font-weight: 700;
     padding: 2px 8px;
     left: 21% !important;
-    color: #58c3ba;
+    color: #c3589f;
 }
 
 .label {
@@ -2560,7 +2566,7 @@ body .calendar-icon {
     left: 0;
     width: 60px;
     height: 2px;
-    background-color: #58c3ba;
+    background-color: #c3589f;
 }
 
 .work-process {
@@ -2580,7 +2586,7 @@ body .calendar-icon {
 }
 
 .primary-button:hover {
-    background-color: #58c3ba !important;
+    background-color: #c3589f !important;
     transition: all .5s;
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
@@ -2906,7 +2912,7 @@ body #header .main-menu li a::after {
     bottom: -7px;
     right: 0;
     width: 0;
-    background-color: #58c3ba;
+    background-color: #c3589f;
     content: "";
     height: 2px;
     transition: .5s;
@@ -3051,8 +3057,8 @@ body .fixed-header .main-menu li .white-button {
 }
 
 body .fixed-header .main-menu li .white-button:hover {
-    border-color: #58c3ba !important;
-    color: #58c3ba !important;
+    border-color: #c3589f !important;
+    color: #c3589f !important;
    	transition: all .5s;
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
@@ -3302,7 +3308,7 @@ body .footer-social .Secure-Payments{
 
 #top ul.top-menu > li i,
 #top ul.top-social > li i {
-    color: #58c3ba !important;
+    color: #c3589f !important;
     padding-right: 2px;
 }
 
@@ -3428,7 +3434,7 @@ body .main-container {
     margin: 70px auto !important;*/
 }
 .filter-box .input-group .fa{
-    color: #58c3ba  !important;
+    color: #c3589f  !important;
 }
 body .marginalized {
     padding-top: 0px !important;
@@ -3602,7 +3608,7 @@ body .fixed-header .lozadfade{
     	left: 15px !important;
 	}
 	.fixed-header .mobile-menu-button{
-		color: #58c3ba ;
+		color: #c3589f ;
 	}
 	.onmobile{
 		padding: 0px !important;	
@@ -3887,7 +3893,7 @@ body .fixed-header .lozadfade{
     content: '';
     width: 12px;
     height: 12px;
-    background: #58c3ba;
+    background: #c3589f;
     position: absolute;
     top: 3px;
     left: 3px;
@@ -3937,7 +3943,7 @@ body .fixed-header .lozadfade{
 }
 
 .fixed-header .mobile-menu-button i{
-    color: #58c3ba;
+    color: #c3589f;
 }
 
 @media (min-width: 768px) and (max-width: 991px){
@@ -4216,7 +4222,7 @@ body .tower-wrap .section-type {
 		padding: 0px !important;
 	}
 	.home-explore .mobile-menu-button{
-		color: #58c3ba;	
+		color: #c3589f;	
 	}
 	.home-explore .section-type{
     	font-size: 25px !important;
@@ -4938,7 +4944,7 @@ body .LOREM_TE{
     opacity: 1;
 }
 .fam_circle_inner_section ul li.active .fam_main_circle{
-    background-color: #58c3ba;
+    background-color: #c3589f;
 }
 
 .fam_main_circle_border .our_partners_title{
@@ -5207,7 +5213,7 @@ body .LOREM_TE{
     background-color: #f1f1f1 !important
 }
 .testimonial_slider .slick-dots li.slick-active span{
-    background-color: #58c3ba !important
+    background-color: #c3589f !important
 }
 
 @media screen and (max-width: 1300px){
@@ -5318,7 +5324,7 @@ body .LOREM_TE{
     padding: 10px 0px 10px !important;
 }
 .monthly-stays-wrap .item-property > span i {
-    color: #58c3ba;
+    color: #c3589f;
     margin-right: 5px;
     font-size: 14px;
 }
@@ -5379,7 +5385,7 @@ body .LOREM_TE{
 }
 .monthly-stays-wrap .locasun_block i{
     font-size: 16px !important;
-    color: #58c3ba;
+    color: #c3589f;
 }
 .monthly-stays-wrap .items-grid .item .main-image{
     max-height: 300px;
@@ -5513,7 +5519,7 @@ body .LOREM_TE{
     transition: all .3s;
 }
 .social-buttons a:hover i {
-    color: #58c3ba;
+    color: #c3589f;
 }
 /* Post section css End */
 
