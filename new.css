@@ -505,17 +505,17 @@ body, address, li, dt, dd, .pac-container, .control  {
  .header-type-2 .top-inner-header,
  .header-type-3 .top-inner-header {
   background-color: transparent;
-  border-bottom: 1px solid #d8dce1;
+  border-bottom: none;
 }
 
 .header-type-2 .bottom-inner-header {
   background-color: transparent;
-  border-bottom: 1px solid #d8dce1;
+  border-bottom: none;
 }
 
 .header-type-3 .bottom-inner-header {
   background-color: transparent;
-  border-bottom: 1px solid #d8dce1;
+  border-bottom: none;
 }
 .login-register a,
 .account-loggedin,
