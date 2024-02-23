@@ -7768,7 +7768,8 @@ button:active, button:hover, button:focus {
 .search-banner .search-button {
   width: auto;
   vertical-align: middle;
-  padding-right: 0px;
+  padding-right: 10px;
+  padding-left: 0px;
 }
 .search-banner .search-destination {
   min-width: 330px;
