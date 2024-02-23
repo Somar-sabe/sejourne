@@ -343,14 +343,14 @@ i {
 .header-container {
     /*background: url('../images/home/header-bg.jpg') no-repeat center center;*/
     background-size: cover;
-    padding-bottom: 40px;
+    padding-bottom: 10px;
     height: auto;
     overflow: hidden;
 }
 .home-layout .header-container {
     /*background: url('../images/home/header-bg.jpg') no-repeat center center !important;*/
     background-size: cover;
-    padding-bottom: 40px;
+    padding-bottom: 10px;
     height: 330px !important;
     width: 100%;
     overflow: hidden;
