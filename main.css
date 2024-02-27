@@ -9186,11 +9186,11 @@ button:active, button:hover, button:focus {
 /* footer
 /* ------------------------------------------------------------------------ */
 .footer-top-wrap {
-  padding: 100px 0 30px;
+  padding: 10px 0 30px;
 }
 @media (max-width: 768px) {
   .footer-top-wrap {
-    padding: 50px 0 30px;
+    padding: 5px 0 30px;
   }
 }
 
