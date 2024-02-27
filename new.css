@@ -462,7 +462,7 @@ body, address, li, dt, dd, .pac-container, .control  {
     }
     .navi > .main-menu > li > a,
     .header-mobile .btn-mobile-nav {
-      color: #ffffff;
+      color: #000000;
     }
     .navi > .main-menu > li > a:hover, .navi > .main-menu > li > a:active {
       background-color: transparent;
@@ -504,45 +504,20 @@ body, address, li, dt, dd, .pac-container, .control  {
 
  .header-type-2 .top-inner-header,
  .header-type-3 .top-inner-header {
-  background-color: transparent;
-  border-bottom: none;
+  background-color: #fff;
+  border-bottom: 1px solid #d8dce1;
 }
 
 .header-type-2 .bottom-inner-header {
-  background-color: transparent;
-  border-bottom: none;
+  background-color: #ffff;
+  border-bottom: 1px solid #d8dce1;
 }
 
 .header-type-3 .bottom-inner-header {
-  background-color: transparent;
-  border-bottom: none;
+  background-color: #fff;
+  border-bottom: 1px solid #d8dce1;
 }
-.login-register a,
-.account-loggedin,
-.account-login .login-register .fa {
-  color: #4f5962;
-  background-color: transparent;
-}
-.login-register a:hover, 
-.login-register a:active,
-.account-loggedin:hover,
-.account-loggedin:active {
-  color: #f15e75;
-  background-color: transparent;
-}
-.account-loggedin:before {
-  background-color: #f15e75;
-}
-.account-loggedin.active .account-dropdown {
-  background-color: #ffffff
-}
-.account-dropdown ul > li a {
-  color: #4f5962;
-}
-.account-dropdown ul > li a:hover {
-  background-color: rgba(0,0,0,.15);
-  color: #4f5962;
-}
+
 span.side-nav-trigger {
   color: #4f5962;
 }
@@ -710,27 +685,27 @@ span.side-nav-trigger {
     }
     
     .footer-top-wrap {
-      background-color: #323231;
-      color: #ffffff;
+      background-color: #ffffff;
+      color: #000000;
     }
 
     .footer-bottom-wrap,
     .footer-small {
-      background-color: #323231;
-      color: #ffffff;
+      background-color: #ffffff;
+      color: #000000;
     }
 
-    .footer .social-icons a,
-    .footer a,
-    .footer .title a,
+      .social-icons a,
+      a,
+      .title a,
     .widget-latest-posts .post-author, 
     .widget-latest-posts .post-author a {
-      color: #ffffff;
+      color: #000000;
     }
 
-    .footer .social-icons a:hover,
-    .footer a:hover,
-    .footer .title a:hover {
+      .social-icons a:hover,
+      a:hover,
+      .title a:hover {
       color: #54c4d9;
     }
 
