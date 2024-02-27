@@ -6968,10 +6968,13 @@ button:active, button:hover, button:focus {
 .search-date-range-depart {
   width: calc(50% - 5.1px);
 }
-.search-date-range-arrive:after,
-.search-date-range-depart:after {
-  content: "";
+.search-date-range-arrive::after,
+.search-date-range-depart::after {
+  content: "\1F4C5"; /* Unicode for calendar icon */
+  font-family: "Font Awesome"; /* Ensure that the icon font is loaded */
+  font-size: 0.3em; /* Adjust the size of the icon as needed */
 }
+
 
 .search-date-range-depart {
   margin-left: 10px;
@@ -7069,9 +7072,7 @@ button:active, button:hover, button:focus {
   padding: 0 20px;
 }
 
-.search-guests:after {
-  content: "";
-}
+
 
 @media (max-width: 768px) {
   .search-banner-mobile {
