@@ -91,7 +91,6 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 <link rel='stylesheet' id='jquery-ui-css' href='https://sejourne.ae/wp-content/themes/sejourne/css/jquery-ui.css?ver=1.12.0' type='text/css' media='all' />
 <link rel='stylesheet' id='radio-checkbox-css' href='https://sejourne.ae/wp-content/themes/sejourne/css/radio-checkbox.css?ver=1.0.0' type='text/css' media='all' />
 <link rel='stylesheet' id='homey-main-css' href='main.css' type='text/css' media='all' />
-<link rel='stylesheet' id='homey-styling-options-css' href='https://sejourne.ae/wp-content/themes/sejourne/css/styling-options.css?ver=2.3.4' type='text/css' media='all' />
 <link rel='stylesheet' id='homey-style-css' href='https://sejourne.ae/wp-content/themes/sejourne/style.css?ver=2.3.4' type='text/css' media='all' />
 <link rel='stylesheet' id='leaflet-css' href='https://sejourne.ae/wp-content/themes/sejourne/js/leaflet/leaflet.css?ver=1.9.3' type='text/css' media='all' />
 <link rel='stylesheet' id='elementor-frontend-css' href='https://sejourne.ae/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.19.0' type='text/css' media='all' />
@@ -265,8 +264,8 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
     <!-- top bar -->
     
     <!-- desktop nav -->
-    <header id="homey_nav_sticky" class="header-nav hidden-sm hidden-xs no-cache-1707742664" data-sticky="1">
-        <div class="top-inner-header">
+    <header id="homey_nav_sticky" class="header-nav hidden-sm hidden-xs no-cache-1707742664" data-sticky="1" style="background-color: #fff;color: #000000 !important;">
+        <div class="top-inner-header" >
             <div class="container-fluid">
                 <div class="header-inner clearfix">
                     
@@ -293,25 +292,30 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4611">
     <a href="#" data-translate="locations">Locations</a>
     <ul class="sub-menu">
-        <li class="menu-item"><a style="color: #ffffff;">Buisnessbay</a></li>
-        <li class="menu-item"><a style="color: #ffffff;">Dubai Hills</a></li>
+        <li class="menu-item"><a >Buisness bay</a></li>
+        <li class="menu-item"><a >Dubai ntownHills</a></li>
         
-        <li class="menu-item"><a style="color: #ffffff;">Dubai Marina</a></li>
-        <li class="menu-item"><a style="color: #ffffff;">Jlt</a></li>
+        <li class="menu-item"><a >Dubai Marina</a></li>
+        <li class="menu-item"><a >Jlt</a></li>
         
-        <li class="menu-item"><a style="color: #ffffff;">financial center</a></li>
-        <li class="menu-item"><a style="color: #ffffff;">barsha hights</a></li>
+        <li class="menu-item"><a>financial center</a></li>
+        <li class="menu-item"><a>barsha hights</a></li>
         
-        <li class="menu-item"><a style="color: #ffffff;">Jvc</a></li>
-        <li class="menu-item"><a style="color: #ffffff;">Media city</a></li>
+        <li class="menu-item"><a>Jvc</a></li>
+        <li class="menu-item"><a>Media city</a></li>
         <!-- Add more locations as needed -->
     </ul>
 </li>
 
-<li id="menu-item-4610" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4610"><a href="monthly.html" data-translate="monthlystay">Monthly stay</a></li>
-<li id="menu-item-4610" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4610"><a href="yearly.html" data-translate="yearlyrental">Yearly rental</a></li>
-<li id="menu-item-4610" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4610"><a href="propowners.html" data-translate="propretiyowners">Properity owners</a></li>
-<li id="menu-item-4610" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4610"><a href="estimate.html" data-translate="estimaterevenue">Estimate-revenue</a></li>
+<li id="menu-item-4610" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4610">
+	<a href="propowners.html" data-translate="propretiyowners">Properity owners</a></li>
+<li id="menu-item-4610" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4610">
+	<a href="estimate.html" data-translate="estimaterevenue">Estimate-revenue</a></li>
+	
+<li id="menu-item-4610" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4610">
+	<a href="monthly.html" data-translate="ourteam">Our Team</a></li>
+<li id="menu-item-4610" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4610">
+	<a href="yearly.html" data-translate="contactus">Contact Us</a></li>
 
 <li id="menu-item-4611" style="margin-top: 20px;" class="mobile-menu menu-item menu-item-type-custom menu-item-object-custom menu-item-4611">
     <select id="languageSelect" style="background-color: pink;color:black;border-radius: 20%;">
@@ -381,17 +385,19 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
                         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4609">
                             <a href="#" data-translate="locations">Locations</a>
                             <ul>
-                                <li><a href="#">Submenu Item 1</a></li>
-                                <li><a href="#">Submenu Item 2</a></li>
+                                <li><a>Buisness pay</a></li>
+                                <li><a>jlt</a></li>
+								<li><a>Buisness bay</a></li>
+                                <li><a>jvc</a></li>
+								<li><a>Downtown</a></li>
+                                <li><a>jlt</a></li>
+								<li><a>Dubai marina</a></li>
+                                <li><a >silicon oisis</a></li>
                             </ul>
                         </li>
                         
 						<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4609">
-                            <a data-translate="monthlysalary" href="monthly.html" >Monthly stay</a>	
-                        </li>
-						<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4609">
-                            <a data-translate="yearlyrental" href="yearly.html" >yearly rental</a>
-							
+                            <a data-translate="ourteam"  >Our team</a>	
                         </li>
 						<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4609">
                             <a data-translate="propertyowners" href="propowners.html" >Properity owners</a>
@@ -401,6 +407,10 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
                             <a data-translate="estimaterevenue" href="estimate.html">Estimate revenue</a>
 							
                         </li>
+						<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4609">
+                            <a data-translate="estimaterevenue" href="estimate.html">Contact us</a>
+							
+                        </li>
                         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4611 mobile-menu">
                             <select id="languageSelect2" style="background-color: pink;color:#000000">
                                 <option value="en">En</option>
@@ -408,6 +418,7 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
                                 <option value="ar">Ar</option>
                                 <option value="ru">Ru</option>
                                 <option value="ind">In</option>
+								<option value="ind">Chi</option>
                             </select>
                         </li>
                         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4611">
@@ -427,7 +438,7 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
 	
     <div class="banner-inner p llax" data-p llax-bg-image="https://res.cloudinary.com/dqiuzftgy/image/upload/v1708219841/marrina_n6rbol.jpg"></div>
 	      <div class="banner-caption ">
-	     	<h2 class="banner-title animated fadeInUp" data-translate="book">Book & Experience Amazing Places Around Dubai</h2>
+	     	<h2 class="banner-title animated fadeInUp" data-translate="book" style="color: #ffffff !important; "></h2>>Book & Experience Amazing Places Around Dubai</h2>
                <p class="banner-subtitle animated fadeInUp" data-translate="let" style="color: #ffffff !important; ">Let's find the perfect place</p>
 		         <div class="search-wrap search-banner search-banner-desktop hidden-xs">
 	               <form class="clearfix" action="https://sejourne.ae/search-results/" method="GET">
@@ -450,7 +461,8 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
 						</div>
                     <div class="search-date-range main-search-date-range-js">
 							<div class="search-date-range-arrive">
-								<label class="animated-label" ><h3 data-translate="arrive">Arrive</h3> </label>
+								<label class="animated-label" >
+									<h3 data-translate="arrive">Arrive</h3> </label>
 								<input type="text" autocomplete="off" name="arrive" value="" class="form-control" placeholder="Arrive">
 							</div>
 							<div class="search-date-range-depart">
@@ -1646,8 +1658,77 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
                 animation: slideInFromLeft 1s ease-in-out forwards;
             }
         </style>
-        
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-f20c963 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-invisible" data-id="f20c963" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeIn&quot;}">
+        <div class="partners-section">
+			<div class="partners-carousel">
+			  <div class="partner"><img src="https://sejourne.ae/wp-content/uploads/2018/10/logo-1.jpg" alt="Partner 1"></div>
+			  <div class="partner"><img src="https://sejourne.ae/wp-content/uploads/2018/10/logo-1.jpg" alt="Partner 2"></div>
+			  <div class="partner"><img src="https://sejourne.ae/wp-content/uploads/2018/10/logo-1.jpg" alt="Partner 3"></div>
+			  <div class="partner"><img src="https://sejourne.ae/wp-content/uploads/2018/10/logo-1.jpg" alt="Partner 3"></div>
+			  <div class="partner"><img src="https://sejourne.ae/wp-content/uploads/2018/10/logo-1.jpg" alt="Partner 3"></div>
+			  <div class="partner"><img src="https://sejourne.ae/wp-content/uploads/2018/10/logo-1.jpg" alt="Partner 3"></div>
+			  <div class="partner"><img src="https://sejourne.ae/wp-content/uploads/2018/10/logo-1.jpg" alt="Partner 3"></div>
+			  <div class="partner"><img src="https://sejourne.ae/wp-content/uploads/2018/10/logo-1.jpg" alt="Partner 3"></div>
+			  <div class="partner"><img src="https://sejourne.ae/wp-content/uploads/2018/10/logo-1.jpg" alt="Partner 3"></div>
+			  <div class="partner"><img src="https://sejourne.ae/wp-content/uploads/2018/10/logo-1.jpg" alt="Partner 3"></div>
+			  <!-- Add more partner divs as needed -->
+			</div>
+		  </div>
+
+		  <style>
+.partners-section {
+  overflow: hidden;
+}
+
+.partners-carousel {
+  display: flex;
+  width: fit-content; /* Adjust to fit the content tightly */
+}
+
+.partner {
+  flex: 0 0 auto;
+  margin-right: 0; /* Remove margin to eliminate empty space */
+  padding: 10px; /* Add padding for spacing between circles */
+}
+
+.partner img {
+  border-radius: 50%; /* Make the images circular */
+  width: 100px; /* Adjust the width of the circles as needed */
+  height: 100px; /* Adjust the height of the circles as needed */
+}
+
+@keyframes carousel {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-100% - 10px)); /* Adjust the value according to the width of your partners and padding */
+  }
+}
+
+.partners-carousel {
+  animation: carousel 10s linear infinite; /* Adjust duration as needed */
+}
+
+		  </style>
+
+<!--<script>
+	window.addEventListener('load', function() {
+  var partnerCarousel = document.querySelector('.partners-carousel');
+  var partners = document.querySelectorAll('.partner');
+
+  var totalWidth = 0;
+  partners.forEach(function(partner) {
+    totalWidth += partner.offsetWidth + parseInt(getComputedStyle(partner).marginRight);
+  });
+
+  partnerCarousel.style.width = totalWidth + 'px';
+});
+
+</script>
+-->
+
+
+<section class="elementor-section elementor-top-section elementor-element elementor-element-f20c963 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-invisible" data-id="f20c963" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeIn&quot;}">
 						<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2d6a83d" data-id="2d6a83d" data-element_type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
@@ -1754,7 +1835,7 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
                     <!-- Testimonial slides here -->
                     <div class="details white-bg">
                         <div class="testimonials_img_and_title">
-                            <img src="https://famliving.com/images/1624449178.jpeg" class="img-fluid testimonials_people">
+                            <img src="https://famliving.com/images/1624449178.jpeg" class="img-fluid testimonials_people" style="display: block; margin: 0 auto;">
                             <h3 class="color_black">Dina Tsvetkova</h3>
                 
                         </div>
@@ -1762,7 +1843,7 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
                     </div>
                     <div class="details white-bg">
                         <div class="testimonials_img_and_title">
-                            <img src="https://famliving.com/images/1625581154.jpeg" class="img-fluid testimonials_people">
+                            <img src="https://famliving.com/images/1625581154.jpeg" class="img-fluid testimonials_people" style="display: block; margin: 0 auto;">
                             <h3 class="color_black">marry bugota</h3>
                         
                         </div>
@@ -1770,7 +1851,7 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
                     </div>
                     <div class="details white-bg">
                         <div class="testimonials_img_and_title">
-                            <img src="https://famliving.com/images/1624189274.jpeg" class="img-fluid testimonials_people">
+                            <img src="https://famliving.com/images/1624189274.jpeg" class="img-fluid testimonials_people" style="display: block; margin: 0 auto;">
                             <h3 class="color_black">oliva mashkova</h3>
                       
                         </div>
@@ -1778,7 +1859,7 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
                     </div>
                     <div class="details white-bg">
                         <div class="testimonials_img_and_title">
-                            <img src="https://famliving.com/images/1625581962.jpeg" class="img-fluid testimonials_people">
+                            <img src="https://famliving.com/images/1625581962.jpeg" class="img-fluid testimonials_people" style="display: block; margin: 0 auto;">
                             <h3 class="color_black">Eisa marjan</h3>
                      
                         </div>
@@ -1786,7 +1867,7 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
                     </div>
                     <div class="details white-bg">
                         <div class="testimonials_img_and_title">
-                            <img src="https://famliving.com/images/1624449178.jpeg" class="img-fluid testimonials_people">
+                            <img src="https://famliving.com/images/1624449178.jpeg" class="img-fluid testimonials_people" style="display: block; margin: 0 auto;">
                             <h3 class="color_black">lana khatrine</h3>
                      
                         </div>
@@ -1855,9 +1936,12 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
     .testimonial_wrap .slick-prev {
         left: 20px; /* Adjust the left distance */
     }
-    .testimonial_wrap .   {
+    .testimonial_wrap .slick-prev   {
         right: 20px; /* Adjust the right distance */
     }
+	.testimonials_img_and_title img {
+		border-radius: 20% !important;
+	}
 </style>
 <section class="container-fluid service-offered">
     <div class="container">
@@ -2073,7 +2157,7 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
 				</div>
 		</div> <!-- End #section-body -->
 		
-<footer class="footer-wrap footer" style="background-color: black !important; color: #ffffff !important;">
+<footer class="footer-wrap footer" >
 	
 	<div class="footer-top-wrap">
 		<div class="container">
@@ -2087,7 +2171,11 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
                 <p data-translate="sejourne">Sejourne is a premier luxury short term rentals in Dubai. Choose from variety of furnished apartments available on short-term.</p>
                                 <p class="read"><a data-translate="readmore" >Read More <i class="fas fa-arrow-right"></i></i></a></p>
                             </div>
-	    </div></div><div class="col-xs-12 col-sm-12 col-md-3 col-lg-3"><div id="homey_taxonomies-1" class="widget footer-widget widget-categories"><div class="widget-top"><h3 class="widget-title">Explore</h3></div><div class="widget-body"><ul class="list-unstyled"><li>
+	    </div></div><div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+			<div id="homey_taxonomies-1" class="widget footer-widget widget-categories">
+				<div class="widget-top">
+					<h3 class="widget-title">Explore</h3></div>
+				<div class="widget-body"><ul class="list-unstyled"><li>
             <a data-translate="apartment">Apartment</a></li><li>
             <a data-translate='bedbreakfast'>Bed &amp; Breakfast</a></li><li>
             <a data-translate='condo'>Condo</a></li><li>
