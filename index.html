@@ -107,11 +107,15 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
 </script>
 <script type="text/javascript" src="https://sejourne.ae/wp-content/plugins/homey-membership/assets/js/hm_register_script.js?ver=6.4.3" id="hm_register_script-js"></script>
 <link rel="https://api.w.org/" href="https://sejourne.ae/wp-json/" /><link rel="alternate" type="application/json" href="https://sejourne.ae/wp-json/wp/v2/pages/3935" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://sejourne.ae/xmlrpc.php?rsd" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 <meta name="generator" content="WordPress 6.4.3" />
 <link rel='shortlink' href='https://sejourne.ae/' />
 <link rel="alternate" type="application/json+oembed" href="https://sejourne.ae/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsejourne.ae%2F" />
 <link rel="alternate" type="text/xml+oembed" href="https://sejourne.ae/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsejourne.ae%2F&#038;format=xml" />
-<meta name="generator" content="Redux 4.4.11" /><!-- Favicon --><link rel="shortcut icon" href="https://sejourne.ae/wp-content/uploads/2018/10/favicon.png"><!-- Apple iPhone Icon -->
+<meta name="generator" content="Redux 4.4.11" />
+<link rel="shortcut icon" href="https://sejourne.ae/wp-content/uploads/2018/10/favicon.png"><!-- Apple iPhone Icon -->
 <link rel="apple-touch-icon-precomposed" href="https://sejourne.ae/wp-content/uploads/2018/10/iphone-icon.png"><!-- Apple iPhone Retina Icon --><link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://sejourne.ae/wp-content/uploads/2018/10/iphone-retina-icon.png"><!-- Apple iPhone Icon --><link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://sejourne.ae/wp-content/uploads/2018/10/ipad-icon.png"><meta name="generator" content="Elementor 3.19.0; features: e_optimized_assets_loading, e_optimized_css_loading, e_font_icon_svg, additional_custom_breakpoints, block_editor_assets_optimize, e_image_loading_optimization; settings: css_print_method-external, google_font-enabled, font_display-swap">
 <meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
 <meta name="generator" content="Powered by Slider Revolution 6.6.14 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
@@ -235,10 +239,24 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
 <body class="home page-template page-template-elementor_header_footer page page-id-3935 compare-property-active wpb-js-composer js-comp-ver-6.13.0 vc_responsive elementor-default elementor-template-full-width elementor-kit-414 elementor-page elementor-page-3935">
 
 	<div class="fixed-icons">
+		<a id="scroll-to-top"><i class="fas fa-arrow-up"></i></a>
         <a href="tel:+971 4585 0475"><i class="fas fa-phone-alt"></i></a>
         <a href="https://wa.me/+971 4585 0475"><i class="fab fa-whatsapp" ></i></a>
+		
     </div>
+<script>
+	document.addEventListener("DOMContentLoaded", function() {
+    const scrollToTopButton = document.getElementById("scroll-to-top");
 
+    scrollToTopButton.addEventListener("click", function() {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    });
+});
+
+</script>
 
 	<style>
 		.top-banner-wrap {
@@ -313,7 +331,7 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
 	<a href="owners.html" data-translate="estimaterevenue">Estimate revenue</a></li>
 	
 <li id="menu-item-4610" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4610">
-	<a  href="owners.html"data-translate="ourteam"> #f15e75 </a></li>
+	<a  href="owners.html"data-translate="ourteam"> Our Team </a></li>
 <li id="menu-item-4610" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4610">
 	<a href="owners.html" data-translate="contactus">Contact Us</a></li>
 
@@ -1349,14 +1367,14 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
                             transition: transform 0.3s ease;
                         }
                         #homey-listing-carousel-DzmdNhKBe0 .item-wrap.center {
-                            transform: scale(1); /* Enlarge the middle apartment */
-                            z-index: 1; /* Ensure it's on top of others */
+                            transform: scale(1); 
+                            z-index: 1; 
                         }
 					
     .property-item img {
-        width: 450px; /* Set a fixed width */
-        height: 300px; /* Set a fixed height */
-        object-fit: cover; /* Ensure the image covers the entire space */
+        width: 450px; 
+        height: 300px; 
+        object-fit: cover; 
     }
 
                     </style>
@@ -1772,14 +1790,14 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
           <div class="testimonial_wrap">
             <div class="container">
                 <div class="heading">
-                    <h2 style="color: palevioletred;">Testimonials</h2>
+                    <h2 style="color: #f15e75;">Testimonials</h2>
                 </div>
                 <div class="testimonial_slider" style="padding: 10px;">
                     <!-- Testimonial slides here -->
                     <div class="details white-bg">
                         <div class="testimonials_img_and_title">
                             <img src="https://famliving.com/images/1624449178.jpeg" class="img-fluid testimonials_people" style="display: block; margin: 0 auto;height: 180px;">
-                            <h3 class="color_black" style="color: #e267c1;">Dina Tvetkov</h3>
+                            <h3 class="color_black" style="color: #f15e75;">Dina Tvetkov</h3>
                 
                         </div>
                         <p class="color_black" style="color: #000000;">My family & me had a wonderful experience in Sarai apartments during UK lockdown for two months.</p>
@@ -1787,7 +1805,7 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
                     <div class="details white-bg">
                         <div class="testimonials_img_and_title">
                             <img src="https://famliving.com/images/1625581154.jpeg" class="img-fluid testimonials_people" style="display: block; margin: 0 auto;height: 180px;">
-                            <h3 class="color_black" style="color: #e267c1;">marry bugota</h3>
+                            <h3 class="color_black" style="color: #f15e75;">marry bugota</h3>
                         
                         </div>
                         <p class="color_black" style="color: #000000;">My family & me had a wonderful experience in Sarai apartments during UK lockdown for two months.</p>
@@ -1795,7 +1813,7 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
                     <div class="details white-bg">
                         <div class="testimonials_img_and_title">
                             <img src="https://famliving.com/images/1624189274.jpeg" class="img-fluid testimonials_people" style="display: block; margin: 0 auto;height: 180px;">
-                            <h3 class="color_black" style="color: #e267c1;">oliva mashko</h3>
+                            <h3 class="color_black" style="color: #f15e75;">oliva mashko</h3>
                       
                         </div>
                         <p class="color_black" style="color: #000000;">wonderful experience in Sarai apartments during UK lockdown for two months.</p>
@@ -1803,7 +1821,7 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
                     <div class="details white-bg">
                         <div class="testimonials_img_and_title">
                             <img src="https://famliving.com/images/1625581962.jpeg" class="img-fluid testimonials_people" style="display: block; margin: 0 auto;height: 180px;">
-                            <h3 class="color_black" style="color: #e267c1;">Eisa marjan</h3>
+                            <h3 class="color_black" style="color: #f15e75;">Eisa marjan</h3>
                      
                         </div>
                         <p class="color_black" style="color: #000000;">I would definitely recommend this place for those who visit Dubai specially for a long term with family.</p>
@@ -1811,7 +1829,7 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
                     <div class="details white-bg">
                         <div class="testimonials_img_and_title">
                             <img src="https://famliving.com/images/1624449178.jpeg" class="img-fluid testimonials_people" style="display: block; margin: 0 auto;height: 180px;">
-                            <h3 class="color_black" style="color: #e267c1;">lana khatrine</h3>
+                            <h3 class="color_black" style="color: #f15e75;">lana khatrine</h3>
                      
                         </div>
                         <p class="color_black" style="color: #000000;">My family & me had a wonderful experience in Sarai apartments during UK lockdown for two months.</p>
@@ -1889,7 +1907,7 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
 		border-radius: 20% !important;
 	}
 	.details {
-    padding-right: 20px; /* Add padding between each group of testimonials */
+    padding-right: 20px; 
 	padding-left: 20px;
     margin-right: 20px;
 	margin-left: 20px; /* Add margin between each group of testimonials */
@@ -4456,8 +4474,6 @@ function changeLanguage(lang) {
        "apply": "Appliquer",
 	  'findplace' : 'Trouvez un endroit qui correspond à votre confort',
 	  'booknow':'Reserve maintenant'	,
-
-
         'housekeeping': 'Entretien ménager',
         'loundry': 'Blanchisserie',
         'cityconcierge': 'Concierge urbain',
@@ -4468,7 +4484,6 @@ function changeLanguage(lang) {
 		'car': 'Location de voiture',
         'commercialservices': 'Services commerciaux',
         'airportshuttle': 'Navette aéroport',
-		
         'home': 'Accueil',
         'properties': 'Propriétés',
         'location': 'Emplacement',
@@ -4538,7 +4553,7 @@ function changeLanguage(lang) {
         'yearlyrental': 'الإيجار السنوي',
         'propretiyowners': 'أصحاب العقارات',
         'estimaterevenue': 'تقدير الإيرادات',
-		 'locations': 'المواقع'
+	 'locations': 'المواقع'
 	},
 	ru : {
 		"home": "Главная",
@@ -4737,5 +4752,49 @@ function changeLanguage(lang) {
         });
     });
 </script>
+<script>
+    // Add hover effect to taxonomy items
+    document.addEventListener("DOMContentLoaded", function() {
+        const taxonomyItems = document.querySelectorAll('.taxonomy-item');
+        taxonomyItems.forEach(item => {
+            item.addEventListener('mouseenter', function() {
+                this.classList.add('hovered');
+            });
+            item.addEventListener('mouseleave', function() {
+                this.classList.remove('hovered');
+            });
+        });
+    });
+</script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        $('.taxonomy-grid-2').owlCarousel({
+            loop: true,
+            margin: 20,
+            nav: true,
+            dots: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 3
+                }
+            }
+        });
+    });
+</script>
+
+<style>
+    /* Style for hover effect */
+    .taxonomy-item.hovered .taxonomy-title {
+        background-color: #f15e75;
+        color: #fff;
+    }
+</style>
+
 </body>
 </html>
