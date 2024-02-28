@@ -1,6 +1,6 @@
 
 
-  body, address, li, dt, dd, .pac-container, .control  {
+body, address, li, dt, dd, .pac-container, .control  {
     font-size: 14px;
     line-height: 24px;
     font-weight: 400;
@@ -408,7 +408,7 @@
     .banner-caption-side-search .banner-title, 
     .banner-captioreview-block .title a:hover,
     .sidebar .widget .comment-block .title a:hover {
-      color: rgba(79, 89, 98, 0.5);
+      color: #000000;
     }
     
 .homey-osm-cluster {
@@ -687,14 +687,14 @@ span.side-nav-trigger {
     .social-icons a,
     .top-bar-inner,
     .top-bar-inner li {
-      color: #ffffff;
+      color: #000000;
     }
 
     .top-contact-address li {
-      color: #ffffff;
+      color: #000000;
     }
     .top-contact-address a {
-      color: #ffffff;
+      color: #000000;
     }
     .top-contact-address a:hover {
       color: rgba(255,255,255,0.8);
@@ -725,7 +725,7 @@ span.side-nav-trigger {
     .footer .title a,
     .widget-latest-posts .post-author, 
     .widget-latest-posts .post-author a {
-      color: #ffffff;
+      color: #000000;
     }
 
     .footer .social-icons a:hover,
@@ -735,7 +735,7 @@ span.side-nav-trigger {
     }
 
     .footer-copyright {
-      color: #ffffff;
+      color: #000000;
     }
     
     .label-featured {
