@@ -408,7 +408,7 @@ body, address, li, dt, dd, .pac-container, .control  {
     .banner-caption-side-search .banner-title, 
     .banner-captioreview-block .title a:hover,
     .sidebar .widget .comment-block .title a:hover {
-      color: rgba(79, 89, 98, 0.5);
+      color: #000000;
     }
     
 .homey-osm-cluster {
