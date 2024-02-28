@@ -540,8 +540,7 @@ span.side-nav-trigger {
     }
     .header-nav .menu-dropdown a,
     .header-nav .sub-menu a {
-      color: #4f5962;
-      background-color:transparent;
+
       border-bottom: 1px solid #f7f7f7;
     }
     .header-nav .menu-dropdown a:hover,
