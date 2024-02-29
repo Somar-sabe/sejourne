@@ -12,10 +12,6 @@
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <!-- Slick Carousel CSS -->
-
-        
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
     	<title>Sejourne – Luxury Holiday Homes - Sejourne - Luxury Holiday Homes | Luxury short term rentals in Dubai</title>
 		<meta name="description" content="Our Featured Homes Hand-picked selection of quality places Featured $525/night BOTANICA TOWER, DUBAI MARINA PARTIAL MARINA VIEW Apartment Hosted by Jerry Coleman Compare Remove from Favorite Average Featured $455/night Spacious Family Home House Hosted by Crystal Elliott Compare Remove from Favorite Excellent Featured $129/night Confy Designer Room Bed &amp; Breakfast Hosted by Rose Burke Compare Add to Favorite" />
@@ -92,7 +88,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 <link rel='stylesheet' id='slick-theme-css' href='https://sejourne.ae/wp-content/themes/sejourne/css/slick-theme.css?ver=1.0.0' type='text/css' media='all' />
 <link rel='stylesheet' id='jquery-ui-css' href='https://sejourne.ae/wp-content/themes/sejourne/css/jquery-ui.css?ver=1.12.0' type='text/css' media='all' />
 <link rel='stylesheet' id='radio-checkbox-css' href='https://sejourne.ae/wp-content/themes/sejourne/css/radio-checkbox.css?ver=1.0.0' type='text/css' media='all' />
-<link rel='stylesheet' id='homey-main-css' href='main.css' type='text/css' media='all' />
+<link rel='stylesheet'  href='main.css' type='text/css' media='all' />
 <link rel='stylesheet' id='homey-style-css' href='https://sejourne.ae/wp-content/themes/sejourne/style.css?ver=2.3.4' type='text/css' media='all' />
 <link rel='stylesheet' id='leaflet-css' href='https://sejourne.ae/wp-content/themes/sejourne/js/leaflet/leaflet.css?ver=1.9.3' type='text/css' media='all' />
 <link rel='stylesheet' id='elementor-frontend-css' href='https://sejourne.ae/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.19.0' type='text/css' media='all' />
@@ -229,7 +225,7 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
         right: 10px; 
     }
     .fixed-icons i {
-        font-size: 15px; 
+        font-size: 25px; 
     }
 }
 </style>
@@ -261,21 +257,29 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
 </script>
 
 	<style>
-		.top-banner-wrap {
-			background-image: url('dubai-trendy-pool-parties-1536x864.jpg');
-			background-repeat: no-repeat;
-			background-size: cover;
-			animation: zoom-in 15s infinite linear;
-		}
+.top-banner-wrap {
+	background-image: url("https://cdn.jumeirah.com/-/mediadh/dh/hospitality/jumeirah/article/stories/dubai/what-to-see-and-do-at-dubai-marina/herodubaimarina.jpg?h=1080&w=1620&modified=20200917073523");
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: zoom-in 15s infinite linear;
+    height: 100vh; 
+	width: 100%;/* Ensure element covers the entire viewport height */
+}
+body, .top-banner-wrap {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
 	
 		@keyframes zoom-in {
-			0% {
-				background-size: 100%;
-			}
-			100% {
-				background-size: 120%;
-			}
-		}
+    0% {
+        background-size: 100%;
+    }
+    100% {
+        background-size: 120%;
+    }
+}
+
 	</style>
 
 <div id="section-body">
@@ -405,12 +409,12 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
                         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4609">
                             <a href="locations.html" data-translate="locations">Locations</a>
                             <ul>
-                                <li style="color: #000000;background-color: #fff;"><a style="color: #000000;background-color: #fff;"></a>>Jumeirah Lakes Towers (JLT)</a></li>
-                                <li style="color: #000000;background-color: #fff;"><a style="color: #000000;background-color: #fff;"></a>>Business Bay</a></li>
-                                <li style="color: #000000;background-color: #fff;"><a style="color: #000000;background-color: #fff;"></a>>Jumeirah Village Circle (JVC)</a></li>
+                                <li style="color: #000000;background-color: #fff;"><a>Jumeirah Lakes Towers (JLT)</a></li>
+                                <li style="color: #000000;background-color: #fff;"><a>Business Bay</a></li>
+                                <li style="color: #000000;background-color: #fff;"><a >Jumeirah Village Circle (JVC)</a></li>
                                 <li style="color: #000000;background-color: #fff;"><a style="color: #000000;background-color: #fff;"></a>>Downtown Dubai</a></li>
-<li style="color: #000000 !important;background-color: #fff !important;"><a style="color: #000000 !important;background-color: #fff !important;"></a>>Jumeirah Lakes Towers (JLT)</a></li>
-<li style="color: #000000 !important;background-color: #fff !important;"><a style="color: #000000 !important;background-color: #fff !important;"></a>>Dubai Marina</a></li>
+<li style="color: #000000;background-color: #fff;"><a style="color: #000000;background-color: #fff;"></a>>Jumeirah Lakes Towers (JLT)</a></li>
+<li style="color: #000000;background-color: #fff;"><a style="color: #000000;background-color: #fff;"></a>>Dubai Marina</a></li>
 
                                 
                             </ul>
@@ -455,8 +459,6 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
     </div>
 </header>
     </div>
-	
-    <div class="banner-inner p llax" data-p llax-bg-image="5-Sterne-Hotels-Dubai.jpg"></div>
 	      <div class="banner-caption ">
 	     	<h2 class="banner-title animated fadeInUp" data-translate="book" style="color: #ffffff !important; ">Book & Experience Amazing Places Around Dubai</h2>
                <p class="banner-subtitle animated fadeInUp" data-translate="let" style="color: #ffffff !important; ">Let's find the perfect place</p>
@@ -1312,14 +1314,9 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
 		</div>
 	</form>
 </div><!-- search-wrap -->
- 
-	
 
-	
-	
-	
 </div>
-	</div><!-- banner-caption -->
+	<!-- banner-caption -->
 
 </section><!-- header-p   llax -->	
 
@@ -1351,13 +1348,63 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
 				<div class="elementor-widget-container">		
 		<div class="module-wrap property-module-grid listing-carousel-next-prev-DzmdNhKBe0 property-module-grid-slider property-module-grid-slider-3">
 			<div class="listing-wrap which-layout-grid  item-grid-view">
-					<div id="homey-listing-carousel-DzmdNhKBe0" data-token="DzmdNhKBe0" class="homey-carousel homey-carouse-elementor item-grid-slider-view item-grid-slider-view-3">
-	
-			</div>
+				<div class="carousel-container">
+					<i class="fa-solid fa-arrow-left prev-arrow"></i>
+					<div id="homey-listing-carousel-DzmdNhKBe0" data-token="DzmdNhKBe0" class="homey-carousel item-grid-slider-view item-grid-slider-view-3">
+						<!-- Here are my apartments dynamically -->
+					</div>
+					<i class="fa-solid fa-arrow-right next-arrow"></i>
+				</div>
+				
 		</div>
 		</div>
 		</div>
 					</div>
+
+
+					<style>
+						.carousel-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.prev-arrow,
+.next-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 1;
+	color: #e28dd4;
+	
+}
+
+.prev-arrow {
+    left: 1px;
+
+
+}
+
+.next-arrow {
+    right: 1px;
+}
+
+#homey-listing-carousel-DzmdNhKBe0 {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch; /* For smooth scrolling on iOS */
+    scrollbar-width: none; /* Hide scrollbar */
+    -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
+}
+
+#homey-listing-carousel-DzmdNhKBe0::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Chrome, Safari, and Opera */
+}
+
+					</style>
                     <style>
                         #homey-listing-carousel-DzmdNhKBe0 .item-wrap {
                             transform: scale(0.8); 
@@ -1369,8 +1416,8 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
                         }
 					
     .property-item img {
-        width: 450px; 
-        height: 300px; 
+        width: 430px; 
+        height: 270px; 
         object-fit: cover; 
     }
 
@@ -1626,7 +1673,26 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
 					</div>
 		</section>
 			
+<script>
+$('.homey-carousel').slick({
+    autoplay: true,
+    autoplaySpeed: 4000,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    prevArrow: '<button type="button" class="slick-prev"><i class="fas fa-chevron-left"></i></button>',
+    nextArrow: '<button type="button" class="slick-next"><i class="fas fa-chevron-right"></i></button>',
+    responsive: [
+        {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+        }
+    ]
+});
 
+</script>
 	
 				
 				<section class="elementor-section elementor-top-section elementor-element elementor-element-60c286b3 elementor-section-height-min-height elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-items-middle elementor-invisible" data-id="60c286b3" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;animation&quot;:&quot;fadeIn&quot;}">
@@ -1835,6 +1901,9 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
                 </div>
             </div>
         </div>
+        
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 		<script>
 			$(document).ready(function(){
 				$('.testimonial_slider').slick({
