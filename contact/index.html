@@ -485,6 +485,16 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
 			
 	 
 </section>
+<div class="elementor-container elementor-column-gap-default">
+	<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-07fa2a4 overflow-hidden" data-id="07fa2a4" data-element_type="column">
+<div class="elementor-widget-wrap elementor-element-populated">
+				<div class="elementor-element elementor-element-a2a1a1d elementor-widget elementor-widget-html" data-id="a2a1a1d" data-element_type="widget" data-widget_type="html.default">
+<div class="elementor-widget-container">
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d28885.753982852366!2d55.272712!3d25.178956!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc7c98b92ba4cfbf7!2sFMP%20Homes%20Real%20Estate%20Management!5e0!3m2!1sen!2sin!4v1659024741162!5m2!1sen!2sin" width="1500" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>		</div>
+</div>
+	</div>
+</div>
+			</div>
 <footer class="footer-wrap footer"  style="color: #000000 !important;background-color: #ffffff !important;">
 	
 	<div class="footer-top-wrap">
@@ -657,7 +667,15 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
 	            	<span class="day-number">28</span>
 	            </li><li data-timestamp="1709164800" data-formatted-date="2024-02-29" class="current-month future-day">
 	            	<span class="day-number">29</span>
-	            </li></ul></div><div class="main-search-calendar-wrap right-calendar" data-month = "2" ><div class="month clearfix"><h4>March <span>2024</span></h4></div><ul class="weekdays clearfix"><li data-dayName = "Monday">M</li><li data-dayName = "Tuesday">T</li><li data-dayName = "Wednesday">W</li><li data-dayName = "Thursday">T</li><li data-dayName = "Friday">F</li><li data-dayName = "Saturday">S</li><li data-dayName = "Sunday">S</li></ul><ul class="days clearfix"><li class="prev-month"></li><li class="prev-month"></li><li class="prev-month"></li><li class="prev-month"></li><li data-timestamp="1709251200" data-formatted-date="2024-03-01" class="current-month future-day">
+	            </li></ul></div><div class="main-search-calendar-wrap right-calendar" data-month = "2" >
+					<div class="month clearfix"><h4>March <span>2024</span></h4></div>
+					<ul class="weekdays clearfix"><li data-dayName = "Monday">M</li>
+						<li data-dayName = "Tuesday">T</li><li data-dayName = "Wednesday">W</li>
+						<li data-dayName = "Thursday">T</li><li data-dayName = "Friday">F</li>
+						<li data-dayName = "Saturday">S</li><li data-dayName = "Sunday">S</li></ul>
+						
+						<ul class="days clearfix"><li class="prev-month"></li><li class="prev-month"></li>
+							<li class="prev-month"></li><li class="prev-month"></li><li data-timestamp="1709251200" data-formatted-date="2024-03-01" class="current-month future-day">
 	            	<span class="day-number">1</span>
 	            </li><li data-timestamp="1709337600" data-formatted-date="2024-03-02" class="current-month future-day">
 	            	<span class="day-number">2</span>
@@ -2595,6 +2613,25 @@ var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};
 /* <![CDATA[ */
 var wpformsElementorVars = {"captcha_provider":"recaptcha","recaptcha_type":"v2"};
 /* ]]> */
+</script>
+
+
+
+<!-- Leaflet JavaScript -->
+<script src="https://unpkg.com/leaflet"></script>
+
+<script>
+    // Initialize the map
+    var map = L.map('map-container').setView([40.7128, -74.0060], 12); // Example: New York City
+
+    // Add the tile layer (you can use different tile providers)
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+    }).addTo(map);
+
+    // Add a marker
+    L.marker([40.7128, -74.0060]).addTo(map)
+        .bindPopup('Your Location'); // You can customize the popup content
 </script>
 <script type="text/javascript" src="https://sejourne.ae/wp-content/plugins/wpforms-lite/assets/js/integrations/elementor/frontend.min.js?ver=1.8.6.4" id="wpforms-elementor-js"></script>
     <input type="hidden" id="reservation_login_required" name="reservation_login_required" value="0">
