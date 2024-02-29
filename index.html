@@ -2079,9 +2079,10 @@ $('.homey-carousel').slick({
 
 
 <script>
-	document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function() {
     var chatIcon = document.querySelector('.chat-icon');
     var chatWidget = document.querySelector('.chat-widget');
+    var closeChatButton = document.querySelector('.close-chat'); // Add this line
 
     // Hide the chat widget initially
     chatWidget.style.display = 'none';
@@ -2094,7 +2095,13 @@ $('.homey-carousel').slick({
             chatWidget.style.display = 'none';
         }
     });
+
+    // Close chat widget when close button is clicked
+    closeChatButton.addEventListener('click', function() {
+        chatWidget.style.display = 'none';
+    });
 });
+
 
 </script>
 
@@ -2156,7 +2163,7 @@ $('.homey-carousel').slick({
 .close-chat:hover {
     opacity: 0.8;
 }
-}
+
 
 .close-chat:hover {
     opacity: 0.8;
@@ -2180,7 +2187,7 @@ $('.homey-carousel').slick({
 }
 
 .chat-footer input[type="text"] {
-    width: calc(100% - 70px); /* Adjust based on button width */
+    width: calc(100% - 20px); /* Adjust based on button width */
     padding: 8px;
     border: 1px solid #ddd;
     border-radius: 3px;
