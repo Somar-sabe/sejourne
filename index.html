@@ -2101,7 +2101,7 @@ $('.homey-carousel').slick({
 <div class="chat-widget">
     <div class="chat-header">
         <h3>Chat with Us</h3>
-        <button class="close-chat">Close</button>
+        <button  class="close-chat"><i class="fas fa-times"></i> </button>
     </div>
     <div class="chat-body">
         <ul class="chat-messages">
@@ -2119,13 +2119,14 @@ $('.homey-carousel').slick({
     position: fixed;
     bottom: 60px;
     left: 80px;
-    width: 250px; /* Adjust width as needed */
-    height: 300px; /* Adjust height as needed */
+    width: 200px; /* Adjust width as needed */
+    height: 250px; /* Adjust height as needed */
     background-color: #f8f8f8;
     border: 1px solid #ddd;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     z-index: 1000;
+	display: none;
 }
 
 .chat-header {
@@ -2142,11 +2143,19 @@ $('.homey-carousel').slick({
 }
 
 .close-chat {
+	
     background: none;
     border: none;
     color: #fff;
     cursor: pointer;
-    float: right;
+    position: absolute; /* Change position to absolute */
+    top: 10px; /* Adjust as needed */
+    right: 10px; /* Adjust as needed */
+}
+
+.close-chat:hover {
+    opacity: 0.8;
+}
 }
 
 .close-chat:hover {
