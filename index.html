@@ -234,7 +234,7 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
 
 
 
-<body class="home page-template page-template-elementor_header_footer page page-id-3935 compare-property-active wpb-js-composer js-comp-ver-6.13.0 vc_responsive elementor-default elementor-template-full-width elementor-kit-414 elementor-page elementor-page-3935">
+<body class="home page-template circle-cursor page-template-elementor_header_footer page page-id-3935 compare-property-active wpb-js-composer js-comp-ver-6.13.0 vc_responsive elementor-default elementor-template-full-width elementor-kit-414 elementor-page elementor-page-3935">
 
 	<div class="fixed-icons">
 		
@@ -2125,17 +2125,22 @@ document.addEventListener('DOMContentLoaded', function() {
 	.chat-widget {
     position: fixed;
     bottom: 60px;
-    left: 80px;
+    left: 75px;
     width: 200px; /* Adjust width as needed */
     height: 250px; /* Adjust height as needed */
     background-color: #f8f8f8;
     border: 1px solid #ddd;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     z-index: 1000;
 	display: none;
 }
 
+.circle-cursor {
+    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="pink"/></svg>'), auto;
+}
+
+  
 .chat-header {
     background-color: #f15e75;
     color: #fff;
