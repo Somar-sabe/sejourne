@@ -1360,7 +1360,39 @@ body, .top-banner-wrap {
 		</div>
 		</div>
 					</div>
+<script>
+	// JavaScript or jQuery
+// JavaScript or jQuery
+$(document).ready(function() {
+    // Initialize your carousel here with slidesToShow set to 3
+    $('#homey-listing-carousel-DzmdNhKBe0').slick({
+        slidesToShow: 3, // Display three apartments at a time
+        slidesToScroll: 1, // Scroll one apartment at a time
+        // Other Slick Carousel options...
+		responsive: [
+            {
+                breakpoint: 767, // Adjust breakpoint as needed
+                settings: {
+                    slidesToShow: 1, // Display one apartment at a time on small screens
+                    slidesToScroll: 1 // Scroll one apartment at a time
+                }
+            }
+        ]
+    });
 
+    // Event listener for clicking on the previous arrow
+    $('.prev-arrow').click(function() {
+        $('#homey-listing-carousel-DzmdNhKBe0').slick('slickPrev');
+    });
+
+    // Event listener for clicking on the next arrow
+    $('.next-arrow').click(function() {
+        $('#homey-listing-carousel-DzmdNhKBe0').slick('slickNext');
+    });
+});
+
+
+</script>
 
 					<style>
 						.carousel-container {
@@ -1386,7 +1418,6 @@ body, .top-banner-wrap {
 
 
 }
-
 .next-arrow {
     right: 1px;
 }
@@ -2027,8 +2058,8 @@ $('.homey-carousel').slick({
 </style>
 
 
-<section class="container-fluid service-offered" style="background-color: #ffffff;">
-    <div class="container">
+<section class="container-fluid service-offered " style="background-color: #ffffff;">
+    <div class="container service-carousel">
         <div class="row ">
            <div class="col-md-12 ">
                <div class="heading">
@@ -2130,7 +2161,38 @@ $('.homey-carousel').slick({
     </div>
 
 </section>
+<script>
+    $(document).ready(function() {
+        function initSlick() {
+            $('.service-carousel').slick({
+                slidesToShow: 1, // Display one service at a time on small screens
+                slidesToScroll: 1,
+            });
+        }
 
+        function destroySlick() {
+            $('.service-carousel').slick('unslick');
+        }
+
+        // Initialize Slick Carousel on page load
+        if ($(window).width() <= 768) {
+            initSlick();
+        }
+
+        // Re-initialize Slick Carousel when window resizes to or from small screen size
+        $(window).resize(function() {
+            if ($(window).width() <= 768) {
+                if (!$('.service-carousel').hasClass('slick-initialized')) {
+                    initSlick();
+                }
+            } else {
+                if ($('.service-carousel').hasClass('slick-initialized')) {
+                    destroySlick();
+                }
+            }
+        });
+    });
+</script>
 <div class="partners-section">
     <h3 style="color: #f15e75; text-align: center;"> Our partners</h3>
     <div class="partners-carousel">
@@ -2197,6 +2259,12 @@ $('.homey-carousel').slick({
             max-width: 100%;
             text-align: center;
         }
+		.partner img {
+        border-radius: 50%;
+        width: 120px;
+        height: 120px;
+		margin: auto;
+    }
     }
 </style>
 
@@ -2281,7 +2349,46 @@ $('.homey-carousel').slick({
 					height: 80px;
 				}
 			}
+			@media (max-width: 768px) {
+        .partner {
+            margin-right: auto;
+            margin-left: auto; /* Center the partner */
+        }
+    }
 		</style>
+	
+<script>
+    $(document).ready(function() {
+        function initSlick() {
+            $('.partners-carousel').slick({
+                slidesToShow: 1, // Display one partner at a time on small screens
+                slidesToScroll: 1,
+            });
+        }
+
+        function destroySlick() {
+            $('.partners-carousel').slick('unslick');
+        }
+
+        // Initialize Slick Carousel on page load
+        if ($(window).width() <= 768) {
+            initSlick();
+        }
+
+        // Re-initialize Slick Carousel when window resizes to or from small screen size
+        $(window).resize(function() {
+            if ($(window).width() <= 768) {
+                if (!$('.partners-carousel').hasClass('slick-initialized')) {
+                    initSlick();
+                }
+            } else {
+                if ($('.partners-carousel').hasClass('slick-initialized')) {
+                    destroySlick();
+                }
+            }
+        });
+    });
+</script>
 		
 				</div>
 		</div> <!-- End #section-body -->
