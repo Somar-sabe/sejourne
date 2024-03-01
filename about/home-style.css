@@ -1,23 +1,4 @@
-/* ==================================================
- * Custom Stylesheet
- * You can edit core styles here.
- * Made By Booksi
- * ==================================================
- * 1. Core Selectors
- * 2. Buttons
- * 3. Header & Top bar
- * 4. Slider
- * 5. Sections and Content
- * 6. Custom Overlays and Shadows
- * 7. Cards and Items
- * 8. Forms
- * 9. Loader
- * 10. Responsive
- * 11. Messages
-*/
 
-
-/* 1. Core Selector_is */
 
 ::-moz-selection {
     background: #ffb000;
@@ -162,11 +143,11 @@ button {
 }
 
 a {
-    color: #c3589f;
+    color: #000000;
 }
 
 a:hover {
-    color: #082c62;
+    color: pink;
 }
 
 a,
