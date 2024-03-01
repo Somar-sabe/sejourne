@@ -461,7 +461,7 @@ body, .top-banner-wrap {
     </div>
 	      <div class="banner-caption ">
 	     	<h2 class="banner-title animated fadeInUp" data-translate="book" style="color: #ffffff !important; ">Book & Experience Amazing Places Around Dubai</h2>
-               <p class="banner-subtitle animated fadeInUp" data-translate="let" style="color: #ffffff !important; ">Let's find the perfect place</p>
+               <p class="banner-subtitle animated fadeInUp" data-translate="let" style="color: #ffffff !important;font-size:20px;position: relative; z-index: 9999999999999999999999999999999999999999999; ">Let's find the perfect place</p>
 		         <div class="search-wrap search-banner search-banner-desktop hidden-xs">
 	               <form class="clearfix" action="https://sejourne.ae/search-results/" method="GET">
                       <div class="search-destination with-select search-destination-js ">
@@ -1898,7 +1898,7 @@ $('.homey-carousel').slick({
                     <div class="details white-bg" style="background-color: pink;border-radius: 20px;">
                         <div class="testimonials_img_and_title">
                             <img src="https://famliving.com/images/1625581154.jpeg" class="img-fluid testimonials_people" style="display: block; margin: 0 auto;height: 120px;padding-top: 10px;">
-                            <h3 class="color_black" >marry bugota</h3>
+                            <h3 class="color_black" >Marry bugota</h3>
                         
                         </div>
                         <p class="color_black" style="color: #000000;">My family & me had a wonderful experience in Sarai apartments during UK lockdown for two months.</p>
@@ -1907,7 +1907,7 @@ $('.homey-carousel').slick({
                     <div class="details white-bg" style="background-color: pink;border-radius: 20px;">
                         <div class="testimonials_img_and_title">
                             <img src="https://famliving.com/images/1624189274.jpeg" class="img-fluid testimonials_people" style="display: block; margin: 0 auto;height: 120px;padding-top: 10px;">
-                            <h3 class="color_black" >oliva mashko</h3>
+                            <h3 class="color_black" >Oliva mashko</h3>
                         </div>
                         <p class="color_black" style="color: #000000;">Wonderful experience in Sarai apartments during UAE lockdown for two by two months two months. thank you</p>
                     </div>
@@ -2215,7 +2215,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 <section class="container-fluid service-offered " style="background-color: #ffffff;">
-    <div class="container service-carousel">
+    <div class="container ">
         <div class="row ">
            <div class="col-md-12 ">
                <div class="heading">
@@ -2224,7 +2224,7 @@ document.addEventListener('DOMContentLoaded', function() {
             </div>
         </div>
 
-        <div class="row border_bottom">
+        <div class="row border_bottom service-carousel">
             <div class="col-md-3 icon_middel_box col-12">
                 <div class="service-process">
                     <div class="process-icon">
@@ -2315,7 +2315,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <div class="row out-goin">
         </div>
     </div>
-
+</div>
 </section>
 <script>
     $(document).ready(function() {
@@ -2330,7 +2330,7 @@ document.addEventListener('DOMContentLoaded', function() {
             $('.service-carousel').slick('unslick');
         }
 
-        // Initialize Slick Carousel on page load
+        // Initialize Slick Carousel on page load if window width is less than or equal to 768 pixels
         if ($(window).width() <= 768) {
             initSlick();
         }
@@ -2349,6 +2349,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 </script>
+
 <div class="partners-section">
     <h3 style="color: #f15e75; text-align: center;"> Our partners</h3>
     <div class="partners-carousel">
@@ -2396,6 +2397,7 @@ document.addEventListener('DOMContentLoaded', function() {
     .service-process {
         text-align: center;
         margin-bottom: 20px;
+		
     }
     
     .process-icon {
@@ -4782,7 +4784,8 @@ function changeLanguage(lang) {
         'yearlyrental': 'Yearly Rental',
 		
         'propretiyowners': 'Propetit owners',
-        'estimaterevenue': 'Estimate Revenue'
+        'estimaterevenue': 'Estimate Revenue',
+		'contactus':'Contact us'
 
 		},
     'fr': {
@@ -4840,10 +4843,11 @@ function changeLanguage(lang) {
         'location': 'Emplacement',
         'monthlystay': 'Séjour mensuel',
         'yearlyrental': 'Location annuelle',
-		
         'propretiyowners': 'Propriétaires',
         'estimaterevenue': 'Estimation du revenu',
-		'locations': 'Emplacements'
+		'locations': 'Emplacements',
+		'contactus':'',
+		'ourteam':''
     
 	},
     'ar': {
@@ -4893,7 +4897,6 @@ function changeLanguage(lang) {
         'airportshuttle': 'خدمة النقل من وإلى المطار',
         'furniturestorage': 'تخزين الأثاث',
         'butler': 'خادم',
-	
         'car': 'تأجير السيارات',
         'commercialservices': 'خدمات تجارية',
         'airportshuttle': 'خدمة النقل من وإلى المطار',
@@ -5016,13 +5019,13 @@ function changeLanguage(lang) {
     'commercialservices': '商业服务',
     'airportshuttle': '机场班车',
 	'home': '主页',
-        'properties': '属性',
-        'location': '位置',
-        'monthlystay': '每月逗留',
-        'yearlyrental': '年度租赁',
-		'propretiyowners': '物业所有者',
-        'estimaterevenue': '收入估算',
-		'locations': '地点'
+    'properties': '属性',
+    'location': '位置',
+    'monthlystay': '每月逗留',
+    'yearlyrental': '年度租赁',
+	'propretiyowners': '物业所有者',
+    'estimaterevenue': '收入估算',
+	'locations': '地点'
 },
 'in': {
     'home': 'होम',
@@ -5067,22 +5070,21 @@ function changeLanguage(lang) {
     'housekeeping': 'घर की सफाई',
     'loundry': 'धोबी',
     'cityconcierge': 'शहरी सहायक',
-     'babysitter': 'बेबी सिटर',
-        'airportshuttle': 'हवाई अड्डे की शटल',
-        'furniturestorage': 'फर्नीचर स्टोरेज',
-        'butler': 'बटलर',
-		'car': 'कार रेंटल',
-        'commercialservices': 'वाणिज्यिक सेवाएं',
-        'airportshuttle': 'हवाई अड्डे की शटल',
-		'home': 'होम',
-        'properties': 'संपत्तियाँ',
-        'location': 'स्थान',
-        'monthlystay': 'मासिक रहना',
-        'yearlyrental': 'सालाना किराया',
-		
-        'propretiyowners': 'संपत्ति के मालिक',
-        'estimaterevenue': 'आय का अनुमान',
-		'locations': 'स्थान'
+    'babysitter': 'बेबी सिटर',
+    'airportshuttle': 'हवाई अड्डे की शटल',
+    'furniturestorage': 'फर्नीचर स्टोरेज',
+     'butler': 'बटलर',
+	'car': 'कार रेंटल',
+    'commercialservices': 'वाणिज्यिक सेवाएं',
+    'airportshuttle': 'हवाई अड्डे की शटल',
+	'home': 'होम',
+    'properties': 'संपत्तियाँ',
+    'location': 'स्थान',
+    'monthlystay': 'मासिक रहना',
+    'yearlyrental': 'सालाना किराया',
+    'propretiyowners': 'संपत्ति के मालिक',
+    'estimaterevenue': 'आय का अनुमान',
+	'locations': 'स्थान'
 }
 };
    var elements = document.querySelectorAll('[data-translate]');
