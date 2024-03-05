@@ -494,7 +494,7 @@ body, address, li, dt, dd, .pac-container, .control  {
       opacity: 0.35;
     }
     .top-banner-wrap {
-     height: 700px;
+     height: 1000px;
    }
    @media (max-width: 767px) {
     .top-banner-wrap {

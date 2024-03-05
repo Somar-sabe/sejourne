@@ -17,7 +17,7 @@ body {
 }
 /* 1. Header */
 .header-container{
-    height: 280px;
+    height: 200px;
 }
 
 /* 2. Content */
@@ -700,7 +700,7 @@ select{
 /* 7. Half Map */
 .home-explore .header-container{
     background: #161f27;
-    height: 85px;
+    height: 50px;
     position: fixed;
     z-index: 9999;
     width: 100%;

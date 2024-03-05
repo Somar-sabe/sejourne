@@ -9,6 +9,11 @@
     <!-- Slick Carousel CSS -->
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+<!-- Leaflet CSS -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+
+<!-- Leaflet JavaScript -->
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css"/>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
@@ -310,10 +315,10 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
 <li id="menu-item-4610" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4610">
 	<a href="owners.html" data-translate="propretiyowners">Properity owners</a></li>
 <li id="menu-item-4610" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4610">
-	<a href="estimate.html" data-translate="estimaterevenue">Estimate revenue</a></li>
+	<a href="estimate.html" data-translate="estimaterevenue">Estimate-revenue</a></li>
 	
 <li id="menu-item-4610" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4610">
-	<a data-translate="ourteam"> Our Team </a></li>
+	<a data-translate="ourteam">  </a></li>
 <li id="menu-item-4610" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4610">
 	<a  data-translate="contactus">Contact Us</a></li>
 
@@ -397,7 +402,7 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
                         </li>
                         
 						<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4609">
-                            <a data-translate="ourteam"  >Our team</a>	
+                            <a data-translate="ourteam"  >  </a>	
                         </li>
 						<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4609">
                             <a data-translate="propertyowners" href="owners.html" >Properity owners</a>
@@ -435,7 +440,40 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
     </div>
 </header>
     </div>
+
+    <iframe width="1800" height="700" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=55.3397%2C25.2289%2C55.5798%2C25.3638&amp;layer=mapnik"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=25.2963&amp;mlon=55.4597#map=11/25.2963/55.4597">View Larger Map</a></small>
+ 
 </div>
+	</div><!-- banner-caption -->
+
+</section><!-- header-p   llax -->	
+
+<div id="has_social_account" style="display: none" data-has-social-account=""></div>
+
+	
+	
+				
+				        <style>
+            /* Custom CSS for Animation */
+            @keyframes slideInFromLeft {
+                0% {
+                    transform: translateX(-100%);
+                    opacity: 0;
+                }
+                100% {
+                    transform: translateX(0);
+                    opacity: 1;
+                }
+            }
+        
+            .elementor-section {
+                animation: slideInFromLeft 1s ease-in-out forwards;
+            }
+        </style>
+
+
+
+
 <footer class="footer-wrap footer" >
 	
 	<div class="footer-top-wrap">
@@ -2087,7 +2125,9 @@ var hm_register_scriptAjax = {"please_wait_text":"Please wait..","something_went
 	            </li><li data-timestamp="1730332800" data-formatted-date="2024-10-31" class="current-month future-day">
 	            	<span class="day-number">31</span>
 	            </li></ul></div><div class="exp-search-calenar single-main-exp-search-calendar-wrap exp-only-calendar" data-month = "10" style="display:none;">
-					<div class="month clearfix"><h4>November <span>2024</span></h4></div>
+					<div class="month clearfix">
+                        <h4>November <span>2024</span></h4>
+                    </div>
 					<ul class="weekdays clearfix">
 						<li data-dayName = "Monday">M</li>
 						<li data-dayName = "Tuesday">T</li>
@@ -2987,5 +3027,16 @@ function changeLanguage(lang) {
         });
     });
 </script>
+<script>
+    var map = L.map('map').setView([25.0749, 55.4595], 10); // Set initial coordinates and zoom level
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    // Optionally, add markers or other map elements
+</script>
+
 </body>
 </html>

@@ -772,7 +772,7 @@ body .white-button:hover {
     display: none !important;
 }
 
-.slider-box .form-control:focus {
+.slider-box   :focus {
     border: 1px solid rgba(0, 0, 0, .15);
 }
 
@@ -1556,11 +1556,11 @@ body #carousel-images .carousel-inner{
 
 /* 8. Forms */
 
-.form-control {
-    border-radius: 0;
+   {
+    border-radius: 10%;
 }
 
-.form-control:focus {
+  :focus {
     border-color: #ffb000;
 }
 
@@ -3927,7 +3927,7 @@ body .fixed-header .lozadfade{
     width: 30px;
     text-align: center;
 }
-.form-control:disabled, .form-control[readonly] {
+  :disabled,   [readonly] {
     opacity: 1;
     box-shadow: none !important;
 }
@@ -3935,7 +3935,7 @@ body .fixed-header .lozadfade{
     box-shadow: none !important;
 }
 
-.form-control:disabled, .form-control[readonly] {
+  :disabled,   [readonly] {
      background-color: transparent !important; 
 }
 .booking-cart .filter-box .form-group{
@@ -5893,7 +5893,7 @@ body .LOREM_TE{
 .home-layout .form-group input::placeholder{
     color: #868686;
 }
-.home-layout .form-group .form-control{
+.home-layout .form-group   {
     padding: 10px 22px;
 }
 .home-layout .landlord_detail h1{

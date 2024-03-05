@@ -1,0 +1,1239 @@
+.Calculator_calculator___JLt_ {
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    background: #fff;
+    gap: 30px;
+    width: 100%
+}
+
+.Calculator_calculator___JLt_ label {
+    position: absolute;
+    left: -999em
+}
+
+@media(min-width: 1024px) {
+    .Calculator_calculator___JLt_ {
+        border-radius:8px
+    }
+}
+
+@media(max-width: 390px) {
+    .Calculator_calculator___JLt_ h2 {
+        font-size:34px
+    }
+}
+
+.Calculator_calculator___JLt_ .Calculator_inputsContainer__t8xd5 {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    align-items: center;
+    min-height: 231px
+}
+
+.Calculator_calculator___JLt_ .Calculator_inputsContainer__t8xd5 button {
+    width: 100%;
+    max-width: 223px
+}
+
+@media(min-width: 500px) {
+    .Calculator_calculator___JLt_ .Calculator_inputsContainer__t8xd5 {
+        min-height:50px;
+        gap: 20px;
+        flex-direction: row;
+        flex-wrap: wrap
+    }
+
+    .Calculator_calculator___JLt_ .Calculator_inputsContainer__t8xd5>button,.Calculator_calculator___JLt_ .Calculator_inputsContainer__t8xd5>div {
+        width: calc(50% - 10px);
+        max-width: 1000px
+    }
+}
+
+@media(min-width: 1024px) {
+    .Calculator_calculator___JLt_ .Calculator_inputsContainer__t8xd5 {
+        flex-wrap:nowrap
+    }
+
+    .Calculator_calculator___JLt_ .Calculator_inputsContainer__t8xd5>button,.Calculator_calculator___JLt_ .Calculator_inputsContainer__t8xd5>div {
+        width: 100%
+    }
+
+    .Calculator_calculator___JLt_ .Calculator_inputsContainer__t8xd5 button {
+        width: 100%;
+        max-width: 223px
+    }
+}
+
+.Calculator_calculator___JLt_ .Calculator_inputsContainer__t8xd5.Calculator_arabic__qpyzc div>div>input {
+    text-align: right;
+    direction: rtl;
+    padding-right: 12px;
+    padding-left: 30px
+}
+
+.Calculator_calculator___JLt_ .Calculator_inputsContainer__t8xd5.Calculator_arabic__qpyzc input+div {
+    left: 0;
+    right: unset;
+    justify-content: start
+}
+
+.Calculator_calculator___JLt_ .Calculator_inputsContainer__t8xd5.Calculator_arabic__qpyzc div+div>div>div>div>div>div>div {
+    text-align: right;
+    direction: rtl
+}
+
+@media(min-width: 1024px) {
+    .Calculator_calculator___JLt_ .Calculator_flexColumnOnLaptop__PZsbp {
+        flex-direction:column
+    }
+
+    .Calculator_calculator___JLt_ .Calculator_flexColumnOnLaptop__PZsbp button {
+        margin-left: auto;
+        max-width: calc(223px + 4vw)
+    }
+}
+
+.EstimatedProfit_profitContainer__jwqka {
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px
+}
+
+@media(min-width: 1024px) {
+    .EstimatedProfit_profitContainer__jwqka {
+        padding:60px 20px 0
+    }
+}
+
+@media(max-width: 800px) {
+    .EstimatedProfit_profitContainer__jwqka .EstimatedProfit_textsAndFadeWrapper__jfCfq {
+        text-align:center
+    }
+}
+
+.EstimatedProfit_profitContainer__jwqka .EstimatedProfit_textsAndFadeWrapper__jfCfq h1,.EstimatedProfit_profitContainer__jwqka .EstimatedProfit_textsAndFadeWrapper__jfCfq h3 {
+    margin: 0 0 17px
+}
+
+.EstimatedProfit_profitContainer__jwqka .EstimatedProfit_textsAndFadeWrapper__jfCfq>div>span {
+    line-height: 150%!important;
+    display: block
+}
+
+@media(min-width: 1024px) {
+    .EstimatedProfit_profitContainer__jwqka .EstimatedProfit_textsAndFadeWrapper__jfCfq>div>span {
+        padding-right:50%
+    }
+
+    .EstimatedProfit_profitContainer__jwqka .EstimatedProfit_textsAndFadeWrapper__jfCfq {
+        margin-top: 20px
+    }
+}
+
+.EstimatedProfit_profitContainer__jwqka .EstimatedProfit_textsAndFadeWrapper__jfCfq .EstimatedProfit_parsedText__P1fEw {
+    width: 100%;
+    line-height: 150%
+}
+
+.EstimatedProfit_profitContainer__jwqka .EstimatedProfit_textsAndFadeWrapper__jfCfq .EstimatedProfit_parsedText__P1fEw strong {
+    margin: 0 auto;
+    text-align: center
+}
+
+.EstimatedProfit_profitContainer__jwqka .EstimatedProfit_textsAndFadeWrapper__jfCfq .EstimatedProfit_parsedText__P1fEw .EstimatedProfit_profit__EXrQW {
+    display: flex;
+    margin: 12.5px 0;
+    color: #8d7252
+}
+
+@media(max-width: 800px) {
+    .EstimatedProfit_profitContainer__jwqka .EstimatedProfit_textsAndFadeWrapper__jfCfq .EstimatedProfit_parsedText__P1fEw .EstimatedProfit_profit__EXrQW {
+        justify-content:center
+    }
+}
+
+@media(min-width: 500px) {
+    .EstimatedProfit_profitContainer__jwqka .EstimatedProfit_textsAndFadeWrapper__jfCfq .EstimatedProfit_parsedText__P1fEw .EstimatedProfit_profit__EXrQW {
+        margin:9px 0
+    }
+}
+
+@media(min-width: 1024px) {
+    .EstimatedProfit_profitContainer__jwqka .EstimatedProfit_textsAndFadeWrapper__jfCfq .EstimatedProfit_parsedText__P1fEw .EstimatedProfit_profit__EXrQW {
+        margin:9.3px 0
+    }
+}
+
+@media(min-width: 1920px) {
+    .EstimatedProfit_profitContainer__jwqka .EstimatedProfit_textsAndFadeWrapper__jfCfq .EstimatedProfit_parsedText__P1fEw .EstimatedProfit_profit__EXrQW {
+        margin:4.5px 0
+    }
+}
+
+.EstimatedProfit_profitContainer__jwqka .EstimatedProfit_textAndFadeWrapper__E6_GD {
+    margin-top: 15px
+}
+
+@media(min-width: 1024px) {
+    .EstimatedProfit_profitContainer__jwqka .EstimatedProfit_textAndFadeWrapper__E6_GD {
+        margin-top:22px
+    }
+}
+
+@media(max-width: 800px) {
+    .EstimatedProfit_profitContainer__jwqka .EstimatedProfit_textAndFadeWrapper__E6_GD {
+        text-align:center
+    }
+}
+
+.Contact_formContainer__ltyv5 {
+    background: #f4f2f1;
+    width: 100%;
+    padding: 30px 25px
+}
+
+@media(min-width: 380px) {
+    .Contact_formContainer__ltyv5 {
+        padding:30px
+    }
+}
+
+@media(min-width: 1024px) {
+    .Contact_formContainer__ltyv5 {
+        width:100%;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px
+    }
+}
+
+.Contact_formContainer__ltyv5 h2 {
+    margin-bottom: 25px
+}
+
+.Contact_formContainer__ltyv5 .Contact_estimateRevenueForm__j1urp {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    gap: 15px
+}
+
+@media(min-width: 500px) {
+    .Contact_formContainer__ltyv5 .Contact_estimateRevenueForm__j1urp {
+        flex-direction:row;
+        gap: 20px
+    }
+}
+
+.Contact_formContainer__ltyv5 .Contact_estimateRevenueForm__j1urp .Contact_estimateRevenueFormColumn__ymymj {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+    width: 100%
+}
+
+@media(min-width: 500px) {
+    .Contact_formContainer__ltyv5 .Contact_estimateRevenueForm__j1urp .Contact_estimateRevenueFormColumn__ymymj {
+        flex-direction:column;
+        gap: 20px
+    }
+}
+
+.Contact_formContainer__ltyv5 .Contact_estimateRevenueForm__j1urp .Contact_estimateRevenueFormColumn__ymymj textarea {
+    height: 105px
+}
+
+@media(min-width: 500px) {
+    .Contact_formContainer__ltyv5 .Contact_estimateRevenueForm__j1urp .Contact_estimateRevenueFormColumn__ymymj textarea {
+        height:120px
+    }
+}
+
+@media(min-width: 1920px) {
+    .Contact_formContainer__ltyv5 .Contact_estimateRevenueForm__j1urp .Contact_estimateRevenueFormColumn__ymymj textarea {
+        height:135px
+    }
+}
+
+.Contact_formContainer__ltyv5 .Contact_estimateRevenueForm__j1urp .Contact_estimateRevenueFormColumn__ymymj .Contact_buttonContainer__29__Q {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+@media(min-width: 500px) {
+    .Contact_formContainer__ltyv5 .Contact_estimateRevenueForm__j1urp .Contact_estimateRevenueFormColumn__ymymj .Contact_buttonContainer__29__Q {
+        width:unset;
+        flex-direction: column;
+        align-content: space-between
+    }
+}
+
+@media(min-width: 1024px) {
+    .Contact_formContainer__ltyv5 .Contact_estimateRevenueForm__j1urp .Contact_estimateRevenueFormColumn__ymymj .Contact_buttonContainer__29__Q {
+        align-items:flex-start
+    }
+}
+
+.Contact_formContainer__ltyv5 .Contact_estimateRevenueForm__j1urp .Contact_estimateRevenueFormColumn__ymymj .Contact_buttonContainer__29__Q button {
+    width: 100%;
+    max-width: 200px
+}
+
+@media(min-width: 500px) {
+    .Contact_formContainer__ltyv5 .Contact_estimateRevenueForm__j1urp .Contact_estimateRevenueFormColumn__ymymj .Contact_buttonContainer__29__Q button {
+        max-width:100%
+    }
+}
+
+@media(min-width: 1024px) {
+    .Contact_formContainer__ltyv5 .Contact_estimateRevenueForm__j1urp .Contact_estimateRevenueFormColumn__ymymj .Contact_buttonContainer__29__Q button {
+        width:45%;
+        min-width: 250px
+    }
+}
+
+.Contact_formContainer__ltyv5 .Contact_estimateRevenueForm__j1urp .Contact_estimateRevenueFormColumn__ymymj .Contact_buttonContainer__29__Q .Contact_contactSubmitOk__duujk {
+    color: #4f8037;
+    position: absolute;
+    bottom: -27px;
+    left: 0;
+    font-size: 14px
+}
+
+@media(min-width: 1024px) {
+    .Contact_formContainer__ltyv5 .Contact_estimateRevenueForm__j1urp .Contact_estimateRevenueFormColumn__ymymj .Contact_buttonContainer__29__Q .Contact_contactSubmitOk__duujk {
+        font-size:16px
+    }
+}
+
+.Contact_formContainer__ltyv5 .Contact_estimateRevenueForm__j1urp .Contact_estimateRevenueFormColumn__ymymj .Contact_buttonContainer__29__Q .Contact_contactSubmitNok__KKv5d {
+    color: #c50d0d;
+    position: absolute;
+    bottom: -27px;
+    left: 0;
+    font-size: 14px
+}
+
+@media(min-width: 500px)and (max-width:600px) {
+    .Contact_formContainer__ltyv5 .Contact_estimateRevenueForm__j1urp .Contact_estimateRevenueFormColumn__ymymj .Contact_buttonContainer__29__Q .Contact_contactSubmitNok__KKv5d {
+        font-size:12px
+    }
+}
+
+@media(min-width: 1024px) {
+    .Contact_formContainer__ltyv5 .Contact_estimateRevenueForm__j1urp .Contact_estimateRevenueFormColumn__ymymj .Contact_buttonContainer__29__Q .Contact_contactSubmitNok__KKv5d {
+        font-size:16px
+    }
+}
+
+.Contact_formContainer__ltyv5.Contact_arabic__p_l2w .Contact_estimateRevenueForm__j1urp div>input,.Contact_formContainer__ltyv5.Contact_arabic__p_l2w .Contact_estimateRevenueForm__j1urp textarea {
+    text-align: right;
+    direction: rtl;
+    padding-right: 12px;
+    padding-left: 30px
+}
+
+.EstimateRevenueCalculator_revenueContainer__nhGUS {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0
+}
+
+.EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_imageAsideContainer__vUNAt {
+    width: 75vw
+}
+
+@media(min-width: 1024px) {
+    .EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_imageAsideContainer__vUNAt {
+        padding:0;
+        width: 38%;
+        position: absolute;
+        right: 0;
+        left: auto;
+        margin-top: -120px;
+        z-index: 2;
+        justify-content: flex-end
+    }
+}
+
+.EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_imageAsideContainer__vUNAt>span {
+    overflow: hidden;
+    max-height: 480px
+}
+
+@media(min-width: 1024px) {
+    .EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_imageAsideContainer__vUNAt>span {
+        border-radius:0 8px 8px 0
+    }
+}
+
+.EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_imageAsideContainer__vUNAt>span img {
+    height: auto!important;
+    max-height: 999em!important
+}
+
+.EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_revenueWrapperRight__nmiEN>.EstimateRevenueCalculator_imageAsideContainer__vUNAt {
+    margin: 0 0 0 auto
+}
+
+@media(min-width: 800px) {
+    .EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_revenueWrapperRight__nmiEN>.EstimateRevenueCalculator_imageAsideContainer__vUNAt {
+        margin-top:-100px
+    }
+}
+
+@media(max-width: 800px) {
+    .EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_revenueWrapperRight__nmiEN>.EstimateRevenueCalculator_imageAsideContainer__vUNAt {
+        width:85vw
+    }
+}
+
+@media(max-width: 1024px) {
+    .EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_revenueWrapperRight__nmiEN>.EstimateRevenueCalculator_imageAsideContainer__vUNAt {
+        margin:0 0 0 auto
+    }
+
+    .EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_revenueWrapperRight__nmiEN>.EstimateRevenueCalculator_imageAsideContainer__vUNAt>span {
+        border-radius: 4px 0 0 4px
+    }
+}
+
+@media(max-width: 800px) {
+    .EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_revenueWrapperLeft__wWHIw>.EstimateRevenueCalculator_imageAsideContainer__vUNAt {
+        margin-top:24px;
+        width: 100vw
+    }
+}
+
+@media(min-width: 800px)and (max-width:1024px) {
+    .EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_revenueWrapperLeft__wWHIw>.EstimateRevenueCalculator_imageAsideContainer__vUNAt {
+        margin-top:-100px;
+        width: 75vw
+    }
+}
+
+@media(max-width: 1024px) {
+    .EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_revenueWrapperLeft__wWHIw>.EstimateRevenueCalculator_imageAsideContainer__vUNAt>span {
+        border-radius:0 4px 4px 0
+    }
+}
+
+@media(max-width: 800px) {
+    .EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_revenueWrapperLeft__wWHIw>.EstimateRevenueCalculator_imageAsideContainer__vUNAt>span {
+        border-radius:0
+    }
+}
+
+.EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_revenueWrapperBoth__a8nsv {
+    padding-left: 8%;
+    padding-right: 8%
+}
+
+.EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_revenueWrapperLeft__wWHIw,.EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_revenueWrapperRight__nmiEN {
+    display: flex;
+    flex-direction: row;
+    position: relative
+}
+
+@media(min-width: 800px) {
+    .EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_revenueWrapperLeft__wWHIw,.EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_revenueWrapperRight__nmiEN {
+        padding-left:6%
+    }
+}
+
+@media(min-width: 1024px) {
+    .EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_revenueWrapperRight__nmiEN .EstimateRevenueCalculator_imageAsideContainer__vUNAt>span {
+        border-radius:8px 0 0 8px;
+        max-height: 600px
+    }
+}
+
+.EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_revenueWrapperLeft__wWHIw {
+    padding-left: 0
+}
+
+@media(min-width: 1024px) {
+    .EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_revenueWrapperLeft__wWHIw {
+        padding-right:11%
+    }
+}
+
+.EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_revenueWrapperLeft__wWHIw .EstimateRevenueCalculator_imageAsideContainer__vUNAt {
+    left: 0
+}
+
+.EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_calculatorTitleContainer__6cMvc {
+    display: flex;
+    flex-direction: column;
+    padding: 24px 25px 9px;
+    gap: 5px
+}
+
+@media(min-width: 380px) {
+    .EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_calculatorTitleContainer__6cMvc {
+        padding:24px 30px 9px;
+        gap: 0
+    }
+}
+
+@media(min-width: 800px) {
+    .EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_calculatorTitleContainer__6cMvc {
+        padding:unset;
+        padding-left: 8%;
+        margin: 80px 0 40px
+    }
+}
+
+@media(min-width: 1024px) {
+    .EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_calculatorTitleContainer__6cMvc {
+        flex-direction:row;
+        padding-left: 8%;
+        margin: 80px 0;
+        padding-top: 0;
+        gap: 0
+    }
+
+    .EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_calculatorTitleContainer__6cMvc h1 {
+        padding: 0 50px 0 0;
+        margin: 0;
+        width: 100%
+    }
+}
+
+.EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_calculatorTitleContainer__6cMvc h1 .EstimateRevenueCalculator_minorTitle__BMoLT {
+    display: block;
+    font-weight: 600
+}
+
+.EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_calculatorTitleContainer__6cMvc p {
+    display: inline
+}
+
+@media(min-width: 501px) {
+    .EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_calculatorTitleContainer__6cMvc p {
+        width:75%
+    }
+}
+
+@media(min-width: 1024px) {
+    .EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_calculatorTitleContainer__6cMvc p {
+        width:70%
+    }
+}
+
+.EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_calculatorTitleContainer__6cMvc .EstimateRevenueCalculator_subtitle2mobile__8h3kt {
+    margin: 0;
+    display: block;
+    padding: 10px 0
+}
+
+.EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_calculatorTitleContainer__6cMvc button {
+    background: none;
+    border: none;
+    color: #8d7252;
+    padding: 0;
+    cursor: pointer;
+    display: inline
+}
+
+.EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_calculatorTitleContainerbutton__ctIUE:hover {
+    color: #202020
+}
+
+.EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_calculatorTitleContainer__6cMvc .EstimateRevenueCalculator_subtitleTextsWrapper__subCV {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 24px
+}
+
+@media(min-width: 501px) {
+    .EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_calculatorTitleContainer__6cMvc .EstimateRevenueCalculator_subtitleTextsWrapper__subCV {
+        padding:12px 0 24px
+    }
+}
+
+@media(min-width: 800px) {
+    .EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_calculatorTitleContainer__6cMvc .EstimateRevenueCalculator_subtitleTextsWrapper__subCV {
+        padding:25px 0 0
+    }
+}
+
+@media(min-width: 1024px) {
+    .EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_calculatorTitleContainer__6cMvc .EstimateRevenueCalculator_subtitleTextsWrapper__subCV {
+        padding:15px 0 0
+    }
+}
+
+.EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_calculatorTitleContainer__6cMvc .EstimateRevenueCalculator_formSubtitle__o6Cou {
+    margin-top: 10px;
+    margin-bottom: 15px
+}
+
+.EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_calculatorContainer__560EL {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #f4f2f1;
+    border: 1px solid #8d7252;
+    border-left: 0;
+    border-right: 0;
+    padding: 40px 25px;
+    margin-bottom: 25px
+}
+
+@media(min-width: 380px) {
+    .EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_calculatorContainer__560EL {
+        padding:40px 30px
+    }
+}
+
+@media(min-width: 800px) {
+    .EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_calculatorContainer__560EL {
+        border:1px solid #8d7252;
+        padding: 40px 30px 70px;
+        border-radius: 8px 0 0 8px
+    }
+}
+
+@media(min-width: 1024px) {
+    .EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_calculatorContainer__560EL {
+        padding:40px 30px 140px;
+        flex-direction: row
+    }
+}
+
+.EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_calculatorContainer__560EL>div>div {
+    background-color: #f4f2f1
+}
+
+.EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_calculatorContainer__560EL form>div {
+    background: #fff
+}
+
+.EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_calculatorContainer__560EL button[type=submit] {
+    background-color: #8d7252;
+    border-color: #8d7252;
+    transition: all .5s ease
+}
+
+.EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_calculatorContainer__560EL button[type=submit]:hover {
+    background: #000;
+    border-color: #8d7252
+}
+
+.EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_leftSide__sqrSu {
+    display: flex;
+    flex-direction: column;
+    margin: 0
+}
+
+@media(min-width: 1024px) {
+    .EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_leftSide__sqrSu {
+        width:50%;
+        padding-right: 40px
+    }
+}
+
+.EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_leftSide__sqrSu h2 {
+    margin-bottom: 20px
+}
+
+.EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_rightSide__EErYF {
+    display: flex;
+    flex-direction: column
+}
+
+@media(min-width: 800px) {
+    .EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_rightSide__EErYF {
+        margin-bottom:40px
+    }
+}
+
+@media(min-width: 1024px) {
+    .EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_rightSide__EErYF {
+        margin:0 10% 0 0;
+        width: 50%
+    }
+}
+
+.EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_contactContainer__JI_cT {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center
+}
+
+@media(min-width: 1024px) {
+    .EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_contactContainer__JI_cT {
+        padding-bottom:150px;
+        padding-top: 40px;
+        padding-left: 50%
+    }
+}
+
+.EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_contactContainer__JI_cT>div {
+    background: #fff
+}
+
+.EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_incomeWrapper__43KFQ {
+    display: flex;
+    flex-direction: column!important;
+    padding: 10px 0
+}
+
+.EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_incomeWrapper__43KFQ .EstimateRevenueCalculator_incomeContainer__iVp9W {
+    padding: 20px 25px 0
+}
+
+@media(min-width: 380px) {
+    .EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_incomeWrapper__43KFQ .EstimateRevenueCalculator_incomeContainer__iVp9W {
+        padding:20px 30px 0
+    }
+}
+
+@media(min-width: 1024px) {
+    .EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_incomeWrapper__43KFQ .EstimateRevenueCalculator_incomeContainer__iVp9W {
+        padding:0 0 0 calc(6% + 40px);
+        width: 50%
+    }
+}
+
+@media(min-width: 1920px) {
+    .EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_incomeWrapper__43KFQ .EstimateRevenueCalculator_incomeContainer__iVp9W {
+        width:40%
+    }
+}
+
+.EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_howtoContainer__Y4ZpL {
+    background-color: #f4f2f1;
+    width: 100%;
+    border-radius: 8px 0 0 8px;
+    padding: 25px 0 25px 25px;
+    margin: 20px 0
+}
+
+@media(min-width: 380px) {
+    .EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_howtoContainer__Y4ZpL {
+        padding:25px 0 25px 30px
+    }
+}
+
+@media(min-width: 1024px) {
+    .EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_howtoContainer__Y4ZpL {
+        margin:60px 0;
+        padding-left: 6%
+    }
+}
+
+@media(min-width: 1700px) {
+    .EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_howtoContainer__Y4ZpL {
+        margin:90px 0 60px
+    }
+}
+
+@media(min-width: 1920px) {
+    .EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_howtoContainer__Y4ZpL {
+        margin:60px 0
+    }
+}
+
+.EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_howtoContainer__Y4ZpL .EstimateRevenueCalculator_howtoContainerItems__nRlBT {
+    display: flex;
+    flex-direction: column;
+    gap: 15px
+}
+
+@media(min-width: 768px) {
+    .EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_howtoContainer__Y4ZpL .EstimateRevenueCalculator_howtoContainerItems__nRlBT {
+        flex-direction:row;
+        padding-right: 0;
+        margin-top: 40px
+    }
+}
+
+@media(min-width: 1024px) {
+    .EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_howtoContainer__Y4ZpL .EstimateRevenueCalculator_howtoContainerItems__nRlBT {
+        padding-right:10%
+    }
+}
+
+.EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_howtoContainer__Y4ZpL .EstimateRevenueCalculator_howtoContainerItems__nRlBT .EstimateRevenueCalculator_howtoContainerItem__vXNQf {
+    display: flex;
+    gap: 10px;
+    max-width: 100vw
+}
+
+@media(min-width: 768px) {
+    .EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_howtoContainer__Y4ZpL .EstimateRevenueCalculator_howtoContainerItems__nRlBT .EstimateRevenueCalculator_howtoContainerItem__vXNQf {
+        flex-direction:column;
+        max-width: 100%;
+        gap: 0;
+        flex: 1 1
+    }
+}
+
+@media(min-width: 1024px) {
+    .EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_howtoContainer__Y4ZpL .EstimateRevenueCalculator_howtoContainerItems__nRlBT .EstimateRevenueCalculator_howtoContainerItem__vXNQf {
+        padding:0 40px 0 0
+    }
+}
+
+.EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_howtoContainer__Y4ZpL .EstimateRevenueCalculator_howtoContainerItems__nRlBT .EstimateRevenueCalculator_howtoContainerItem__vXNQf img {
+    min-width: 62px
+}
+
+.EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_howtoContainer__Y4ZpL .EstimateRevenueCalculator_howtoContainerItems__nRlBT .EstimateRevenueCalculator_howtoContainerItem__vXNQf h3 {
+    font-size: 18px;
+    line-height: 130%;
+    padding-right: 20px
+}
+
+@media(min-width: 1024px) {
+    .EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_howtoContainer__Y4ZpL .EstimateRevenueCalculator_howtoContainerItems__nRlBT .EstimateRevenueCalculator_howtoContainerItem__vXNQf h3 {
+        margin:10px 0 5px
+    }
+}
+
+.EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_howtoContainer__Y4ZpL .EstimateRevenueCalculator_howtoContainerItems__nRlBT .EstimateRevenueCalculator_howtoContainerItem__vXNQf a {
+    color: #8d7252;
+    transition: all .5s ease
+}
+
+.EstimateRevenueCalculator_revenueContainer__nhGUS .EstimateRevenueCalculator_howtoContainer__Y4ZpL .EstimateRevenueCalculator_howtoContainerItems__nRlBT .EstimateRevenueCalculator_howtoContainerItem__vXNQf a:hover {
+    color: #000
+}
+
+.EstimateRevenueCalculator_revenueContainer__nhGUS.EstimateRevenueCalculator_arabic__BZyTc .EstimateRevenueCalculator_imageAsideContainer__vUNAt {
+    transform: scaleX(-1)
+}
+
+@media(min-width: 1024px) {
+    .EstimateRevenueCalculator_revenueContainer__nhGUS.EstimateRevenueCalculator_arabic__BZyTc .EstimateRevenueCalculator_imageAsideContainer__vUNAt {
+        right:0;
+        left: auto
+    }
+
+    .EstimateRevenueCalculator_revenueContainer__nhGUS.EstimateRevenueCalculator_arabic__BZyTc .EstimateRevenueCalculator_revenueWrapperRight__nmiEN>.EstimateRevenueCalculator_imageAsideContainer__vUNAt {
+        left: 0;
+        right: auto
+    }
+}
+
+.EstimateRevenueCalculator_revenueContainer__nhGUS.EstimateRevenueCalculator_arabic__BZyTc .EstimateRevenueCalculator_revenueWrapperBoth__a8nsv {
+    padding-left: 8%;
+    padding-right: 8%
+}
+
+@media(min-width: 800px) {
+    .EstimateRevenueCalculator_revenueContainer__nhGUS.EstimateRevenueCalculator_arabic__BZyTc .EstimateRevenueCalculator_revenueWrapperLeft__wWHIw,.EstimateRevenueCalculator_revenueContainer__nhGUS.EstimateRevenueCalculator_arabic__BZyTc .EstimateRevenueCalculator_revenueWrapperRight__nmiEN {
+        padding-left:unset;
+        padding-right: 6%
+    }
+}
+
+.EstimateRevenueCalculator_revenueContainer__nhGUS.EstimateRevenueCalculator_arabic__BZyTc .EstimateRevenueCalculator_revenueWrapperRight__nmiEN .EstimateRevenueCalculator_imageAsideContainer__vUNAt {
+    margin-right: auto;
+    margin-left: 0
+}
+
+.EstimateRevenueCalculator_revenueContainer__nhGUS.EstimateRevenueCalculator_arabic__BZyTc .EstimateRevenueCalculator_revenueWrapperLeft__wWHIw {
+    padding-left: 0
+}
+
+.EstimateRevenueCalculator_revenueContainer__nhGUS.EstimateRevenueCalculator_arabic__BZyTc .EstimateRevenueCalculator_revenueWrapperLeft__wWHIw .EstimateRevenueCalculator_imageAsideContainer__vUNAt {
+    left: 0
+}
+
+@media(min-width: 800px) {
+    .EstimateRevenueCalculator_revenueContainer__nhGUS.EstimateRevenueCalculator_arabic__BZyTc .EstimateRevenueCalculator_calculatorTitleContainer__6cMvc {
+        padding-right:8%;
+        padding-left: unset
+    }
+}
+
+@media(min-width: 1024px) {
+    .EstimateRevenueCalculator_revenueContainer__nhGUS.EstimateRevenueCalculator_arabic__BZyTc .EstimateRevenueCalculator_calculatorTitleContainer__6cMvc {
+        padding-left:8%
+    }
+
+    .EstimateRevenueCalculator_revenueContainer__nhGUS.EstimateRevenueCalculator_arabic__BZyTc .EstimateRevenueCalculator_calculatorTitleContainer__6cMvc h1 {
+        padding: 0 0 0 50px
+    }
+}
+
+.EstimateRevenueCalculator_revenueContainer__nhGUS.EstimateRevenueCalculator_arabic__BZyTc .EstimateRevenueCalculator_calculatorContainer__560EL {
+    border-left: 0
+}
+
+@media(min-width: 800px) {
+    .EstimateRevenueCalculator_revenueContainer__nhGUS.EstimateRevenueCalculator_arabic__BZyTc .EstimateRevenueCalculator_calculatorContainer__560EL {
+        border-radius:0 8px 8px 0
+    }
+}
+
+@media(min-width: 1024px) {
+    .EstimateRevenueCalculator_revenueContainer__nhGUS.EstimateRevenueCalculator_arabic__BZyTc .EstimateRevenueCalculator_contactContainer__JI_cT {
+        padding-left:7%;
+        padding-right: 40%
+    }
+}
+
+@media(min-width: 800px) {
+    .EstimateRevenueCalculator_revenueContainer__nhGUS.EstimateRevenueCalculator_arabic__BZyTc .EstimateRevenueCalculator_incomeWrapper__43KFQ .EstimateRevenueCalculator_incomeContainer__iVp9W {
+        padding-right:calc(6% + 40px)
+    }
+}
+
+.EstimateRevenueCalculator_revenueContainer__nhGUS.EstimateRevenueCalculator_arabic__BZyTc .EstimateRevenueCalculator_howtoContainer__Y4ZpL {
+    padding: 25px 25px 25px 0
+}
+
+@media(min-width: 380px) {
+    .EstimateRevenueCalculator_revenueContainer__nhGUS.EstimateRevenueCalculator_arabic__BZyTc .EstimateRevenueCalculator_howtoContainer__Y4ZpL {
+        padding:25px 30px 25px 0
+    }
+}
+
+@media(min-width: 1024px) {
+    .EstimateRevenueCalculator_revenueContainer__nhGUS.EstimateRevenueCalculator_arabic__BZyTc .EstimateRevenueCalculator_howtoContainer__Y4ZpL .EstimateRevenueCalculator_howtoContainerItems__nRlBT {
+        padding-left:10%;
+        padding-right: unset
+    }
+}
+
+.EstimateRevenueCalculator_revenueContainer__nhGUS.EstimateRevenueCalculator_arabic__BZyTc .EstimateRevenueCalculator_howtoContainer__Y4ZpL .EstimateRevenueCalculator_howtoContainerItems__nRlBT .EstimateRevenueCalculator_howtoContainerItem__vXNQf h3 {
+    padding-right: unset;
+    padding-left: 20px
+}
+
+.FaqSection_noselect__SeALc {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.FaqSection_faqContainer__CAua4 {
+    width: 100%
+}
+
+.FaqSection_faqContainer__CAua4 .FaqSection_faqSection__xCO4h {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 4vh
+}
+
+@media(max-width: 800px) {
+    .FaqSection_faqContainer__CAua4 .FaqSection_faqSection__xCO4h {
+        margin:0 auto 6vw
+    }
+}
+
+.FaqSection_faqContainer__CAua4 .FaqSection_faqSection__xCO4h .FaqSection_faqSectionContent__IdHPy {
+    display: flex;
+    flex: 1 1;
+    flex-direction: column
+}
+
+.FaqSection_faqContainer__CAua4 .FaqSection_faqSection__xCO4h .FaqSection_faqSectionContent__IdHPy .FaqSection_faqSectionContentRow__bwmIV {
+    flex-direction: row
+}
+
+.FaqSection_faqContainer__CAua4 .FaqSection_faqSection__xCO4h h2 {
+    font-size: 36px;
+    padding: 20px 0
+}
+
+@media(max-width: 1024px) {
+    .FaqSection_faqContainer__CAua4 .FaqSection_faqSection__xCO4h h2 {
+        padding:.5vw 0
+    }
+}
+
+@media(max-width: 800px) {
+    .FaqSection_faqContainer__CAua4 .FaqSection_faqSection__xCO4h h2 {
+        padding:.5vw 0 1vw
+    }
+}
+
+.FaqSection_faqContainer__CAua4 .FaqSection_faqSection__xCO4h .FaqSection_questionMarkAndQuestionsWrapper__xVeBU {
+    display: flex;
+    gap: 2.5vw;
+    justify-content: flex-start;
+    padding: 0 25px
+}
+
+@media(min-width: 380px) {
+    .FaqSection_faqContainer__CAua4 .FaqSection_faqSection__xCO4h .FaqSection_questionMarkAndQuestionsWrapper__xVeBU {
+        padding:0 30px
+    }
+}
+
+@media(min-width: 1024px) {
+    .FaqSection_faqContainer__CAua4 .FaqSection_faqSection__xCO4h .FaqSection_questionMarkAndQuestionsWrapper__xVeBU {
+        padding-bottom:100px
+    }
+}
+
+.FaqSection_faqContainer__CAua4 .FaqSection_faqSection__xCO4h .FaqSection_questionMarkAndQuestionsWrapper__xVeBU a {
+    color: #8d7252;
+    transition: color .5s ease
+}
+
+.FaqSection_faqContainer__CAua4 .FaqSection_faqSection__xCO4h .FaqSection_questionMarkAndQuestionsWrapper__xVeBU a:hover {
+    color: #000
+}
+
+@media(max-width: 1024px) {
+    .FaqSection_faqContainer__CAua4 .FaqSection_faqSection__xCO4h .FaqSection_questionMarkAndQuestionsWrapper__xVeBU .FaqSection_questionMarkContainer__vcUGP {
+        display:none
+    }
+}
+
+.FaqSection_faqContainer__CAua4 .FaqSection_faqSection__xCO4h .FaqSection_questionMarkAndQuestionsWrapper__xVeBU .FaqSection_faqQuestions__QHNy8 {
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 1rem;
+    align-content: flex-start;
+    -moz-column-gap: 1vw;
+    column-gap: 1vw;
+    row-gap: 1vh
+}
+
+@media(min-width: 800px) {
+    .FaqSection_faqContainer__CAua4 .FaqSection_faqSection__xCO4h .FaqSection_questionMarkAndQuestionsWrapper__xVeBU .FaqSection_faqQuestions__QHNy8 {
+        display:flex;
+        width: 90%;
+        padding: unset;
+        flex-direction: row
+    }
+}
+
+@media(max-width: 1024px) {
+    .FaqSection_faqContainer__CAua4 .FaqSection_faqSection__xCO4h .FaqSection_questionMarkAndQuestionsWrapper__xVeBU .FaqSection_faqQuestions__QHNy8 {
+        padding-left:0
+    }
+}
+
+.FaqSection_faqContainer__CAua4 .FaqSection_faqSection__xCO4h .FaqSection_questionMarkAndQuestionsWrapper__xVeBU .FaqSection_faqQuestions__QHNy8 .FaqSection_faqQuestionsColumn__WmGQ1 {
+    width: 48%
+}
+
+@media(max-width: 800px) {
+    .FaqSection_faqContainer__CAua4 .FaqSection_faqSection__xCO4h .FaqSection_questionMarkAndQuestionsWrapper__xVeBU .FaqSection_faqQuestions__QHNy8 .FaqSection_faqQuestionsColumn__WmGQ1 {
+        width:100%
+    }
+}
+
+.FaqSection_faqContainer__CAua4 .FaqSection_faqSection__xCO4h .FaqSection_faqQuestionContainer___nBCv {
+    width: 100%;
+    display: grid;
+    grid-template-columns: .5fr 9.5fr;
+    cursor: pointer;
+    margin-top: 10px
+}
+
+@media(min-width: 501px) {
+    .FaqSection_faqContainer__CAua4 .FaqSection_faqSection__xCO4h .FaqSection_faqQuestionContainer___nBCv .FaqSection_sign__DD_kM {
+        margin-right:13px;
+        margin-top: 6px
+    }
+}
+
+.FaqSection_faqContainer__CAua4 .FaqSection_faqSection__xCO4h .FaqSection_faqQuestionContainer___nBCv h3 {
+    align-self: center;
+    padding-right: 1vw
+}
+
+@media(min-width: 501px) {
+    .FaqSection_faqContainer__CAua4 .FaqSection_faqSection__xCO4h .FaqSection_faqQuestionContainer___nBCv h3 {
+        align-self:unset
+    }
+}
+
+.FaqSection_faqContainer__CAua4 .FaqSection_faqSection__xCO4h .FaqSection_faqQuestionContainer___nBCv div>p {
+    padding: 10px 20px 10px 0;
+    transition: all .2s ease;
+    margin: 0
+}
+
+.FaqSection_faqContainer__CAua4 .FaqSection_faqSection__xCO4h .FaqSection_faqQuestionContainer___nBCv .FaqSection_bold__1YaG3 {
+    transition: all .5s ease
+}
+
+.FaqSection_faqContainer__CAua4 .FaqSection_faqSection__xCO4h .FaqSection_faqQuestionContainerOpen__OLlhf .FaqSection_bold__1YaG3 {
+    text-shadow: 0 0 0 rgba(0,0,0,.5)
+}
+
+.FaqSection_faqContainer__CAua4 .FaqSection_faqSection__xCO4h .FaqSection_faqQuestionContainerClosed__yq_p5 div>p {
+    font-size: 0;
+    padding: 0;
+    line-height: 0px;
+    opacity: 0
+}
+
+.FaqSection_faqContainer__CAua4 .FaqSection_faqSection__xCO4h .FaqSection_plusMinus__V3wiv {
+    position: relative;
+    width: 16px;
+    height: 16px;
+    top: 1px
+}
+
+@media(max-width: 500px) {
+    .FaqSection_faqContainer__CAua4 .FaqSection_faqSection__xCO4h .FaqSection_plusMinus__V3wiv {
+        margin-right:8px;
+        transform: translateY(2px)
+    }
+}
+
+.FaqSection_faqContainer__CAua4 .FaqSection_faqSection__xCO4h .FaqSection_plusMinus__V3wiv div:nth-child(2) {
+    position: absolute;
+    background-color: #8d7252;
+    width: 14px;
+    height: 3px;
+    left: 50%;
+    margin-left: -7px;
+    top: 50%;
+    margin-top: -1px
+}
+
+@media(max-width: 500px) {
+    .FaqSection_faqContainer__CAua4 .FaqSection_faqSection__xCO4h .FaqSection_plusMinus__V3wiv div:nth-child(2) {
+        height:2px
+    }
+}
+
+.FaqSection_faqContainer__CAua4 .FaqSection_faqSection__xCO4h .FaqSection_plusMinus__V3wiv div:first-child {
+    position: absolute;
+    background-color: #8d7252;
+    width: 3px;
+    height: 14px;
+    left: 50%;
+    margin-left: -1px;
+    top: 50%;
+    margin-top: -7px
+}
+
+@media(max-width: 500px) {
+    .FaqSection_faqContainer__CAua4 .FaqSection_faqSection__xCO4h .FaqSection_plusMinus__V3wiv div:first-child {
+        width:2px
+    }
+}
+
+.FaqSection_faqContainer__CAua4 .FaqSection_faqSection__xCO4h .FaqSection_plusMinusOpen__BZTj8 div:first-child {
+    transition: all .5s ease-in-out;
+    transform: rotate(90deg)
+}
+
+.FaqSection_faqContainer__CAua4 .FaqSection_faqSection__xCO4h .FaqSection_plusMinusOpen__BZTj8 div:nth-child(2) {
+    transition: all .5s ease-in-out;
+    transform: rotate(90deg);
+    opacity: 0
+}
+
+.FaqSection_faqContainer__CAua4 .FaqSection_faqSection__xCO4h .FaqSection_plusMinusClosed__6GLiz div:first-child {
+    transition: all .5s ease-in-out;
+    transform: rotate(-90deg)
+}
+
+.FaqSection_faqContainer__CAua4 .FaqSection_faqSection__xCO4h .FaqSection_plusMinusClosed__6GLiz div:nth-child(2) {
+    transition: all .5s ease-in-out;
+    transform: rotate(-90deg);
+    opacity: 1
+}
+
+.FaqSection_faqContainer__CAua4 .FaqSection_faqSection__xCO4h.FaqSection_withBackground__jwxFK {
+    background: #f4f2f1;
+    padding-top: 4vh
+}
+
+@media(min-width: 800px) {
+    .FaqSection_faqContainer__CAua4 .FaqSection_faqSection__xCO4h.FaqSection_withBackground__jwxFK {
+        padding-right:2vw
+    }
+}
+
+.FaqSection_faqContainer__CAua4 .FaqSection_longArrowContainer__Qmdws {
+    width: 100%;
+    align-self: start;
+    margin: 1vw 1vw 1vw 0;
+    justify-content: flex-start;
+    transition: all .4s linear
+}
+
+@media(min-width: 501px) {
+    .FaqSection_faqContainer__CAua4 .FaqSection_longArrowContainer__Qmdws {
+        display:flex
+    }
+}
+
+@media(max-width: 800px) {
+    .FaqSection_faqContainer__CAua4 .FaqSection_longArrowContainer__Qmdws {
+        width:100%;
+        margin-top: 3vw
+    }
+}
+
+.FaqSection_faqContainer__CAua4 .FaqSection_longArrowContainer__Qmdws .FaqSection_arrow__pW15B {
+    transition: all .2s linear;
+    flex: 1 1;
+    height: 20px;
+    margin-right: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative
+}
+
+@media(max-width: 500px) {
+    .FaqSection_faqContainer__CAua4 .FaqSection_longArrowContainer__Qmdws .FaqSection_arrow__pW15B {
+        width:290px
+    }
+}
+
+.FaqSection_faqContainer__CAua4 .FaqSection_longArrowContainer__Qmdws .FaqSection_arrow__pW15B svg {
+    width: 500px;
+    right: 0;
+    top: 6px;
+    position: absolute
+}
+
+.FaqSection_faqContainer__CAua4 .FaqSection_longArrowContainer__Qmdws a {
+    width: auto;
+    text-align: end;
+    white-space: nowrap
+}
+
+@media(max-width: 800px) {
+    .FaqSection_faqContainer__CAua4 .FaqSection_longArrowContainer__Qmdws a {
+        padding-left:3vw;
+        text-align: start
+    }
+}
+
+.FaqSection_faqContainer__CAua4 .FaqSection_longArrowContainer__Qmdws:hover,.FaqSection_faqContainer__CAua4 .FaqSection_longArrowContainer__Qmdws:hover .FaqSection_arrow__pW15B {
+    transform: translateX(5px)
+}
+
+.FaqSection_faqContainer__CAua4.FaqSection_arabic__wlttK .FaqSection_arrow__pW15B {
+    margin-right: unset;
+    margin-left: 4%;
+    transform: scaleX(-1)
+}
+
+.FaqSection_faqContainer__CAua4.FaqSection_arabic__wlttK .FaqSection_longArrowContainer__Qmdws:hover {
+    transform: translateX(-5px)
+}
+
+.FaqSection_faqContainer__CAua4.FaqSection_arabic__wlttK .FaqSection_longArrowContainer__Qmdws:hover .FaqSection_arrow__pW15B {
+    transform: translateX(-5px) scaleX(-1)
+}
